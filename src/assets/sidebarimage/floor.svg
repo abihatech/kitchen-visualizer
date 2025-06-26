@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.128878in" height="0.122728in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5.15 4.9"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str11 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str38 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str7 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str40 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str9 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str19 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str36 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str21 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str18 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str13 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str28 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str42 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str25 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str23 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str31 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str0 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str22 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str4 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str29 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str33 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str35 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str2 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str15 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str17 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str6 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str26 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str10 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str12 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str41 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str8 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str37 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str20 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str39 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str30 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str16 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str14 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str3 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str5 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str34 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str32 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str1 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str24 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str27 {stroke:white;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="design">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2802831764080">
+   <polygon class="fil0 str0" points="0.07,0.34 0.34,0.07 0.97,0.07 0.07,0.98 "/>
+   <polygon class="fil0 str1" points="2.76,1.7 1.14,0.08 0.83,0.39 2.45,2.01 "/>
+   <polygon class="fil0 str2" points="0.07,1 0.74,0.33 1.05,0.65 0.07,1.63 "/>
+   <polygon class="fil0 str3" points="2.76,2.36 1.14,0.74 0.83,1.05 2.45,2.67 "/>
+   <polygon class="fil0 str4" points="0.07,1.7 0.74,1.03 1.05,1.35 0.07,2.33 "/>
+   <polygon class="fil0 str5" points="2.76,3.06 1.14,1.44 0.83,1.75 2.45,3.37 "/>
+   <polygon class="fil0 str6" points="0.07,2.36 0.74,1.69 1.05,2.01 0.07,2.99 "/>
+   <polygon class="fil0 str7" points="2.52,1.42 3.87,0.07 4.4,0.07 4.45,0.12 2.83,1.74 "/>
+   <polygon class="fil0 str8" points="5.08,0.75 4.54,0.21 4.22,0.53 5.08,1.38 "/>
+   <polygon class="fil0 str9" points="2.52,2.08 4.14,0.46 4.45,0.78 2.83,2.4 "/>
+   <polygon class="fil0 str10" points="5.08,1.41 4.54,0.87 4.22,1.18 5.08,2.04 "/>
+   <polygon class="fil0 str11" points="2.52,2.78 4.14,1.16 4.45,1.48 2.83,3.1 "/>
+   <polygon class="fil0 str12" points="5.08,2.11 4.54,1.57 4.22,1.89 5.08,2.74 "/>
+   <polygon class="fil0 str13" points="2.52,3.44 4.14,1.82 4.45,2.14 2.83,3.76 "/>
+   <polygon class="fil0 str14" points="2.76,0.3 2.53,0.07 1.9,0.07 2.45,0.61 "/>
+   <polygon class="fil0 str15" points="0.27,0.07 0.07,0.27 0.07,0.07 "/>
+   <polygon class="fil0 str16" points="2.76,1 1.83,0.07 1.2,0.07 2.45,1.31 "/>
+   <polygon class="fil0 str17" points="0.07,0.3 0.3,0.07 0.93,0.07 0.07,0.93 "/>
+   <polygon class="fil0 str18" points="3.1,0.07 2.83,0.34 2.56,0.07 "/>
+   <polygon class="fil0 str19" points="2.52,0.72 3.17,0.07 3.8,0.07 2.83,1.04 "/>
+   <polygon class="fil0 str20" points="4.47,0.07 5.08,0.68 5.08,0.07 "/>
+   <polygon class="fil0 str21" points="2.52,1.38 3.83,0.07 4.44,0.07 4.45,0.08 2.83,1.7 "/>
+   <polygon class="fil0 str22" points="0.07,4.43 0.74,3.76 1.05,4.07 0.29,4.84 0.07,4.84 "/>
+   <polygon class="fil0 str23" points="1.81,4.84 1.14,4.16 0.83,4.48 1.18,4.84 "/>
+   <polygon class="fil0 str24" points="0.32,4.84 0.74,4.42 1.05,4.73 0.95,4.84 "/>
+   <polygon class="fil0 str25" points="1.16,4.84 1.14,4.82 1.13,4.84 "/>
+   <polygon class="fil0 str26" points="3.19,4.84 4.14,3.89 4.45,4.21 3.82,4.84 "/>
+   <polygon class="fil0 str27" points="5.08,4.84 4.54,4.3 4.22,4.61 4.45,4.84 "/>
+   <polygon class="fil0 str28" points="3.85,4.84 4.14,4.55 4.42,4.84 "/>
+   <polygon class="fil0 str29" points="0.07,2.37 0.74,1.7 1.05,2.01 0.07,3 "/>
+   <polygon class="fil0 str30" points="2.76,3.73 1.14,2.11 0.83,2.42 2.45,4.04 "/>
+   <polygon class="fil0 str31" points="0.07,3.03 0.74,2.36 1.05,2.67 0.07,3.66 "/>
+   <polygon class="fil0 str32" points="2.76,4.38 1.14,2.76 0.83,3.08 2.45,4.7 "/>
+   <polygon class="fil0 str33" points="0.07,3.73 0.74,3.06 1.05,3.37 0.07,4.36 "/>
+   <polygon class="fil0 str34" points="2.51,4.84 1.14,3.46 0.83,3.78 1.88,4.84 "/>
+   <polygon class="fil0 str35" points="0.07,4.39 0.74,3.72 1.05,4.03 0.25,4.84 0.07,4.84 "/>
+   <polygon class="fil0 str36" points="2.52,3.45 4.14,1.83 4.45,2.15 2.83,3.77 "/>
+   <polygon class="fil0 str37" points="5.08,2.78 4.54,2.24 4.22,2.55 5.08,3.41 "/>
+   <polygon class="fil0 str38" points="2.52,4.11 4.14,2.49 4.45,2.81 2.83,4.43 "/>
+   <polygon class="fil0 str39" points="5.08,3.43 4.54,2.9 4.22,3.21 5.08,4.07 "/>
+   <polygon class="fil0 str40" points="2.52,4.81 4.14,3.19 4.45,3.51 3.12,4.84 2.54,4.84 "/>
+   <polygon class="fil0 str41" points="5.08,4.14 4.54,3.6 4.22,3.91 5.08,4.77 "/>
+   <polygon class="fil0 str42" points="3.15,4.84 4.14,3.85 4.45,4.16 3.78,4.84 "/>
+  </g>
+ </g>
+</svg>

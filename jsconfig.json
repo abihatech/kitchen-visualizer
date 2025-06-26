@@ -1,0 +1,20 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // This is CRUCIAL for React JSX support
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler", // Or "node", "bundler" is often good for Vite setups
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true, // To skip type checking of declaration files
+    "resolveJsonModule": true, // If you import JSON files
+    "isolatedModules": true, // Recommended for Vite
+    "baseUrl": "src", // Optional: If you want to use absolute imports from 'src'
+    "paths": {
+      // Example: If you have a components folder and want to import like @components/Button
+      // "@components/*": ["./src/components/*"]
+    }
+  },
+  "include": ["src/**/*"], // Tell VS Code to include all files in your 'src' directory
+  "exclude": ["node_modules", "dist"] // Tell VS Code to ignore these folders
+}
