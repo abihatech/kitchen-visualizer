@@ -1,13 +1,13 @@
-import RoomVisualizer from './components/RoomVisualizer';
-import Visualizer from './components/Visualizer';
+import CabinetVisualizer from './components/CabinetVisualizer';
+import { VisualizerProvider } from './context/VisualizerContext';
+
 
 function App() {
 
   return (
-    <>
-      <Visualizer />
-      {/* <RoomVisualizer /> */}
-    </>
+    <VisualizerProvider>
+      <CabinetVisualizer />
+    </VisualizerProvider>
   )
 }
 

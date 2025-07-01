@@ -1,35 +1,11 @@
 import bgImg from "../assets/img/bg_img.webp";
-import kitchen from "../assets/img/kitchen.webp";
-import baaroom from "../assets/img/barroom.webp";
-import laundry from "../assets/img/laundry.webp";
-import mediaroom from "../assets/img/tvroom.webp";
-import bathroom from "../assets/img/bathroom.webp";
-import office from "../assets/img/office.webp";
-import { useState } from "react";
+import { useContext } from "react";
+import { VisualizerContext } from "../context/VisualizerContext";
 
-const spaceTypes = [
-    { name: 'Kitchen', image: kitchen },
-    { name: 'Bathroom', image: bathroom },
-    { name: 'Bar Room', image: baaroom },
-    { name: 'Laundry', image: laundry },
-    { name: 'Office', image: office },
-    { name: 'Media Room', image: mediaroom }
-];
 
-const Space = ({ setCurrentStep, setSelectedSpace }) => {
-    const [spaceIndex, setSpaceIndex] = useState(0);
+const Space = ({ spaces, setScreen, setCurrentKitchenShapeIndex, handlePrevSpace, handleNextSpace }) => {
+    const { appData } = useContext(VisualizerContext);
 
-    const nextSpaces = () => {
-        setSpaceIndex((prev) => (prev + 4 >= spaceTypes.length ? 0 : prev + 4));
-    };
-
-    const prevSpaces = () => {
-        setSpaceIndex((prev) => (prev - 4 < 0 ? Math.max(0, spaceTypes.length - 4) : prev - 4));
-    };
-    const handleSpaceSelect = (spaceName) => {
-        setSelectedSpace(spaceName);
-        setCurrentStep('shape');
-    };
     return (
         <div className="min-h-screen bg-cover bg-center bg-no-repeat relative"
             style={{ backgroundImage: `url(${bgImg})` }}>
@@ -40,10 +16,19 @@ const Space = ({ setCurrentStep, setSelectedSpace }) => {
 
                     <div className="relative">
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-8 px-8">
-                            {spaceTypes.slice(spaceIndex, spaceIndex + 4).map((space, index) => (
+                            {spaces.map((space, index) => (
                                 <div
                                     key={index}
-                                    onClick={() => handleSpaceSelect(space.name)}
+                                    onClick={() => {
+                                        if (space.name === 'Kitchen') {
+                                            setScreen('kitchenShape');
+                                            setCurrentKitchenShapeIndex(0);
+                                        } else {
+                                            const defaultBg = appData.mainbackground.find(bg => bg.shape_category_name === space.name);
+                                            setSelectedMainBackground(defaultBg || appData.mainbackground[0]);
+                                            setScreen('visualizer');
+                                        }
+                                    }}
                                     className="cursor-pointer group hover:scale-125 transition-transform duration-300"
                                 >
                                     <div className="bg-white p-2 mb-3 hover:shadow-lg transition-shadow">
@@ -61,7 +46,7 @@ const Space = ({ setCurrentStep, setSelectedSpace }) => {
                         </div>
 
                         <button
-                            onClick={prevSpaces}
+                            onClick={handlePrevSpace}
                             className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 text-white hover:text-gray-300 transition-colors p-2"
                         >
                             <svg
@@ -77,7 +62,7 @@ const Space = ({ setCurrentStep, setSelectedSpace }) => {
                         </button>
 
                         <button
-                            onClick={nextSpaces}
+                            onClick={handleNextSpace}
                             className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 text-white hover:text-gray-300 transition-colors"
                         >
                             <svg
@@ -94,7 +79,8 @@ const Space = ({ setCurrentStep, setSelectedSpace }) => {
                     </div>
 
                     <div className="flex justify-center mt-8">
-                        <button className="p-1 md:p-2 rounded-full border-2  transition-colors duration-200" onClick={() => setCurrentStep('welcome')}>
+                        {/* <button className="p-1 md:p-2 rounded-full border-2  transition-colors duration-200" onClick={() => setCurrentStep('welcome')}> */}
+                        <button className="p-1 md:p-2 rounded-full border-2  transition-colors duration-200" onClick={() => setScreen('welcome')}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6 md:h-8 md:w-8 text-white"
