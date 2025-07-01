@@ -1,7 +1,9 @@
 import bgImg from "../assets/img/bg_img.webp";
+import { VisualizerContext } from "../context/VisualizerContext";
+import { useContext } from "react";
 
-
-const Shape = ({ shapes, handleNextKitchenShape, handlePrevKitchenShape, setScreen, setSelectedKitchenShapeId }) => {
+const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitchenShape, setScreen }) => {
+    const { appData, setSelectedMainBackground } = useContext(VisualizerContext);
     return (
         <div className="min-h-screen bg-cover bg-center bg-no-repeat relative"
             style={{ backgroundImage: `url(${bgImg})` }}>
@@ -9,28 +11,30 @@ const Shape = ({ shapes, handleNextKitchenShape, handlePrevKitchenShape, setScre
             <div className="relative z-10 min-h-screen flex items-center justify-center p-4">
                 <div className="bg-[#00000090]  p-8 md:p-12 text-white text-center max-w-4xl w-full">
 
-                    <h2 className="text-2xl md:text-3xl font-light mb-12">WHAT IS YOUR INTENDED KITCHEN SHAPE?</h2>
+                    <h2 className="text-2xl md:text-3xl font-light mb-12">SELECT PREFERRED KITCHEN DESIGN?</h2>
 
                     <div className="relative">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8 px-12">
-                            {shapes.map((shape, index) => (
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8 px-12 ">
+                            {availableItems.map((item, index) => (
                                 <div
                                     key={index}
                                     onClick={() => {
-                                        setSelectedKitchenShapeId(shape.id);
-                                        setScreen('availableItems');
+                                        // const mainBg = appData.mainbackground.find(bg => bg.id === item.id);
+                                        // setSelectedMainBackground(mainBg || appData.mainbackground[0]); // Fallback if no specific background
+                                        setSelectedMainBackground(appData.mainbackground[0]); // For now only first data we have
+                                        setScreen('visualizer');
                                     }}
                                     className="cursor-pointer group hover:scale-125 transition-transform duration-300"
                                 >
                                     <div className="bg-white p-2 mb-3 hover:shadow-lg transition-shadow">
                                         <img
-                                            src={shape.image}
-                                            alt={shape.name}
+                                            src={item.thumbnailsm}
+                                            alt={item.name}
                                             className="w-full h-32 object-cover"
                                         />
                                     </div>
                                     <h3 className="text-white text-lg font-medium group-hover:text-gray-300 transition-colors">
-                                        {shape.name}
+                                        {item.name}
                                     </h3>
                                 </div>
                             ))}
@@ -89,4 +93,4 @@ const Shape = ({ shapes, handleNextKitchenShape, handlePrevKitchenShape, setScre
     )
 }
 
-export default Shape
+export default AvailableItems
