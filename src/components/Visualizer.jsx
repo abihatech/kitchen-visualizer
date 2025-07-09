@@ -13,7 +13,7 @@ const hotspots = [
     { top: '60%', left: '70%', category: 'Countertop' },
     { top: '90%', left: '60%', category: 'Floor' },
     { top: '45%', left: '87%', category: 'Appliances' },
-    { top: '50%', left: '63%', category: 'Backsplash' },
+    { top: '25%', left: '65%', category: 'Backsplash' },
     { top: '20%', left: '15%', category: 'Crown Moldings' },
 ];
 
@@ -326,28 +326,28 @@ const Visualizer = () => {
             {/* Category Selection Popup */}
             {showCategoryPopup && activeCategory && (
                 <div className="fixed inset-0  flex items-center justify-center z-50 font-['Inter']">
-                    <div className="bg-[#00000090] text-white p-8 relative w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2 h-5/6 overflow-auto">
-                        <h3 className="text-3xl font-bold mb-6 text-center uppercase">{activeCategory}</h3>
+                    <div className="bg-[#2c2a2ac2] text-white p-8 relative w-11/12 md:w-3/4 lg:w-2/3 xl:w-2/3 h-5/6 overflow-auto">
+                        {/* <h3 className="text-3xl font-bold mb-6 text-center uppercase">{activeCategory}</h3> */}
                         <button
                             className="absolute top-4 right-4 p-2 text-white text-3xl hover:text-gray-400"
                             onClick={closeCategoryPopup}
                         >
                             &times;
                         </button>
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
                             {organizedLayerData[activeCategory] && organizedLayerData[activeCategory].map((item) => (
                                 <div
                                     key={item.id}
-                                    className="flex flex-col items-center cursor-pointer p-2 bg-white text-black border-2 border-transparent hover:border-blue-500"
+                                    className="w-full h-full flex flex-col items-center cursor-pointer"
                                     onClick={() => handleSelectItem(activeCategory, item)}
                                 >
                                     <img
                                         src={item.texture_url || item.png_layer_url || 'https://placehold.co/100x100/F5F5F5/000000?text=NO+IMAGE'}
                                         alt={item.texture_name || item.png_layer_name || 'Item'}
-                                        className="w-full h-24 object-cover mb-2"
+                                        className="w-22 mb-2 object-cover shadow-md shadow-white hover:border-green-500  hover:shadow-md hover:shadow-green-500"
                                         onError={(e) => e.target.src = 'https://placehold.co/100x100/F5F5F5/000000?text=NO+IMAGE'}
                                     />
-                                    <span className="text-sm text-center">{item.texture_name || item.png_layer_name}</span>
+                                    <div className="w-36 text-[14px] text-center text-white">{item.texture_name || item.png_layer_name}</div>
                                 </div>
                             ))}
                         </div>
