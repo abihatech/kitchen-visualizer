@@ -26,7 +26,7 @@ const CategoryPopup = () => {
         bgcolor: "rgba(40, 40, 40, 0.85)",
         width: "75vw",
         maxWidth: 900,
-        height: "85vh",
+        height: "80vh",
         backdropFilter: "blur(5px)",
       }}
     >
@@ -50,7 +50,7 @@ const CategoryPopup = () => {
           <CloseIcon sx={{ padding: "5px" }} />
         </IconButton>
       </Box>
-      <Box sx={{ height: "100%", overflowY: "auto", px: 2, pt: 2 }}>
+      <Box sx={{ height:"100%", maxHeight: "72vh", overflowY: "scroll", px: 4, pt: 4 }}>
         <Grid
           container
           xs={6}
@@ -62,13 +62,7 @@ const CategoryPopup = () => {
         >
           {organizedLayerData[activeCategory]?.map((item) => {
             const isSelected = selectedItemForCategoryList?.id === item.id;
-            const img = (item.texture_url || item.png_layer_url)?.includes(
-              "../../"
-            )
-              ? require(`${item.texture_url}`)
-              : item.texture_url ||
-                item.png_layer_url ||
-                "https://placehold.co/150x150/F5F5F5/000000?text=NA";
+            const img = item.texture_url || item.png_layer_url || "https://placehold.co/150x150/F5F5F5/000000?text=NA";
             return (
               <Grid item key={item.id} sx={{ textAlign: "center" }} width={120}>
                 <Box
