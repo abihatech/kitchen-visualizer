@@ -19,7 +19,7 @@ const SelectedItemPopup = ({ category, item, onSelectStyle, isWallCabinet }) => 
             </Typography>
             <Button
                 fullWidth
-                onClick={onSelectStyle}
+                onClick={() => onSelectStyle(category)}
                 sx={{
                     backgroundImage: `url(${item.texture_url || item.png_layer_url})`,
                     border: '0.2rem dashed #fff',

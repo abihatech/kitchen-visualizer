@@ -22,7 +22,8 @@ const Visualizer = () => {
         return { base: appliedLayers[category] };
     };
 
-    const currentSelectedItem = getSelectedItem(activeCategory);
+    const doorStyle = activeCategory === "Wall Cabinets" || activeCategory === "Base Cabinets" ? "Door Style" : activeCategory;
+    const currentSelectedItem = getSelectedItem(doorStyle);
 
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100%', fontFamily: 'Inter, sans-serif' }}>
@@ -50,19 +51,19 @@ const Visualizer = () => {
                                 {showSelectedItemPopup && currentSelectedItem && (
                                     <ClickAwayListener onClickAway={() => closePopups()}>
                                         <Box sx={{ display: 'flex', flexDirection: 'column', gap: "1px" }}>
-                                            {currentSelectedItem.base && (
-                                                <SelectedItemPopup
-                                                    category={activeCategory === 'Door Style' ? 'Base Cabinets' : activeCategory}
-                                                    item={currentSelectedItem.base}
-                                                    onSelectStyle={showFullCategory}
-                                                />
-                                            )}
                                             {currentSelectedItem.wall && (
                                                 <SelectedItemPopup
                                                     category="Wall Cabinets"
                                                     item={currentSelectedItem.wall}
                                                     onSelectStyle={showFullCategory}
                                                     isWallCabinet={true}
+                                                />
+                                            )}
+                                            {currentSelectedItem.base && (
+                                                <SelectedItemPopup
+                                                    category={activeCategory === 'Door Style' ? 'Base Cabinets' : activeCategory}
+                                                    item={currentSelectedItem.base}
+                                                    onSelectStyle={showFullCategory}
                                                 />
                                             )}
                                         </Box>

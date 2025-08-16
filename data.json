@@ -1572,7 +1572,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_classic_green_backsplash_main.png",
       "png_layer_name": "Lshape1_backsSplash_Tile_Classic_Green.png",
       "texture_url": "/assets/BackSplash/tile_classic_green.jpg",
-      "sort_order": 102,
+      "sort_order": 70,
       "main_background_id": 123
     },
     {
@@ -1585,7 +1585,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_ash_&_ice_backsplash_main.png",
       "png_layer_name": "tile_ash_&_ice_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_ash_&_ice.jpg",
-      "sort_order": 103,
+      "sort_order": 71,
       "main_background_id": 123
     },
     {
@@ -1598,7 +1598,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_classic_blue_backsplash_main.png",
       "png_layer_name": "tile_classic_blue_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_classic_blue.jpg",
-      "sort_order": 104,
+      "sort_order": 72,
       "main_background_id": 123
     },
     {
@@ -1611,7 +1611,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_classic_herringbone_backsplash_main.png",
       "png_layer_name": "tile_classic_herringbone_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_classic_herringbone.jpg",
-      "sort_order": 105,
+      "sort_order": 73,
       "main_background_id": 123
     },
     {
@@ -1624,7 +1624,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_classic_white_backsplash_main.png",
       "png_layer_name": "tile_classic_white_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_classic_white.jpg",
-      "sort_order": 106,
+      "sort_order": 74,
       "main_background_id": 123
     },
     {
@@ -1637,7 +1637,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_granite_wave_backsplash_main.png",
       "png_layer_name": "tile_granite_wave_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_granite_wave.jpg",
-      "sort_order": 107,
+      "sort_order": 75,
       "main_background_id": 123
     },
     {
@@ -1650,7 +1650,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_graphite_flow_backsplash_main.png",
       "png_layer_name": "tile_graphite_flow_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_graphite_flow.jpg",
-      "sort_order": 108,
+      "sort_order": 76,
       "main_background_id": 123
     },
     {
@@ -1663,7 +1663,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_ivory_weave_backsplash_main.png",
       "png_layer_name": "tile_ivory_weave_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_ivory_weave.jpg",
-      "sort_order": 109,
+      "sort_order": 77,
       "main_background_id": 123
     },
     {
@@ -1676,7 +1676,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_shadow_chevron_backsplash_main.png",
       "png_layer_name": "tile_shadow_chevron_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_shadow_chevron.jpg",
-      "sort_order": 110,
+      "sort_order": 78,
       "main_background_id": 123
     },
     {
@@ -1689,7 +1689,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_silver_edge_backsplash_main.png",
       "png_layer_name": "tile_silver_edge_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_silver_edge.jpg",
-      "sort_order": 111,
+      "sort_order": 79,
       "main_background_id": 123
     },
     {
@@ -1702,7 +1702,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_slate_gray_backsplash_main.png",
       "png_layer_name": "tile_slate_gray_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_slate_gray.jpg",
-      "sort_order": 112,
+      "sort_order": 80,
       "main_background_id": 123
     },
     {
@@ -1715,7 +1715,7 @@
       "png_layer_url": "/assets/BackSplash/L_Shape1_BackSplash/tile_slate_luxe_backsplash_main.png",
       "png_layer_name": "tile_slate_luxe_backsplash_main.png",
       "texture_url": "/assets/BackSplash/tile_slate_luxe.jpg",
-      "sort_order": 113,
+      "sort_order": 81,
       "main_background_id": 123
     }
   ],

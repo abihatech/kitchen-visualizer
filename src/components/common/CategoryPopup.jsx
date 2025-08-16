@@ -16,9 +16,9 @@ const CategoryPopup = () => {
     closePopups,
     handleSelectItem,
   } = useContext(VisualizerContext);
-
+  
   const selectedItemForCategoryList =
-    appliedLayers[activeCategory] || appliedLayers["Door Style"];
+  appliedLayers[activeCategory] || appliedLayers["Door Style"];
 
   return (
     <Card
