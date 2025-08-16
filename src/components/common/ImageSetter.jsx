@@ -40,7 +40,7 @@ const ImageSetter = () => {
                 transition: isPanning ? 'none' : 'transform 0.1s ease-out'
             }}>
                 <img src={selectedMainBackground?.thumbnail} alt="Room Background" style={{ width: '100%', height: '100%', objectFit: 'inherit' }} />
-                {Object.values(appliedLayers).map(layer => layer?.png_layer_url && !layer?.png_layer_url?.includes("/assets") && (              //Here condition not indlcudes for assets folder which we not have in our project
+                {Object.values(appliedLayers).map(layer => layer?.png_layer_url && (          
                     <img key={layer.png_layer_url} src={layer.png_layer_url} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'inherit' }} />
                 ))}
                 {!isPreviewMode && hotspots.map((hotspot, index) => (
