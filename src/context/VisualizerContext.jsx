@@ -6,53 +6,20 @@ import i_shape from "../assets/img/i_shape.png";
 // Helper function to group layer data by cabinet_type_name
 const organizeLayerData = (layerData, moldingData, mainBackgroundId) => {
   const organized = {};
-  const doorStyles = {};
+  const desiredOrder = [
+    "Wall Cabinets",
+    "Base Cabinets",
+    "Crown Moldings",
+    "Countertop",
+    "Backsplash",
+    "Floor",
+    "Appliances",
+    "Wall Colors"
+  ];
 
+  // Organize regular layer data
   layerData.forEach((item) => {
-    if (
-      item.main_background_id === mainBackgroundId ||
-      mainBackgroundId === null
-    ) {
-      if (
-        item.cabinet_type_name === "Base Cabinets" ||
-        item.cabinet_type_name === "Wall Cabinets"
-      ) {
-        if (!doorStyles[item.texture_name]) {
-          doorStyles[item.texture_name] = {
-            id: item.id,
-            texture_name: item.texture_name,
-            cabinet_type_name: "Door Style",
-            base_cabinet_url: null,
-            wall_cabinet_url: null,
-            texture_url: item.texture_url,
-            png_layer_url: item.png_layer_url,
-            sort_order: item.sort_order,
-          };
-        }
-        if (item.cabinet_type_name === "Base Cabinets") {
-          doorStyles[item.texture_name].base_cabinet_url = item.png_layer_url;
-        } else {
-          doorStyles[item.texture_name].wall_cabinet_url = item.png_layer_url;
-        }
-      } else {
-        if (!organized[item.cabinet_type_name]) {
-          organized[item.cabinet_type_name] = [];
-        }
-        organized[item.cabinet_type_name].push(item);
-      }
-    }
-  });
-
-  if (Object.keys(doorStyles).length > 0) {
-    organized["Door Style"] = Object.values(doorStyles);
-    organized["Door Style"].sort((a, b) => a.sort_order - b.sort_order);
-  }
-
-  moldingData.forEach((item) => {
-    if (
-      item.main_background_id === mainBackgroundId ||
-      mainBackgroundId === null
-    ) {
+    if (item.main_background_id === mainBackgroundId || mainBackgroundId === null) {
       if (!organized[item.cabinet_type_name]) {
         organized[item.cabinet_type_name] = [];
       }
@@ -60,32 +27,31 @@ const organizeLayerData = (layerData, moldingData, mainBackgroundId) => {
     }
   });
 
-  for (const category in organized) {
-    if (category !== "Door Style") {
-      organized[category].sort((a, b) => a.sort_order - b.sort_order);
-    }
+  // Add molding data as "Crown Moldings"
+  if (moldingData && moldingData.length > 0) {
+    organized["Crown Moldings"] = moldingData.filter(item =>
+      item.main_background_id === mainBackgroundId || mainBackgroundId === null
+    );
   }
 
-  const desiredOrder = [
-    "Door Style",
-    "Crown Moldings",
-    "Countertop",
-    "Backsplash",
-    "Floor",
-    "Appliances",
-  ];
+  // Create ordered result
+  const orderedResult = {};
 
-  const orderedOrganized = {};
-  const allCategories = [
-    ...new Set([...desiredOrder, ...Object.keys(organized)]),
-  ];
-  allCategories.forEach((category) => {
+  // 1. Add categories in desired order
+  desiredOrder.forEach(category => {
     if (organized[category]) {
-      orderedOrganized[category] = organized[category];
+      orderedResult[category] = organized[category];
     }
   });
 
-  return orderedOrganized;
+  // 2. Add any remaining categories that weren't in desiredOrder
+  Object.keys(organized).forEach(category => {
+    if (!desiredOrder.includes(category) && !orderedResult[category]) {
+      orderedResult[category] = organized[category];
+    }
+  });
+
+  return orderedResult;
 };
 
 export const VisualizerContext = createContext();
@@ -146,84 +112,96 @@ export const VisualizerProvider = ({ children }) => {
       setOrganizedLayerData(organized);
 
       const initialLayers = {};
-      Object.values(organized).forEach((categoryItems) => {
-        const selectedItem = categoryItems.find((item) => item.selected === 1);
-        if (selectedItem && selectedItem.cabinet_type_name !== "Door Style") {
-          initialLayers[selectedItem.cabinet_type_name] = {
-            id: selectedItem.id,
-            png_layer_url: selectedItem.png_layer_url,
-            name: selectedItem.texture_name || selectedItem.png_layer_name,
-            texture_url: selectedItem.texture_url || selectedItem.png_layer_url,
-          };
+
+      // Process regular categories (not Door Style)
+      Object.entries(organized).forEach(([categoryName, categoryData]) => {
+        if (categoryName !== "Door Style") {
+          const selectedItem = Array.isArray(categoryData)
+            ? categoryData.find(item => item.selected === 1)
+            : null;
+
+          if (selectedItem) {
+            initialLayers[categoryName] = {
+              id: selectedItem.id,
+              png_layer_url: selectedItem.png_layer_url,
+              name: selectedItem.texture_name || selectedItem.png_layer_name,
+              texture_url: selectedItem.texture_url || selectedItem.png_layer_url,
+            };
+          }
         }
       });
 
-      const initialBaseCabinet = appData.layerdata.find(
-        (item) =>
-          item.main_background_id === mainBgId &&
-          item.cabinet_type_name === "Base Cabinets" &&
-          item.selected === 1
-      );
-      const initialWallCabinet = appData.layerdata.find(
-        (item) =>
-          item.main_background_id === mainBgId &&
-          item.cabinet_type_name === "Wall Cabinets" &&
-          item.selected === 1
-      );
-      const initialDoorStyle = organized["Door Style"]?.find(
-        (style) => style.base_cabinet_url === initialBaseCabinet?.png_layer_url
-      );
-      if (initialBaseCabinet && initialWallCabinet && initialDoorStyle) {
-        initialLayers["Door Style"] = {
-          id: initialDoorStyle.id,
-          name: initialDoorStyle.texture_name,
-          texture_url: initialDoorStyle.texture_url,
-        };
-        initialLayers["Base Cabinets"] = {
-          id: initialBaseCabinet.id,
-          png_layer_url: initialBaseCabinet.png_layer_url,
-          name: initialBaseCabinet.texture_name,
-          texture_url: initialBaseCabinet.texture_url,
-        };
-        if (initialWallCabinet) {
+      // Process Door Style category
+      if (organized["Door Style"]) {
+        // Find selected base cabinet
+        const selectedBaseCabinet = organized["Door Style"]["Base Cabinets"]?.find(
+          item => item.selected === 1
+        );
+
+        // Find selected wall cabinet
+        const selectedWallCabinet = organized["Door Style"]["Wall Cabinets"]?.find(
+          item => item.selected === 1
+        );
+
+        if (selectedBaseCabinet) {
+          initialLayers["Base Cabinets"] = {
+            id: selectedBaseCabinet.id,
+            png_layer_url: selectedBaseCabinet.png_layer_url,
+            name: selectedBaseCabinet.texture_name,
+            texture_url: selectedBaseCabinet.texture_url,
+          };
+        }
+
+        if (selectedWallCabinet) {
           initialLayers["Wall Cabinets"] = {
-            id: initialWallCabinet.id,
-            png_layer_url: initialWallCabinet.png_layer_url,
-            name: initialWallCabinet.texture_name,
-            texture_url: initialWallCabinet.texture_url,
+            id: selectedWallCabinet.id,
+            png_layer_url: selectedWallCabinet.png_layer_url,
+            name: selectedWallCabinet.texture_name,
+            texture_url: selectedWallCabinet.texture_url,
+          };
+        }
+
+        // If we have both base and wall cabinets with the same texture name, we can set Door Style
+        if (selectedBaseCabinet && selectedWallCabinet &&
+          selectedBaseCabinet.texture_name === selectedWallCabinet.texture_name) {
+          initialLayers["Door Style"] = {
+            id: selectedBaseCabinet.id, // or some combined ID
+            name: selectedBaseCabinet.texture_name,
+            texture_url: selectedBaseCabinet.texture_url,
           };
         }
       }
+
       setAppliedLayers(initialLayers);
     }
   }, [appData, selectedMainBackground]);
 
   const spaces = appData
     ? appData.types.map((type) => ({
-        name: type.name,
-        image: type.thumbnail,
-        id: type.id,
-      }))
+      name: type.name,
+      image: type.thumbnail,
+      id: type.id,
+    }))
     : [];
   const kitchenShapes = appData
     ? appData.shapes
-        .filter((shape) => shape.type_category_name === "Kitchen")
-        .map((shape) => ({
-          name: shape.shapes_name,
-          id: shape.id,
-          thumbnail: shape.thumbnail,
-          image:
-            shape.shapes_name === "L-Shape"
-              ? l_shape
-              : shape.shapes_name === "U-Shape"
+      .filter((shape) => shape.type_category_name === "Kitchen")
+      .map((shape) => ({
+        name: shape.shapes_name,
+        id: shape.id,
+        thumbnail: shape.thumbnail,
+        image:
+          shape.shapes_name === "L-Shape"
+            ? l_shape
+            : shape.shapes_name === "U-Shape"
               ? u_shape
               : i_shape,
-        }))
+      }))
     : [];
   const availableItemsData = appData
     ? appData.mainbackground.filter(
-        (item) => item.shape_category_name === "L-Shape"
-      )
+      (item) => item.shape_category_name === "L-Shape"
+    )
     : [];
 
   const handleNextSpace = () =>
@@ -247,57 +225,37 @@ export const VisualizerProvider = ({ children }) => {
     }
   };
 
-  const showFullCategory = () => setShowCategoryPopup(true);
+  const showFullCategory = (category) => {
+    setShowCategoryPopup(true)
+    setActiveCategory(category);
+  };
 
   const closePopups = (source) => {
     if (source === 'category') {
-        setShowCategoryPopup(false);
+      setShowCategoryPopup(false);
     } else if (source === 'selectedItem') {
-        setShowSelectedItemPopup(false);
-        setActiveCategory(null);
-        setPopupTriggerSource(null);
+      setShowSelectedItemPopup(false);
+      setActiveCategory(null);
+      setPopupTriggerSource(null);
     } else {
-        // Clicked outside both
-        setShowCategoryPopup(false);
-        setShowSelectedItemPopup(false);
-        setActiveCategory(null);
-        setPopupTriggerSource(null);
+      // Clicked outside both
+      setShowCategoryPopup(false);
+      setShowSelectedItemPopup(false);
+      setActiveCategory(null);
+      setPopupTriggerSource(null);
     }
-};
+  };
 
   const handleSelectItem = (categoryName, item) => {
-    if (categoryName === "Door Style") {
-      setAppliedLayers((prev) => ({
-        ...prev,
-        "Base Cabinets": {
-          ...prev["Base Cabinets"],
-          png_layer_url: item.base_cabinet_url,
-          name: item.texture_name,
-          texture_url: item.texture_url,
-        },
-        "Wall Cabinets": {
-          ...prev["Wall Cabinets"],
-          png_layer_url: item.wall_cabinet_url,
-          name: item.texture_name,
-          texture_url: item.texture_url,
-        },
-        "Door Style": {
-          id: item.id,
-          name: item.texture_name,
-          texture_url: item.texture_url,
-        },
-      }));
-    } else {
-      setAppliedLayers((prev) => ({
-        ...prev,
-        [categoryName]: {
-          id: item.id,
-          png_layer_url: item.png_layer_url,
-          name: item.texture_name || item.png_layer_name,
-          texture_url: item.texture_url || item.png_layer_url,
-        },
-      }));
-    }
+    setAppliedLayers((prev) => ({
+      ...prev,
+      [categoryName]: {
+        id: item.id,
+        png_layer_url: item.png_layer_url,
+        name: item.texture_name || item.png_layer_name,
+        texture_url: item.texture_url || item.png_layer_url,
+      },
+    }));
     closePopups();
   };
 

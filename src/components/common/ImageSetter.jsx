@@ -4,8 +4,8 @@ import { Box, IconButton } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 
 const hotspots = [
-    { top: '40%', left: '20%', category: 'Door Style' },
-    { top: '70%', left: '38%', category: 'Door Style' },
+    { top: '40%', left: '20%', category: 'Wall Cabinets' },
+    { top: '70%', left: '38%', category: 'Base Cabinets' },
     { top: '60%', left: '70%', category: 'Countertop' },
     { top: '90%', left: '60%', category: 'Floor' },
     { top: '45%', left: '87%', category: 'Appliances' },
@@ -18,7 +18,7 @@ const hotspots = [
 const ImageSetter = () => {
     const { selectedMainBackground, appliedLayers,
         scale, panOffset, isPanning, visualizerRef, activeTool, isPreviewMode,
-        openPopup, handleMouseDown,
+        openPopup, handleMouseDown
     } = useContext(VisualizerContext);
 
     return (

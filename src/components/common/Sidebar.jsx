@@ -21,8 +21,8 @@ const categoryIcons = {
 
 const Sidebar = () => {
   const { organizedLayerData, isPreviewMode, openPopup } =
-    useContext(VisualizerContext);
-
+  useContext(VisualizerContext);
+  
   if (isPreviewMode) return null;
 
   return (
@@ -36,8 +36,41 @@ const Sidebar = () => {
         zIndex: 1,
       }}
     >
-      {Object.keys(organizedLayerData).map((category) => (
-        <Button
+      {Object.keys(organizedLayerData).map((category) => {
+        if(category === "Base Cabinets" || category === "Wall Cabinets"){
+          if(category === "Base Cabinets") return
+          return (
+            <Button
+              key={category}
+              onClick={(e) => openPopup("Door Style", "sidebar")}
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                height: 90,
+                color: "white",
+                borderRadius: 0,
+                borderBottom: "1px solid #444",
+                "&:hover": { bgcolor: "#333" },
+              }}
+            >
+              <img
+                src={categoryIcons["Door Style"]}
+                alt={"Door Style"}
+                style={{ height: 38, width: 38, objectFit: "contain" }}
+              />
+              <Typography
+                variant="caption"
+                sx={{ mt: 0.5, lineHeight: 1.1, textAlign: "center" }}
+              >
+                Door Style
+              </Typography>
+            </Button>
+          )
+        }
+        
+       return( <Button
           key={category}
           onClick={(e) => openPopup(category, "sidebar")}
           sx={{
@@ -51,7 +84,7 @@ const Sidebar = () => {
             borderBottom: "1px solid #444",
             "&:hover": { bgcolor: "#333" },
           }}
-        >
+          >
           <img
             src={categoryIcons[category]}
             alt={category}
@@ -63,8 +96,8 @@ const Sidebar = () => {
           >
             {category.replace(" ", "\n")}
           </Typography>
-        </Button>
-      ))}
+        </Button>)
+})}
     </Box>
   );
 };
