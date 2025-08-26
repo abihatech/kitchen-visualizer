@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect, useRef, useCallback } from "react";
-import l_shape from "../assets/img/l_shape.png";
-import u_shape from "../assets/img/u_shape.png";
-import i_shape from "../assets/img/i_shape.png";
+import l_shape from "../../public/assets/img/l_shape.png";
+import u_shape from "../../public/assets/img/u_shape.png";
+import i_shape from "../../public/assets/img/i_shape.png";
 
 // Helper function to group layer data by cabinet_type_name
 const organizeLayerData = (layerData, moldingData, mainBackgroundId) => {

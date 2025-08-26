@@ -3,7 +3,7 @@
     {
       "id": 58,
       "name": "Kitchen",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304062038_58/03%20Kitchen%20L%20Island%20-%20Menu.webp",
+      "thumbnail": "/assets/img/kitchen.png",
       "guid": "202304062038",
       "sort_order": 8,
       "isdirect": 0,
@@ -14,7 +14,7 @@
     {
       "id": 63,
       "name": "Bathroom",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304260110_63/10%20Bathroom%20-%20Menu.webp",
+      "thumbnail": "/assets/img/bathroom.png",
       "guid": "202304260110",
       "sort_order": 8,
       "isdirect": 126,
@@ -25,7 +25,7 @@
     {
       "id": 62,
       "name": "Bar Room",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261302_62/01%20Bar%20Room%20-%20Menu.webp",
+      "thumbnail": "/assets/img/barroom.png",
       "guid": "202304261302",
       "sort_order": 9,
       "isdirect": 125,
@@ -36,7 +36,7 @@
     {
       "id": 64,
       "name": "Laundry",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261034_64/07%20Laundry%20-%20Menu.webp",
+      "thumbnail": "/assets/img/laundry_room.png",
       "guid": "202304261034",
       "sort_order": 15,
       "isdirect": 127,
@@ -47,7 +47,7 @@
     {
       "id": 65,
       "name": "Office",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261051_65/08%20Office%20-%20Menu.webp",
+      "thumbnail": "/assets/img/office_room.png",
       "guid": "202304261051",
       "sort_order": 16,
       "isdirect": 128,
@@ -58,7 +58,7 @@
     {
       "id": 66,
       "name": "Media Room",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261111_66/09%20TV%20Room%20-%20Menu.webp",
+      "thumbnail": "/assets/img/media_room.png",
       "guid": "202304261111",
       "sort_order": 17,
       "isdirect": 129,
@@ -69,7 +69,7 @@
     {
       "id": 67,
       "name": "Mud Room",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261111_66/09%20TV%20Room%20-%20Menu.webp",
+      "thumbnail": "/assets/img/mud_room.png",
       "guid": "202304261111",
       "sort_order": 17,
       "isdirect": 129,
@@ -84,7 +84,7 @@
       "shapes_name": "L-Shape",
       "type_category_name": "Kitchen",
       "type_category_id": 58,
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/shapes/202304061608_30/L-Shape-BW.png",
+      "thumbnail": "/assets/img/l_shape.png",
       "guid": "202304061608",
       "sort_order": 1
     },
@@ -93,7 +93,7 @@
       "shapes_name": "U-Shape",
       "type_category_name": "Kitchen",
       "type_category_id": 58,
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/shapes/202304061630_31/U-Shape-BW.png",
+      "thumbnail": "/assets/img/u_shape.png",
       "guid": "202304061630",
       "sort_order": 2
     },
@@ -102,7 +102,7 @@
       "shapes_name": "I-Shape",
       "type_category_name": "Kitchen",
       "type_category_id": 58,
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/shapes/202304061653_32/I-Shape-BW.png",
+      "thumbnail": "/assets/img/l_shape.png",
       "guid": "202304061653",
       "sort_order": 3
     }
@@ -112,7 +112,7 @@
       "id": 123,
       "main_background_name": "02 Kitchen L No Island",
       "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304195901_123/02%20k%20L%20shape%20no%20island-BKG-image.webp",
-      "thumbnailsm": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304195901_123/02%20Kitchen%20L%20No%20Island%20-%20Menu.webp",
+      "thumbnailsm": "/assets/img/kitchen.png",
       "guid": "202304195901",
       "sort_order": 0,
       "shape_category_name": "L-Shape",
@@ -122,7 +122,7 @@
       "id": 130,
       "main_background_name": "03 Kitchen L Island",
       "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304261543_130/03-k-L-shape-wh-island-BKG-image.webp",
-      "thumbnailsm": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304261543_130/03%20Kitchen%20L%20Island%20-%20Menu.webp",
+      "thumbnailsm": "/assets/img/kitchen_island.png",
       "guid": "202304261543",
       "sort_order": 0,
       "shape_category_name": "L-Shape",

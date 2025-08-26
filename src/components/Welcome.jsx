@@ -1,47 +1,34 @@
-import bgImg from "../assets/img/bg_img.webp";
-import logo from "../assets/img/logo.png";
+import bgImg from "../../public/assets/img/bg_img.jpg";
+import logo from "../../public/assets/img/logo.png";
 
 const Welcome = ({ setScreen }) => {
   return (
     <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative "
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="relative z-10 max-h-screen flex items-center justify-center p-4">
-        <div className="bg-[#00000090] p-8 md:p-12 text-white text-center max-w-2xl w-full">
-          <h1 className="text-2xl md:text-3xl font-light mb-4">WELCOME TO</h1>
-
+        <div className="bg-gray-300 p-8 md:p-12 text-center max-w-2xl w-full rounded-4xl text-[#111942]">
           <div>
-            <div className="text-white inline-block opacity-100 z-50 bg-white object-cover">
-              <img src={logo} alt="" width={150} height={150} />
+            <div className=" inline-block opacity-100 z-50 object-cover">
+              <img src={logo} alt="" width={180} />
             </div>
           </div>
 
-          <h2 className="text-3xl md:text-3xl font-light mt-3">
-            CABINET VISUALIZER
+          <h2 className="text-3xl md:text-3xl font-bold text-[#111942]">
+            WELCOME TO CABINET VISUALIZER
           </h2>
 
-          <p className="text-xl my-4">Here is what you can do here:</p>
+          <p className="text-xl my-4 font-bold">Here's what you can do:</p>
 
-          <div className="max-w-fit text-center m-auto space-y-1">
-            <div className="flex items-start">
-              <span className="text-white mr-3">•</span>
-              <span>View different cabinet layouts for various rooms</span>
-            </div>
-            <div className="flex items-start">
-              <span className="text-white mr-3">•</span>
-              <span>
-                Change the color of the cabinets, counters, backsplash and more
-              </span>
-            </div>
-            <div className="flex items-start">
-              <span className="text-white mr-3">•</span>
-              <span>Save your design and share it with a friend</span>
-            </div>
-          </div>
+          <ul className="list-disc list-inside space-y-1 text-start font-semibold w-4/5 m-auto  ">
+            <li className="mb-2">Browse cabinet layouts for different rooms</li>
+            <li className="mb-2">Choose from multiple colors of cabinets, countertops, backsplashes, and more</li>
+            <li className="mb-2">Share this visualizer with a friend or family member to get their input or just show off your creativity</li>
+          </ul>
 
-          <p className="text-xl my-3">
-            Come see all of the different options we can offer you!
+          <p className="text-2xl font-bold my-3">
+            Explore all the options we offer!
           </p>
 
           {/* Fixed Animated Button */}
