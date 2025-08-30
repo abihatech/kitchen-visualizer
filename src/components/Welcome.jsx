@@ -1,5 +1,5 @@
-import bgImg from "../../public/assets/img/bg_img.jpg";
-import logo from "../../public/assets/img/logo.png";
+import bgImg from "../assets/img/bg_img.jpg";
+import logo from "../assets/img/logo.png";
 
 const Welcome = ({ setScreen }) => {
   return (

@@ -1,4 +1,4 @@
-import bgImg from "../../public/assets/img/bg_img.jpg";
+import bgImg from "../assets/img/bg_img.jpg";
 import { VisualizerContext } from "../context/VisualizerContext";
 import { useContext } from "react";
 
