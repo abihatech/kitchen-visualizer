@@ -1,4 +1,4 @@
-import bgImg from "../assets/img/bg_img.webp";
+import bgImg from "../assets/img/bg_img.jpg";
 import { useContext } from "react";
 import { VisualizerContext } from "../context/VisualizerContext";
 
@@ -25,8 +25,9 @@ const Space = ({
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-8 px-8">
-              {spaces.map((space, index) => (
-                <div
+              {spaces.map((space, index) => {
+                const img = space.image
+                return (<div
                   key={index}
                   onClick={() => {
                     if (space.name === "Kitchen") {
@@ -46,7 +47,7 @@ const Space = ({
                 >
                   <div className="bg-white p-2 mb-3 hover:shadow-lg transition-shadow">
                     <img
-                      src={space.image}
+                      src={img}
                       alt={space.name}
                       className="w-full h-32 object-cover"
                     />
@@ -54,8 +55,8 @@ const Space = ({
                   <h3 className="text-white text-lg font-medium group-hover:text-gray-300 transition-colors">
                     {space.name}
                   </h3>
-                </div>
-              ))}
+                </div>)
+})}
             </div>
 
             <button

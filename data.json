@@ -3,7 +3,7 @@
     {
       "id": 58,
       "name": "Kitchen",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304062038_58/03%20Kitchen%20L%20Island%20-%20Menu.webp",
+      "thumbnail": "/assets/img/kitchen.png",
       "guid": "202304062038",
       "sort_order": 8,
       "isdirect": 0,
@@ -14,7 +14,7 @@
     {
       "id": 63,
       "name": "Bathroom",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304260110_63/10%20Bathroom%20-%20Menu.webp",
+      "thumbnail": "/assets/img/bathroom.png",
       "guid": "202304260110",
       "sort_order": 8,
       "isdirect": 126,
@@ -25,7 +25,7 @@
     {
       "id": 62,
       "name": "Bar Room",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261302_62/01%20Bar%20Room%20-%20Menu.webp",
+      "thumbnail": "/assets/img/barroom.png",
       "guid": "202304261302",
       "sort_order": 9,
       "isdirect": 125,
@@ -36,7 +36,7 @@
     {
       "id": 64,
       "name": "Laundry",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261034_64/07%20Laundry%20-%20Menu.webp",
+      "thumbnail": "/assets/img/laundry_room.png",
       "guid": "202304261034",
       "sort_order": 15,
       "isdirect": 127,
@@ -47,7 +47,7 @@
     {
       "id": 65,
       "name": "Office",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261051_65/08%20Office%20-%20Menu.webp",
+      "thumbnail": "/assets/img/office_room.png",
       "guid": "202304261051",
       "sort_order": 16,
       "isdirect": 128,
@@ -58,7 +58,7 @@
     {
       "id": 66,
       "name": "Media Room",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261111_66/09%20TV%20Room%20-%20Menu.webp",
+      "thumbnail": "/assets/img/media_room.png",
       "guid": "202304261111",
       "sort_order": 17,
       "isdirect": 129,
@@ -69,7 +69,7 @@
     {
       "id": 67,
       "name": "Mud Room",
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/types/202304261111_66/09%20TV%20Room%20-%20Menu.webp",
+      "thumbnail": "/assets/img/mud_room.png",
       "guid": "202304261111",
       "sort_order": 17,
       "isdirect": 129,
@@ -84,7 +84,7 @@
       "shapes_name": "L-Shape",
       "type_category_name": "Kitchen",
       "type_category_id": 58,
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/shapes/202304061608_30/L-Shape-BW.png",
+      "thumbnail": "/assets/img/l_shape.png",
       "guid": "202304061608",
       "sort_order": 1
     },
@@ -93,7 +93,7 @@
       "shapes_name": "U-Shape",
       "type_category_name": "Kitchen",
       "type_category_id": 58,
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/shapes/202304061630_31/U-Shape-BW.png",
+      "thumbnail": "/assets/img/u_shape.png",
       "guid": "202304061630",
       "sort_order": 2
     },
@@ -102,7 +102,7 @@
       "shapes_name": "I-Shape",
       "type_category_name": "Kitchen",
       "type_category_id": 58,
-      "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/shapes/202304061653_32/I-Shape-BW.png",
+      "thumbnail": "/assets/img/l_shape.png",
       "guid": "202304061653",
       "sort_order": 3
     }
@@ -112,7 +112,7 @@
       "id": 123,
       "main_background_name": "02 Kitchen L No Island",
       "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304195901_123/02%20k%20L%20shape%20no%20island-BKG-image.webp",
-      "thumbnailsm": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304195901_123/02%20Kitchen%20L%20No%20Island%20-%20Menu.webp",
+      "thumbnailsm": "/assets/img/kitchen.png",
       "guid": "202304195901",
       "sort_order": 0,
       "shape_category_name": "L-Shape",
@@ -122,7 +122,7 @@
       "id": 130,
       "main_background_name": "03 Kitchen L Island",
       "thumbnail": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304261543_130/03-k-L-shape-wh-island-BKG-image.webp",
-      "thumbnailsm": "https://kc-assets-us.s3.amazonaws.com/uploads/mainbackground/202304261543_130/03%20Kitchen%20L%20Island%20-%20Menu.webp",
+      "thumbnailsm": "/assets/img/kitchen_island.png",
       "guid": "202304261543",
       "sort_order": 0,
       "shape_category_name": "L-Shape",
@@ -377,19 +377,7 @@
       "sort_order": 19,
       "main_background_id": 123
     },
-    {
-      "id": 2081,
-      "transitions": "[]",
-      "selected": 1,
-      "texture_name": "Brilliant White Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306053635_2081/png_layer_url/02%20k%20L%20shape%20no%20island-00.Brilliant-White-Shaker-Base.webp",
-      "png_layer_name": "K2 Brilliant White Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306053635_2081/texture_url/00.Brilliant-White-Shaker.webp",
-      "sort_order": 1,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2082,
       "transitions": "[]",
@@ -403,19 +391,7 @@
       "sort_order": 2,
       "main_background_id": 123
     },
-    {
-      "id": 2083,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Dove Grey Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054334_2083/png_layer_url/02%20k%20L%20shape%20no%20island-01.Dove-Grey-Shaker-Base.webp",
-      "png_layer_name": "K2 Dove Grey Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054334_2083/texture_url/01.Dove-Grey-Shaker.webp",
-      "sort_order": 3,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2084,
       "transitions": "[]",
@@ -429,19 +405,7 @@
       "sort_order": 4,
       "main_background_id": 123
     },
-    {
-      "id": 2085,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Providence White ",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054550_2085/png_layer_url/02%20k%20L%20shape%20no%20island-02.Providence-White-Base.webp",
-      "png_layer_name": "K2 Providence White Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054550_2085/texture_url/02.Providence-White.webp",
-      "sort_order": 5,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2086,
       "transitions": "[]",
@@ -455,19 +419,7 @@
       "sort_order": 6,
       "main_background_id": 123
     },
-    {
-      "id": 2087,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Southport Blue Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054730_2087/png_layer_url/02%20k%20L%20shape%20no%20island-03.Southport-Blue-Shaker-Base.webp",
-      "png_layer_name": "K2 Southport Blue Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054730_2087/texture_url/03.Southport-Blue-Shaker.webp",
-      "sort_order": 7,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2088,
       "transitions": "[]",
@@ -481,19 +433,7 @@
       "sort_order": 8,
       "main_background_id": 123
     },
-    {
-      "id": 2089,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Midtown Indigo Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054909_2089/png_layer_url/02%20k%20L%20shape%20no%20island-04.Midtown-Indigo-Shaker-Base.webp",
-      "png_layer_name": "K2 Midtown Indigo Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054909_2089/texture_url/04.Midtown-Indigo-Shaker.webp",
-      "sort_order": 9,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2090,
       "transitions": "[]",
@@ -507,19 +447,7 @@
       "sort_order": 10,
       "main_background_id": 123
     },
-    {
-      "id": 2091,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Signature Vanilla Glaze",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055134_2091/png_layer_url/02%20k%20L%20shape%20no%20island-05.Signature-Vanilla-Glaze-Base.webp",
-      "png_layer_name": "K2 Signature Vanilla Glaze Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055134_2091/texture_url/05.Signature-Vanilla-Glaze.webp",
-      "sort_order": 11,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2092,
       "transitions": "[]",
@@ -533,19 +461,7 @@
       "sort_order": 12,
       "main_background_id": 123
     },
-    {
-      "id": 2093,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Imperial Cloud",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055318_2093/png_layer_url/02%20k%20L%20shape%20no%20island-06.Imperial-Cloud-Base.webp",
-      "png_layer_name": "K2 Imperial Cloud Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055318_2093/texture_url/06.Imperial-Cloud.webp",
-      "sort_order": 13,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2094,
       "transitions": "[]",
@@ -559,19 +475,7 @@
       "sort_order": 14,
       "main_background_id": 123
     },
-    {
-      "id": 2095,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Providence Natural Grey",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055455_2095/png_layer_url/02%20k%20L%20shape%20no%20island-07.Providence-Natural-Grey-Base.webp",
-      "png_layer_name": "K2 Providence Natural Grey Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055455_2095/texture_url/07.Providence-Natural-Grey.webp",
-      "sort_order": 15,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2096,
       "transitions": "[]",
@@ -585,19 +489,7 @@
       "sort_order": 16,
       "main_background_id": 123
     },
-    {
-      "id": 2097,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Brazilian Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055645_2097/png_layer_url/02%20k%20L%20shape%20no%20island-08.Brazilian-Shaker-Base.webp",
-      "png_layer_name": "K2 Brazilian Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055645_2097/texture_url/08.Brazilian-Shaker.webp",
-      "sort_order": 17,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2098,
       "transitions": "[]",
@@ -611,19 +503,7 @@
       "sort_order": 18,
       "main_background_id": 123
     },
-    {
-      "id": 2099,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Sky Blue Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055811_2099/png_layer_url/02%20k%20L%20shape%20no%20island-09.Sky-Blue-Shaker-Base.webp",
-      "png_layer_name": "K2 Sky Blue Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055811_2099/texture_url/09.Sky-Blue-Shaker.webp",
-      "sort_order": 19,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2100,
       "transitions": "[]",
@@ -637,19 +517,7 @@
       "sort_order": 20,
       "main_background_id": 123
     },
-    {
-      "id": 2101,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Providence Slate Grey",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055940_2101/png_layer_url/02%20k%20L%20shape%20no%20island-10.Providence-Slate-Grey-Base.webp",
-      "png_layer_name": "K2 Providence Slate Grey Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306055940_2101/texture_url/10.Providence-Slate-Grey.webp",
-      "sort_order": 21,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2102,
       "transitions": "[]",
@@ -663,19 +531,7 @@
       "sort_order": 22,
       "main_background_id": 123
     },
-    {
-      "id": 2103,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Graphite Grey Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050123_2103/png_layer_url/02%20k%20L%20shape%20no%20island-11.Graphite-Grey-Shaker-Base.webp",
-      "png_layer_name": "K2 Graphite Grey Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050123_2103/texture_url/11.Graphite-Grey-Shaker.webp",
-      "sort_order": 23,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2104,
       "transitions": "[]",
@@ -689,19 +545,7 @@
       "sort_order": 24,
       "main_background_id": 123
     },
-    {
-      "id": 2105,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Linen Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050254_2105/png_layer_url/02%20k%20L%20shape%20no%20island-12.Linen-Shaker-Base.webp",
-      "png_layer_name": "K2 Linen Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050254_2105/texture_url/12.Linen-Shaker.webp",
-      "sort_order": 25,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2106,
       "transitions": "[]",
@@ -715,19 +559,7 @@
       "sort_order": 26,
       "main_background_id": 123
     },
-    {
-      "id": 2107,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Stone Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050430_2107/png_layer_url/02%20k%20L%20shape%20no%20island-13.Stone-Shaker-Base.webp",
-      "png_layer_name": "K2 Stone Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050430_2107/texture_url/13.Stone-Shaker.webp",
-      "sort_order": 27,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2108,
       "transitions": "[]",
@@ -741,19 +573,7 @@
       "sort_order": 28,
       "main_background_id": 123
     },
-    {
-      "id": 2109,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Rustic Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050920_2109/png_layer_url/02%20k%20L%20shape%20no%20island-14.Rustic-Shaker-Base.webp",
-      "png_layer_name": "K2 Rustic Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306050920_2109/texture_url/14.Rustic-Shaker.webp",
-      "sort_order": 29,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2110,
       "transitions": "[]",
@@ -767,19 +587,7 @@
       "sort_order": 30,
       "main_background_id": 123
     },
-    {
-      "id": 2111,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Tuscan Oyster",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051058_2111/png_layer_url/02%20k%20L%20shape%20no%20island-15.Tuscan-Oyster-Base.webp",
-      "png_layer_name": "K2 Tuscan Oyster Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051058_2111/texture_url/15.Tuscan-Oyster.webp",
-      "sort_order": 31,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2112,
       "transitions": "[]",
@@ -793,19 +601,7 @@
       "sort_order": 32,
       "main_background_id": 123
     },
-    {
-      "id": 2113,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Euro White Grain",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051300_2113/png_layer_url/02%20k%20L%20shape%20no%20island-16.Euro-White-Grain-Base.webp",
-      "png_layer_name": "K2 Euro White Grain Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051300_2113/texture_url/16.Euro-White-Grain.webp",
-      "sort_order": 33,
-      "main_background_id": 123
-    },
+  
     {
       "id": 2114,
       "transitions": "[]",
@@ -819,19 +615,7 @@
       "sort_order": 34,
       "main_background_id": 123
     },
-    {
-      "id": 2115,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Euro Grey",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051442_2115/png_layer_url/02%20k%20L%20shape%20no%20island-17.Euro-Grey-Base.webp",
-      "png_layer_name": "K2 Euro Grey Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051442_2115/texture_url/17.Euro-Grey.webp",
-      "sort_order": 35,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2116,
       "transitions": "[]",
@@ -845,19 +629,7 @@
       "sort_order": 36,
       "main_background_id": 123
     },
-    {
-      "id": 2117,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Euro Gloss White",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051634_2117/png_layer_url/02%20k%20L%20shape%20no%20island-18.Euro-Gloss-White-Base.webp",
-      "png_layer_name": "K2 Euro Gloss White Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051634_2117/texture_url/18.Euro-Gloss-White.webp",
-      "sort_order": 37,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2118,
       "transitions": "[]",
@@ -871,19 +643,7 @@
       "sort_order": 38,
       "main_background_id": 123
     },
-    {
-      "id": 2119,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Vienna Cloud",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051822_2119/png_layer_url/02%20k%20L%20shape%20no%20island-19.Vienna-Cloud-Base.webp",
-      "png_layer_name": "K2 Vienna Cloud Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306051822_2119/texture_url/19.Vienna-Cloud.webp",
-      "sort_order": 39,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2120,
       "transitions": "[]",
@@ -897,19 +657,7 @@
       "sort_order": 40,
       "main_background_id": 123
     },
-    {
-      "id": 2121,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Phoenix Caramel Glaze",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306052000_2121/png_layer_url/02%20k%20L%20shape%20no%20island-20.Phoenix-Caramel-Glaze-Base.webp",
-      "png_layer_name": "K2 Phoenix Caramel Glaze Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306052000_2121/texture_url/20.Phoenix-Caramel-Glaze.webp",
-      "sort_order": 41,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2122,
       "transitions": "[]",
@@ -923,19 +671,7 @@
       "sort_order": 42,
       "main_background_id": 123
     },
-    {
-      "id": 2123,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Lexington Cinnamon Glaze",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306052152_2123/png_layer_url/02%20k%20L%20shape%20no%20island-21.Lexington-Cinnamon-Glaze-Base.webp",
-      "png_layer_name": "K2 Lexington Cinnamon Glaze Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306052152_2123/texture_url/21.Lexington-Cinnamon-Glaze.webp",
-      "sort_order": 43,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2124,
       "transitions": "[]",
@@ -949,19 +685,7 @@
       "sort_order": 44,
       "main_background_id": 123
     },
-    {
-      "id": 2125,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Biscotti Café Glazed",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306052347_2125/png_layer_url/02%20k%20L%20shape%20no%20island-22.Biscotti-Cafe-Glazed-Base.webp",
-      "png_layer_name": "K2 Biscotti Café Glazed Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306052347_2125/texture_url/22.Biscotti-Cafe-Glazed.webp",
-      "sort_order": 45,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2126,
       "transitions": "[]",
@@ -975,19 +699,7 @@
       "sort_order": 46,
       "main_background_id": 123
     },
-    {
-      "id": 2127,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Charlotte Dark Grey",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306053643_2127/png_layer_url/02%20k%20L%20shape%20no%20island-23.Charlotte-Dark-Grey-Base.webp",
-      "png_layer_name": "K2 Charlotte Dark Grey Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306053643_2127/texture_url/23.Charlotte-Dark-Grey.webp",
-      "sort_order": 47,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2128,
       "transitions": "[]",
@@ -1001,19 +713,7 @@
       "sort_order": 48,
       "main_background_id": 123
     },
-    {
-      "id": 2129,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Cambridge Antique White Glaze",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306053840_2129/png_layer_url/02%20k%20L%20shape%20no%20island-24.Cambridge-Antique-White-Glaze-Base.webp",
-      "png_layer_name": "K2 Cambridge Antique White Glaze Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306053840_2129/texture_url/24.Cambridge-Antique-White-Glaze.webp",
-      "sort_order": 49,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2130,
       "transitions": "[]",
@@ -1027,19 +727,7 @@
       "sort_order": 50,
       "main_background_id": 123
     },
-    {
-      "id": 2131,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Aspen White",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054130_2131/png_layer_url/02%20k%20L%20shape%20no%20island-25.Aspen-White-Base.webp",
-      "png_layer_name": "K2 Aspen White Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054130_2131/texture_url/25.Aspine-White.webp",
-      "sort_order": 51,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2132,
       "transitions": "[]",
@@ -1053,19 +741,7 @@
       "sort_order": 52,
       "main_background_id": 123
     },
-    {
-      "id": 2133,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Royal White",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054302_2133/png_layer_url/02%20k%20L%20shape%20no%20island-26.Royal-White-Base.webp",
-      "png_layer_name": "K2 Royal White Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054302_2133/texture_url/26.Royal-White.webp",
-      "sort_order": 53,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2134,
       "transitions": "[]",
@@ -1079,19 +755,7 @@
       "sort_order": 54,
       "main_background_id": 123
     },
-    {
-      "id": 2135,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Frosted White",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054431_2135/png_layer_url/02%20k%20L%20shape%20no%20island-27.Frosted-White-Base.webp",
-      "png_layer_name": "K2 Frosted White Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054431_2135/texture_url/27.Frosted-White.webp",
-      "sort_order": 55,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2136,
       "transitions": "[]",
@@ -1118,19 +782,7 @@
       "sort_order": 57,
       "main_background_id": 123
     },
-    {
-      "id": 2138,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Southport White",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054615_2138/png_layer_url/02%20k%20L%20shape%20no%20island-28.Southport-White-Base.webp",
-      "png_layer_name": "K2 Southport White Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306054615_2138/texture_url/28.Southport-White.webp",
-      "sort_order": 58,
-      "main_background_id": 123
-    },
+    
     {
       "id": 2139,
       "transitions": "[]",
@@ -1144,19 +796,7 @@
       "sort_order": 59,
       "main_background_id": 123
     },
-    {
-      "id": 2140,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Midtown Black Shaker",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306213834_2140/png_layer_url/02%20k%20L%20shape%20no%20island-29.Midtown-Black-Shaker-Base.webp",
-      "png_layer_name": "K2 Midtown Black Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306213834_2140/texture_url/29.Midtown-Black-Shaker.webp",
-      "sort_order": 60,
-      "main_background_id": 123
-    },
+   
     {
       "id": 2141,
       "transitions": "[]",
@@ -1170,32 +810,8 @@
       "sort_order": 61,
       "main_background_id": 123
     },
-    {
-      "id": 2142,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Midtown Hunter Green",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306214003_2142/png_layer_url/02%20k%20L%20shape%20no%20island-30.Midtown-Hunter-Green-Shaker-Base.webp",
-      "png_layer_name": "K2 Midtown Hunter Green Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306214003_2142/texture_url/30.Midtown-Hunter-Green-Shaker.webp",
-      "sort_order": 62,
-      "main_background_id": 123
-    },
-    {
-      "id": 2143,
-      "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Imperial Sage Green",
-      "cabinet_type_name": "Base Cabinets",
-      "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306214048_2143/png_layer_url/02%20k%20L%20shape%20no%20island-31.Imperial-Sage-Green-Base.webp",
-      "png_layer_name": "K2 Imperial Sage Green Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202306214048_2143/texture_url/31.Imperial-Sage-Green.webp",
-      "sort_order": 63,
-      "main_background_id": 123
-    },
+   
+    
     {
       "id": 2144,
       "transitions": "[]",
@@ -1222,19 +838,553 @@
       "sort_order": 65,
       "main_background_id": 123
     },
-    {
-      "id": 2915,
+     {
+      "id": 2145,
       "transitions": "[]",
-      "selected": 0,
-      "texture_name": "Midtown White Shaker",
+      "selected": 1,
+      "texture_name": "KB High Gloss Antique White",
       "cabinet_type_name": "Base Cabinets",
       "parent_category_id": -1,
-      "png_layer_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202308292950_2915/png_layer_url/02%20k%20L%20shape%20no%20island-32.Midtown-White-Shaker-Base.webp",
-      "png_layer_name": "K2 Midtown White Shaker Base",
-      "texture_url": "https://kc-assets-us.s3.amazonaws.com/uploads/categories/202308292950_2915/texture_url/00.Brilliant-White-Shaker.webp",
-      "sort_order": 66,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_high_gloss_antique_white_main.png",
+      "png_layer_name": "kb_high_gloss_antique_white",
+      "texture_url": "/assets/door_style/base_cabinets/kb_high_gloss_antique_white.jpg",
+      "sort_order": 67,
       "main_background_id": 123
     },
+    {
+      "id": 2146,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte Crisp Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_crisp_gray_main.png",
+      "png_layer_name": "kb_matte_crisp_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_crisp_gray.jpg",
+      "sort_order": 68,
+      "main_background_id": 123
+    },
+    {
+      "id": 2147,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte High Seas",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_high_seas_main.png",
+      "png_layer_name": "kb_matte_high_seas",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_high_seas.jpg",
+      "sort_order": 69,
+      "main_background_id": 123
+    },
+    {
+      "id": 2148,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte Java Brown",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_java_brown_main.png",
+      "png_layer_name": "kb_matte_java_brown",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_java_brown.jpg",
+      "sort_order": 70,
+      "main_background_id": 123
+    },
+    {
+      "id": 2149,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte Mineral Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_mineral_gray_main.png",
+      "png_layer_name": "kb_matte_mineral_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_mineral_gray.jpg",
+      "sort_order": 71,
+      "main_background_id": 123
+    },
+    {
+      "id": 2150,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte Mint Green",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_mint_green_main.png",
+      "png_layer_name": "kb_matte_mint_green",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_mint_green.jpg",
+      "sort_order": 72,
+      "main_background_id": 123
+    },
+    {
+      "id": 2151,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte Seal Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_seal_gray_main.png",
+      "png_layer_name": "kb_matte_seal_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_seal_gray.jpg",
+      "sort_order": 73,
+      "main_background_id": 123
+    },
+    {
+      "id": 2152,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Matte Silver Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_matte_silver_gray_main.png",
+      "png_layer_name": "kb_matte_silver_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_matte_silver_gray.jpg",
+      "sort_order": 74,
+      "main_background_id": 123
+    },
+    {
+      "id": 2153,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Nobal Slow",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_nobal_slow_main.png",
+      "png_layer_name": "kb_nobal_slow",
+      "texture_url": "/assets/door_style/base_cabinets/kb_nobal_slow.jpg",
+      "sort_order": 75,
+      "main_background_id": 123
+    },
+    {
+      "id": 2154,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Oak",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_oak_main.png",
+      "png_layer_name": "kb_oak",
+      "texture_url": "/assets/door_style/base_cabinets/kb_oak.jpg",
+      "sort_order": 76,
+      "main_background_id": 123
+    },
+    {
+      "id": 2155,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Roble Eternity",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_roble_eternity_main.png",
+      "png_layer_name": "kb_roble_eternity",
+      "texture_url": "/assets/door_style/base_cabinets/kb_roble_eternity.jpg",
+      "sort_order": 77,
+      "main_background_id": 123
+    },
+    {
+      "id": 2156,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Soft Touch Arctic Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_soft_touch_arctic_gray_main.png",
+      "png_layer_name": "kb_soft_touch_arctic_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_soft_touch_arctic_gray.jpg",
+      "sort_order": 78,
+      "main_background_id": 123
+    },
+    {
+      "id": 2157,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Soft Touch Slate Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_soft_touch_slate_gray_main.png",
+      "png_layer_name": "kb_soft_touch_slate_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_soft_touch_slate_gray.jpg",
+      "sort_order": 79,
+      "main_background_id": 123
+    },
+    {
+      "id": 2158,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Soft Touch Antique White",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_soft_touch_antique_white_main.png",
+      "png_layer_name": "kb_soft_touch_antique_white",
+      "texture_url": "/assets/door_style/base_cabinets/kb_soft_touch_antique_white.jpg",
+      "sort_order": 80,
+      "main_background_id": 123
+    },
+    {
+      "id": 2159,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Soft Touch Black",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_soft_touch_black_main.png",
+      "png_layer_name": "kb_soft_touch_black",
+      "texture_url": "/assets/door_style/base_cabinets/kb_soft_touch_black.jpg",
+      "sort_order": 81,
+      "main_background_id": 123
+    },
+    {
+      "id": 2160,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Soft Touch Navy Blue",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_soft_touch_navy_blue_main.png",
+      "png_layer_name": "kb_soft_touch_navy_blue",
+      "texture_url": "/assets/door_style/base_cabinets/kb_soft_touch_navy_blue.jpg",
+      "sort_order": 82,
+      "main_background_id": 123
+    },
+    {
+      "id": 2161,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Soft Touch White",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_soft_touch_white_main.png",
+      "png_layer_name": "kb_soft_touch_white",
+      "texture_url": "/assets/door_style/base_cabinets/kb_soft_touch_white.webp",
+      "sort_order": 83,
+      "main_background_id": 123
+    },
+    {
+      "id": 2162,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Sunday Brunch",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_sunday_brunch_main.png",
+      "png_layer_name": "kb_sunday_brunch",
+      "texture_url": "/assets/door_style/base_cabinets/kb_sunday_brunch.jpg",
+      "sort_order": 84,
+      "main_background_id": 123
+    },
+    {
+      "id": 2163,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB Walnut",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_walnut_main.png",
+      "png_layer_name": "kb_walnut",
+      "texture_url": "/assets/door_style/base_cabinets/kb_walnut.jpg",
+      "sort_order": 85,
+      "main_background_id": 123
+    },
+    {
+      "id": 2164,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB High Gloss Arctic Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_high_gloss_arctic_gray_main.png",
+      "png_layer_name": "kb_high_gloss_arctic_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_high_gloss_arctic_gray.jpg",
+      "sort_order": 86,
+      "main_background_id": 123
+    },
+    {
+      "id": 2165,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB High Gloss Black",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_high_gloss_black_main.png",
+      "png_layer_name": "kb_high_gloss_black",
+      "texture_url": "/assets/door_style/base_cabinets/kb_high_gloss_black.jpg",
+      "sort_order": 87,
+      "main_background_id": 123
+    },
+    {
+      "id": 2166,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB High Gloss Slate Gray",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_high_gloss_slate_gray_main.png",
+      "png_layer_name": "kb_high_gloss_slate_gray",
+      "texture_url": "/assets/door_style/base_cabinets/kb_high_gloss_slate_gray.jpg",
+      "sort_order": 88,
+      "main_background_id": 123
+    },
+    {
+      "id": 2167,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "KB High Gloss White",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/kb_high_gloss_white_main.png",
+      "png_layer_name": "kb_high_gloss_white",
+      "texture_url": "/assets/door_style/base_cabinets/kb_high_gloss_white.jpg",
+      "sort_order": 89,
+      "main_background_id": 123
+    },
+    {
+      "id": 2168,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Anniversary Oak",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_anniversary_oak_main.png",
+      "png_layer_name": "pc_anniversary_oak",
+      "texture_url": "/assets/door_style/base_cabinets/pc_anniversary_oak.jpg",
+      "sort_order": 90,
+      "main_background_id": 123
+    },
+    {
+      "id": 2169,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Blanco Gloss",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_blanco_gloss_main.png",
+      "png_layer_name": "pc_blanco_gloss",
+      "texture_url": "/assets/door_style/base_cabinets/pc_blanco_gloss.jpg",
+      "sort_order": 91,
+      "main_background_id": 123
+    },
+    {
+      "id": 2170,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Blanco Matte",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_blanco_matte_main.png",
+      "png_layer_name": "pc_blanco_matte",
+      "texture_url": "/assets/door_style/base_cabinets/pc_blanco_matte.jpg",
+      "sort_order": 92,
+      "main_background_id": 123
+    },
+    {
+      "id": 2171,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Carbon Frozen Wood Textured",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_carbon_frozen_wood_textured_main.png",
+      "png_layer_name": "pc_carbon_frozen_wood_textured",
+      "texture_url": "/assets/door_style/base_cabinets/pc_carbon_frozen_wood_textured.jpg",
+      "sort_order": 93,
+      "main_background_id": 123
+    },
+    {
+      "id": 2172,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Cashmere Gloss",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_cashmere_gloss_main.png",
+      "png_layer_name": "pc_cashmere_gloss",
+      "texture_url": "/assets/door_style/base_cabinets/pc_cashmere_gloss.jpg",
+      "sort_order": 94,
+      "main_background_id": 123
+    },
+    {
+      "id": 2173,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Cashmere Matte",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_cashmere_matte_main.png",
+      "png_layer_name": "pc_cashmere_matte",
+      "texture_url": "/assets/door_style/base_cabinets/pc_cashmere_matte.jpg",
+      "sort_order": 95,
+      "main_background_id": 123
+    },
+    {
+      "id": 2174,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Girs Plomo Gloss",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_girs_plomo_gloss_main.png",
+      "png_layer_name": "pc_girs_plomo_gloss",
+      "texture_url": "/assets/door_style/base_cabinets/pc_girs_plomo_gloss.jpg",
+      "sort_order": 96,
+      "main_background_id": 123
+    },
+    {
+      "id": 2175,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Gris Nube Matte",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_gris_nube_matte_main.png",
+      "png_layer_name": "pc_gris_nube_matte",
+      "texture_url": "/assets/door_style/base_cabinets/pc_gris_nube_matte.jpg",
+      "sort_order": 97,
+      "main_background_id": 123
+    },
+    {
+      "id": 2176,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Gris Plomo Matte",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_gris_plomo_matte_main.png",
+      "png_layer_name": "pc_gris_plomo_matte",
+      "texture_url": "/assets/door_style/base_cabinets/pc_gris_plomo_matte.jpg",
+      "sort_order": 98,
+      "main_background_id": 123
+    },
+    {
+      "id": 2177,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Indigo Blue Matte",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_indigo_blue_matte_main.png",
+      "png_layer_name": "pc_indigo_blue_matte",
+      "texture_url": "/assets/door_style/base_cabinets/pc_indigo_blue_matte.jpg",
+      "sort_order": 99,
+      "main_background_id": 123
+    },
+    {
+      "id": 2178,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Indigo Blue Gloss",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_indigo_blue_gloss_main.png",
+      "png_layer_name": "pc_indigo_blue_gloss",
+      "texture_url": "/assets/door_style/base_cabinets/pc_indigo_blue_gloss.jpg",
+      "sort_order": 100,
+      "main_background_id": 123
+    },
+    {
+      "id": 2179,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Lakeland Oak 02",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_lakeland_oak_02_main.png",
+      "png_layer_name": "pc_lakeland_oak_02",
+      "texture_url": "/assets/door_style/base_cabinets/pc_lakeland_oak_02.jpg",
+      "sort_order": 101,
+      "main_background_id": 123
+    },
+    {
+      "id": 2180,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Lakeland Oak 03 Textured",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_lakeland_oak_03_textured_main.png",
+      "png_layer_name": "pc_lakeland_oak_03_textured",
+      "texture_url": "/assets/door_style/base_cabinets/pc_lakeland_oak_03_textured.jpg",
+      "sort_order": 102,
+      "main_background_id": 123
+    },
+    {
+      "id": 2181,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Muratti Textured",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_muratti_textured_main.png",
+      "png_layer_name": "pc_muratti_textured",
+      "texture_url": "/assets/door_style/base_cabinets/pc_muratti_textured.jpg",
+      "sort_order": 103,
+      "main_background_id": 123
+    },
+    {
+      "id": 2182,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Negro Gloss",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_negro_gloss_main.png",
+      "png_layer_name": "pc_negro_gloss",
+      "texture_url": "/assets/door_style/base_cabinets/pc_negro_gloss.jpg",
+      "sort_order": 104,
+      "main_background_id": 123
+    },
+    {
+      "id": 2183,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Negro Matte",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_negro_matte_main.png",
+      "png_layer_name": "pc_negro_matte",
+      "texture_url": "/assets/door_style/base_cabinets/pc_negro_matte.jpg",
+      "sort_order": 105,
+      "main_background_id": 123
+    },
+    {
+      "id": 2184,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Olmo Gloss",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_olmo_gloss_main.png",
+      "png_layer_name": "pc_olmo_gloss",
+      "texture_url": "/assets/door_style/base_cabinets/pc_olmo_gloss.jpg",
+      "sort_order": 106,
+      "main_background_id": 123
+    },
+    {
+      "id": 2185,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC Olmo Textured",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_olmo_textured_main.png",
+      "png_layer_name": "pc_olmo_textured",
+      "texture_url": "/assets/door_style/base_cabinets/pc_olmo_textured.jpg",
+      "sort_order": 107,
+      "main_background_id": 123
+    },
+    {
+      "id": 2186,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "PC White Frozen Wood Textured",
+      "cabinet_type_name": "Base Cabinets",
+      "parent_category_id": -1,
+      "png_layer_url": "/assets/door_style/base_cabinets/main/pc_white_frozen_wood_textured_main.png",
+      "png_layer_name": "pc_white_frozen_wood_textured",
+      "texture_url": "/assets/door_style/base_cabinets/pc_white_frozen_wood_textured.jpg",
+      "sort_order": 108,
+      "main_background_id": 123
+    },
+   
     {
       "id": 2916,
       "transitions": "[]",

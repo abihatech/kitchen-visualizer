@@ -1,22 +1,22 @@
 import { Box, Button, Typography } from "@mui/material";
 import { useContext } from "react";
 import { VisualizerContext } from "./../../context/VisualizerContext";
-
-import door_svg from "../../assets/sidebarimage/doorstyles.svg";
-import appliances from "../../assets/sidebarimage/appliances.svg";
-import countertop from "../../assets/sidebarimage/countertop.svg";
-import crown_modeling from "../../assets/sidebarimage/crown_modeling.svg";
-import floor_svg from "../../assets/sidebarimage/floor.svg";
-import backsplash from "../../assets/sidebarimage/backsplash.svg";
+import door_icon from "../../assets/sidebarimage/new_door_icon.jpg";
+import appliances_icon from "../../assets/sidebarimage/new_appliace.jpg";
+import countertop from "../../assets/sidebarimage/new_countertop_icon.jpg";
+import crown_modeling from "../../assets/sidebarimage/new_crown_icon.jpg";
+import floor_svg from "../../assets/sidebarimage/new_floor_icon.jpg";
+import backsplash from "../../assets/sidebarimage/new_backspalsh.jpg";
+import wall_icon from "../../assets/sidebarimage/new_wall_icon.png";
 
 const categoryIcons = {
-  "Door Style": door_svg,
+  "Door Style": door_icon,
   "Crown Moldings": crown_modeling,
   Countertop: countertop,
   Backsplash: backsplash,
   Floor: floor_svg,
-  Appliances: appliances,
-  "Wall Colors": floor_svg,
+  Appliances: appliances_icon,
+  "Wall Colors": wall_icon,
 };
 
 const Sidebar = () => {

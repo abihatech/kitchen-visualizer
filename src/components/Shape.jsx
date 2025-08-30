@@ -1,4 +1,4 @@
-import bgImg from "../assets/img/bg_img.webp";
+import bgImg from "../assets/img/bg_img.jpg";
 
 const Shape = ({
   shapes,
