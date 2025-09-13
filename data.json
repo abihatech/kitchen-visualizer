@@ -380,7 +380,7 @@
      {
     "id": 6000,
     "transitions": "[]",
-    "selected": 1,
+    "selected": 0,
     "texture_name": "Kb Clary Sage",
     "cabinet_type_name": "Wall Cabinets",
     "parent_category_id": -1,
@@ -393,7 +393,7 @@
   {
     "id": 6001,
     "transitions": "[]",
-    "selected": 1,
+    "selected": 0,
     "texture_name": "Kb Clary Sage",
     "cabinet_type_name": "Base Cabinets",
     "parent_category_id": -1,
@@ -456,35 +456,9 @@
     "main_background_id": 123
   },
   {
-    "id": 6006,
-    "transitions": "[]",
-    "selected": 0,
-    "texture_name": "Kb In The Navy",
-    "cabinet_type_name": "Wall Cabinets",
-    "parent_category_id": -1,
-    "png_layer_url": "/assets/door_style/wall_cabinets/main/framed/kb_in_the_navy_framed_main.png",
-    "png_layer_name": "kb_in_the_navy_framed",
-    "texture_url": "/assets/door_style/framed/kb_in_the_navy_framed.jpg",
-    "sort_order": 6006,
-    "main_background_id": 123
-  },
-  {
-    "id": 6007,
-    "transitions": "[]",
-    "selected": 0,
-    "texture_name": "Kb In The Navy",
-    "cabinet_type_name": "Base Cabinets",
-    "parent_category_id": -1,
-    "png_layer_url": "/assets/door_style/base_cabinets/main/framed/kb_in_the_navy_framed_main.png",
-    "png_layer_name": "kb_in_the_navy_framed",
-    "texture_url": "/assets/door_style/framed/kb_in_the_navy_framed.jpg",
-    "sort_order": 6007,
-    "main_background_id": 123
-  },
-  {
     "id": 6008,
     "transitions": "[]",
-    "selected": 0,
+    "selected": 1,
     "texture_name": "Kb Oceanside Blue",
     "cabinet_type_name": "Wall Cabinets",
     "parent_category_id": -1,
@@ -497,7 +471,7 @@
   {
     "id": 6009,
     "transitions": "[]",
-    "selected": 0,
+    "selected": 1,
     "texture_name": "Kb Oceanside Blue",
     "cabinet_type_name": "Base Cabinets",
     "parent_category_id": -1,
@@ -1535,7 +1509,7 @@
     "main_background_id": 123
   },
   {
-    "id": 6089,
+    "id": 6088,
     "transitions": "[]",
     "selected": 0,
     "texture_name": "Sl Slim White Oak",
@@ -3205,7 +3179,7 @@
   ],
   "modlingData": [
    {
-    "id": 2401,
+    "id": 6030,
     "main_background_id": 123,
     "png_layer_name": "pc_essence_cemento",
     "texture_name": "PC Essence Cemento",
@@ -3213,7 +3187,7 @@
     "png_layer_url": "/assets/crown_molding/main/pc_essence_cemento_main.png",
     "texture_url": "/assets/crown_molding/crown_molding_curve.png",
     "sort_order": 0,
-    "selected": 1,
+    "selected": 0,
     "guid": "202308300730",
     "transitions": "[]",
     "inversed_mask_layer": null,
@@ -3222,7 +3196,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2402,
+    "id": 6060,
     "main_background_id": 123,
     "png_layer_name": "rc_escada_dove",
     "texture_name": "RC Escada Dove",
@@ -3239,7 +3213,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2403,
+    "id": 6062,
     "main_background_id": 123,
     "png_layer_name": "rc_escada_midnight_blue",
     "texture_name": "RC Escada Midnight Blue",
@@ -3256,7 +3230,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2404,
+    "id": 6074,
     "main_background_id": 123,
     "png_layer_name": "rc_escada_natural_wood",
     "texture_name": "RC Escada Natural Wood",
@@ -3273,7 +3247,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2405,
+    "id": 6066,
     "main_background_id": 123,
     "png_layer_name": "rc_escada_white",
     "texture_name": "RC Escada White",
@@ -3290,7 +3264,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2406,
+    "id": 6002,
     "main_background_id": 123,
     "png_layer_name": "kb_evergreen_fog",
     "texture_name": "KB Evergreen Fog",
@@ -3307,7 +3281,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2407,
+    "id": 6004,
     "main_background_id": 123,
     "png_layer_name": "kb_heron_plume",
     "texture_name": "KB Heron Plume",
@@ -3324,24 +3298,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2408,
-    "main_background_id": 123,
-    "png_layer_name": "kb_in_the_navy",
-    "texture_name": "KB In The Navy",
-    "cabinet_type_name": "Crown Moldings",
-    "png_layer_url": "/assets/crown_molding/main/kb_in_the_navy_main.png",
-    "texture_url": "/assets/crown_molding/crown_molding_curve.png",
-    "sort_order": 7,
-    "selected": 0,
-    "guid": "202308300730",
-    "transitions": "[]",
-    "inversed_mask_layer": null,
-    "occlusion_layer": null,
-    "wall_cabinet_layer_ids": "[2132]",
-    "main_background_name": "02 Kitchen L No Island"
-  },
-  {
-    "id": 2409,
+    "id": 6008,
     "main_background_id": 123,
     "png_layer_name": "kb_oceanside_blue",
     "texture_name": "KB Oceanside Blue",
@@ -3349,7 +3306,7 @@
     "png_layer_url": "/assets/crown_molding/main/kb_oceanside_blue_main.png",
     "texture_url": "/assets/crown_molding/crown_molding_curve.png",
     "sort_order": 8,
-    "selected": 0,
+    "selected": 1,
     "guid": "202308300730",
     "transitions": "[]",
     "inversed_mask_layer": null,
@@ -3358,7 +3315,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2410,
+    "id": 6010,
     "main_background_id": 123,
     "png_layer_name": "kb_realist_beige",
     "texture_name": "KB Realist Beige",
@@ -3375,7 +3332,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2411,
+    "id": 6012,
     "main_background_id": 123,
     "png_layer_name": "kb_roycroft_pewter",
     "texture_name": "KB Roycroft Pewter",
@@ -3392,7 +3349,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2412,
+    "id": 6034,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_ashen",
     "texture_name": "PC Shaker Ashen",
@@ -3409,7 +3366,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2413,
+    "id": 6038,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_expresso",
     "texture_name": "PC Shaker Expresso",
@@ -3426,7 +3383,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2414,
+    "id": 6040,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_karamel",
     "texture_name": "PC Shaker Karamel",
@@ -3443,7 +3400,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2415,
+    "id": 6042,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_oatmeal",
     "texture_name": "PC Shaker Oatmeal",
@@ -3460,7 +3417,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2416,
+    "id": 6044,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_pine",
     "texture_name": "PC Shaker Pine",
@@ -3477,7 +3434,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2417,
+    "id": 6032,
     "main_background_id": 123,
     "png_layer_name": "pc_portland_chestnut",
     "texture_name": "PC Portland Chestnut",
@@ -3494,7 +3451,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2418,
+    "id": 6036,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_blue",
     "texture_name": "PC Shaker Blue",
@@ -3511,7 +3468,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2419,
+    "id": 6046,
     "main_background_id": 123,
     "png_layer_name": "pc_shaker_rift",
     "texture_name": "PC Shaker Rift",
@@ -3528,7 +3485,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2420,
+    "id": 6000,
     "main_background_id": 123,
     "png_layer_name": "kb_clary_sage",
     "texture_name": "KB Clary Sage",
@@ -3545,7 +3502,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2421,
+    "id": 6092,
     "main_background_id": 123,
     "png_layer_name": "sl_treasure_chest",
     "texture_name": "SL Treasure Chest",
@@ -3562,7 +3519,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2422,
+    "id": 6050,
     "main_background_id": 123,
     "png_layer_name": "pc_slim_shaker_oatmeal",
     "texture_name": "PC Slim Shaker Oatmeal",
@@ -3579,7 +3536,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2423,
+    "id": 6048,
     "main_background_id": 123,
     "png_layer_name": "pc_slim_shaker_karamel",
     "texture_name": "PC Slim Shaker Karamel",
@@ -3596,7 +3553,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2424,
+    "id": 6068,
     "main_background_id": 123,
     "png_layer_name": "rc_jade_green",
     "texture_name": "RC jade green",
@@ -3613,7 +3570,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2425,
+    "id": 6054,
     "main_background_id": 123,
     "png_layer_name": "rc_charcoal_black",
     "texture_name": "RC Charcoal Black",
@@ -3630,7 +3587,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2426,
+    "id": 6084,
     "main_background_id": 123,
     "png_layer_name": "sl_slim_ashton_green",
     "texture_name": "SL Slim Ashton Green",
@@ -3647,7 +3604,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2427,
+    "id": 6088,
     "main_background_id": 123,
     "png_layer_name": "sl_slim_white_oak",
     "texture_name": "SL Slim White Oak",
@@ -3664,7 +3621,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
   {
-    "id": 2428,
+    "id": 6064,
     "main_background_id": 123,
     "png_layer_name": "rc_escada_vintage_wood",
     "texture_name": "RC Escada Vintage Wood",
@@ -3681,7 +3638,7 @@
     "main_background_name": "02 Kitchen L No Island"
   },
    {
-    "id": 2429,
+    "id": 6080,
     "main_background_id": 123,
     "png_layer_name": "rc_truffle_brown",
     "texture_name": "RC Truffle Brown",

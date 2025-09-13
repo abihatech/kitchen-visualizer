@@ -247,6 +247,18 @@ export const VisualizerProvider = ({ children }) => {
   };
 
   const handleSelectItem = (categoryName, item) => {
+    if (categoryName === 'Wall Cabinets') {
+      const crownMolding = organizedLayerData?.['Crown Moldings']?.filter((it) => it?.id === item?.id)?.[0] || organizedLayerData?.['Crown Moldings']?.[0]
+      setAppliedLayers((prev) => ({
+        ...prev,
+        ['Crown Moldings']: {
+          id: crownMolding?.id,
+          png_layer_url: crownMolding.png_layer_url,
+          name: crownMolding.texture_name || crownMolding.png_layer_name,
+          texture_url: crownMolding.texture_url || crownMolding.png_layer_url,
+        }
+      }));
+    }
     setAppliedLayers((prev) => ({
       ...prev,
       [categoryName]: {
