@@ -143,7 +143,7 @@ const CategoryPopup = () => {
       <Box sx={{ height: "100%", maxHeight: "72vh", overflowY: "scroll", px: 4, pt: 4 }}>
         {activeCategory === "Wall Cabinets" || activeCategory === "Base Cabinets" ? (
           <>
-            <Accordion defaultExpanded sx={{ backgroundColor: "transparent" }}>
+            <Accordion sx={{ backgroundColor: "transparent" }}>
               <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}>
                 <Typography sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}>
                   Framed
@@ -152,7 +152,7 @@ const CategoryPopup = () => {
               <AccordionDetails>{renderItemGrid(framedItems)}</AccordionDetails>
             </Accordion>
 
-            <Accordion sx={{ backgroundColor: "transparent", mt: 2 }}>
+            <Accordion  sx={{ backgroundColor: "transparent", mt: 2 }}>
               <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}>
                 <Typography sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}>
                   Frameless

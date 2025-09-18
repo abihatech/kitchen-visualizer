@@ -8,7 +8,7 @@ const Welcome = ({ setScreen }) => {
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="relative z-10 max-h-screen flex items-center justify-center p-4">
-        <div className="bg-gray-300 p-8 md:p-12 text-center max-w-2xl w-full rounded-4xl text-[#111942]">
+        <div style={{backgroundColor: "oklch(0.83 0.02 258.28 / 0.60)"}} className=" p-8 md:p-12 text-center max-w-2xl w-full rounded-4xl text-[#111942]">
           <div>
             <div className=" inline-block opacity-100 z-50 object-cover">
               <img src={logo} alt="" width={180} />

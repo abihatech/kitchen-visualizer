@@ -11,7 +11,7 @@ const hotspots = [
     { top: '45%', left: '87%', category: 'Appliances' },
     { top: '50%', left: '63%', category: 'Backsplash' },
     { top: '20%', left: '15%', category: 'Crown Moldings' },
-    { top: '19%', left: '63%', category: 'Wall Colors' },
+    { top: '23%', left: '45%', category: 'Wall Colors' },
 ];
 
 
@@ -41,13 +41,13 @@ const ImageSetter = () => {
             }}>
                 <img src={selectedMainBackground?.thumbnail} alt="Room Background" style={{ width: '100%', height: '100%', objectFit: 'inherit' }} />
                 {Object.values(appliedLayers).map(layer => layer?.png_layer_url && (          
-                    <img key={layer.png_layer_url} src={layer.png_layer_url} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'inherit' }} />
+                    <img key={layer.png_layer_url} src={layer.png_layer_url} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'inherit',zIndex: layer.cabinet_type_name === "Crown Moldings" ? 1 : 0}}/>
                 ))}
                 {!isPreviewMode && hotspots.map((hotspot, index) => (
                     <IconButton key={index} onClick={() => openPopup(hotspot.category, 'hotspot')} sx={{
                         position: 'absolute', top: hotspot.top, left: hotspot.left,
                         bgcolor: 'rgba(0,0,0,0.6)', color: 'white',
-                        transform: `scale(${1 / scale})`, transformOrigin: 'center center',
+                        transform: `scale(${1 / scale})`, transformOrigin: 'center center',zIndex: 2,
                         '&:hover': { bgcolor: 'rgba(0,0,0,0.8)' }
                     }}>
                         <AddIcon />
