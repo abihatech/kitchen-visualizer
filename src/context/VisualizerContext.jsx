@@ -126,6 +126,7 @@ export const VisualizerProvider = ({ children }) => {
               png_layer_url: selectedItem.png_layer_url,
               name: selectedItem.texture_name || selectedItem.png_layer_name,
               texture_url: selectedItem.texture_url || selectedItem.png_layer_url,
+              cabinet_type_name: selectedItem.cabinet_type_name || selectedItem.cabinet_type_name,
             };
           }
         }
@@ -247,6 +248,19 @@ export const VisualizerProvider = ({ children }) => {
   };
 
   const handleSelectItem = (categoryName, item) => {
+    if (categoryName === 'Wall Cabinets') {
+      const crownMolding = organizedLayerData?.['Crown Moldings']?.filter((it) => it?.id === item?.id)?.[0]
+      setAppliedLayers((prev) => ({
+        ...prev,
+        ['Crown Moldings']: {
+          id: crownMolding?.id,
+          png_layer_url: crownMolding?.png_layer_url,
+          name: crownMolding?.texture_name || crownMolding?.png_layer_name,
+          texture_url: crownMolding?.texture_url || crownMolding?.png_layer_url,
+          cabinet_type_name: crownMolding?.cabinet_type_name || crownMolding?.cabinet_type_name,
+        }
+      }));
+    }
     setAppliedLayers((prev) => ({
       ...prev,
       [categoryName]: {
@@ -254,6 +268,7 @@ export const VisualizerProvider = ({ children }) => {
         png_layer_url: item.png_layer_url,
         name: item.texture_name || item.png_layer_name,
         texture_url: item.texture_url || item.png_layer_url,
+        cabinet_type_name: item.cabinet_type_name || item.cabinet_type_name,
       },
     }));
     closePopups();
