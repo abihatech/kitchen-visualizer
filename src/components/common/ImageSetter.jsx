@@ -41,7 +41,7 @@ const ImageSetter = () => {
             }}>
                 <img src={selectedMainBackground?.thumbnail} alt="Room Background" style={{ width: '100%', height: '100%', objectFit: 'inherit' }} />
                 {Object.values(appliedLayers).map(layer => layer?.png_layer_url && (          
-                    <img key={layer.png_layer_url} src={layer.png_layer_url} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'inherit',zIndex: layer.cabinet_type_name === "Crown Moldings" ? 1 : 0}}/>
+                    <img key={layer.png_layer_url} src={layer.png_layer_url} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'inherit',zIndex: ["Wall Cabinets","Crown Moldings"]?.includes(layer.cabinet_type_name) ? 1 : 0}}/>
                 ))}
                 {!isPreviewMode && hotspots.map((hotspot, index) => (
                     <IconButton key={index} onClick={() => openPopup(hotspot.category, 'hotspot')} sx={{
