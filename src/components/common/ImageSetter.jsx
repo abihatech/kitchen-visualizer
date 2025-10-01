@@ -10,7 +10,7 @@ const hotspots = [
     { top: '90%', left: '60%', category: 'Floor' },
     { top: '45%', left: '87%', category: 'Appliances' },
     { top: '50%', left: '63%', category: 'Backsplash' },
-    { top: '20%', left: '15%', category: 'Crown Moldings' },
+    // { top: '20%', left: '15%', category: 'Crown Moldings' },
     { top: '23%', left: '45%', category: 'Wall Colors' },
 ];
 

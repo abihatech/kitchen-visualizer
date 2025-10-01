@@ -65,12 +65,15 @@ const CategoryPopup = () => {
               }}
             >
               <Box
-                width={85}
+                // width={85}
+                height={150}
+                maxWidth={80}
+                // minwidth={90}
                 component="img"
                 src={img}
                 alt={img}
                 sx={{
-                  objectFit: "contain",
+                  objectFit: "cover",
                   borderRadius: "4px",
                   backgroundColor: "transparent",
                 }}

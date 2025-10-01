@@ -11,7 +11,7 @@ import wall_icon from "../../assets/sidebarimage/new_wall_icon.png";
 
 const categoryIcons = {
   "Door Style": door_icon,
-  "Crown Moldings": crown_modeling,
+  // "Crown Moldings": crown_modeling,
   Countertop: countertop,
   Backsplash: backsplash,
   Floor: floor_svg,
@@ -37,6 +37,7 @@ const Sidebar = () => {
       }}
     >
       {Object.keys(organizedLayerData).map((category) => {
+        if(category === "Crown Moldings") return
         if(category === "Base Cabinets" || category === "Wall Cabinets"){
           if(category === "Base Cabinets") return
           return (
@@ -48,7 +49,7 @@ const Sidebar = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                height: 90,
+                height: 110,
                 color: "white",
                 borderRadius: 0,
                 borderBottom: "1px solid #444",

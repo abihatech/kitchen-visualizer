@@ -9,7 +9,7 @@ const organizeLayerData = (layerData, moldingData, mainBackgroundId) => {
   const desiredOrder = [
     "Wall Cabinets",
     "Base Cabinets",
-    "Crown Moldings",
+    // "Crown Moldings",
     "Countertop",
     "Backsplash",
     "Floor",
@@ -71,6 +71,7 @@ export const VisualizerProvider = ({ children }) => {
   const [organizedLayerData, setOrganizedLayerData] = useState({});
   const [appData, setAppData] = useState(null);
   const [appliedLayers, setAppliedLayers] = useState({});
+  console.log('appliedLayers: ', appliedLayers);
 
   const [scale, setScale] = useState(1);
   const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
@@ -175,7 +176,7 @@ export const VisualizerProvider = ({ children }) => {
 
       setAppliedLayers(initialLayers);
     }
-  }, [appData, selectedMainBackground]);
+  }, [appData, selectedMainBackground,screen]);
 
   const spaces = appData
     ? appData.types.map((type) => ({
