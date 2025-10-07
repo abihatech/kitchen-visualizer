@@ -71,7 +71,6 @@ export const VisualizerProvider = ({ children }) => {
   const [organizedLayerData, setOrganizedLayerData] = useState({});
   const [appData, setAppData] = useState(null);
   const [appliedLayers, setAppliedLayers] = useState({});
-  console.log('appliedLayers: ', appliedLayers);
 
   const [scale, setScale] = useState(1);
   const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
