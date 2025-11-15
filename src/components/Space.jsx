@@ -9,7 +9,6 @@ const Space = ({
   handlePrevSpace,
   handleNextSpace,
 }) => {
-  const { appData } = useContext(VisualizerContext);
 
   return (
     <div
@@ -33,14 +32,6 @@ const Space = ({
                     if (space.name === "Kitchen") {
                       setScreen("kitchenShape");
                       setCurrentKitchenShapeIndex(0);
-                    } else {
-                      const defaultBg = appData.mainbackground.find(
-                        (bg) => bg.shape_category_name === space.name
-                      );
-                      setSelectedMainBackground(
-                        defaultBg || appData.mainbackground[0]
-                      );
-                      setScreen("visualizer");
                     }
                   }}
                   className="cursor-pointer group hover:scale-125 transition-transform duration-300"

@@ -4,22 +4,26 @@ import u_shape from "../assets/img/u_shape.png";
 import i_shape from "../assets/img/i_shape.png";
 
 // Helper function to group layer data by cabinet_type_name
-const organizeLayerData = (layerData, moldingData, mainBackgroundId) => {
+const organizeLayerData = (layerData, mainBackgroundId) => {
   const organized = {};
   const desiredOrder = [
     "Wall Cabinets",
     "Base Cabinets",
+    "Island Cabinets",
     // "Crown Moldings",
     "Countertop",
     "Backsplash",
     "Floor",
     "Appliances",
-    "Wall Colors"
+    "Wall Colors",
   ];
 
   // Organize regular layer data
   layerData.forEach((item) => {
-    if (item.main_background_id === mainBackgroundId || mainBackgroundId === null) {
+    if (
+      item.main_background_id === mainBackgroundId &&
+      item?.png_layer_url !== "NA"
+    ) {
       if (!organized[item.cabinet_type_name]) {
         organized[item.cabinet_type_name] = [];
       }
@@ -27,25 +31,18 @@ const organizeLayerData = (layerData, moldingData, mainBackgroundId) => {
     }
   });
 
-  // Add molding data as "Crown Moldings"
-  if (moldingData && moldingData.length > 0) {
-    organized["Crown Moldings"] = moldingData.filter(item =>
-      item.main_background_id === mainBackgroundId || mainBackgroundId === null
-    );
-  }
-
   // Create ordered result
   const orderedResult = {};
 
   // 1. Add categories in desired order
-  desiredOrder.forEach(category => {
+  desiredOrder.forEach((category) => {
     if (organized[category]) {
       orderedResult[category] = organized[category];
     }
   });
 
   // 2. Add any remaining categories that weren't in desiredOrder
-  Object.keys(organized).forEach(category => {
+  Object.keys(organized).forEach((category) => {
     if (!desiredOrder.includes(category) && !orderedResult[category]) {
       orderedResult[category] = organized[category];
     }
@@ -69,7 +66,7 @@ export const VisualizerProvider = ({ children }) => {
 
   const [activeCategory, setActiveCategory] = useState(null);
   const [organizedLayerData, setOrganizedLayerData] = useState({});
-  const [appData, setAppData] = useState(null);
+  const [typesConfiguration, setTypeConfiguration] = useState(null);
   const [appliedLayers, setAppliedLayers] = useState({});
 
   const [scale, setScale] = useState(1);
@@ -90,119 +87,86 @@ export const VisualizerProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("../../data.json");
+        const response = await fetch("../../types.json");
         const jsonData = await response.json();
-        setAppData(jsonData);
+        setTypeConfiguration(jsonData);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching types:", error);
       }
     };
     fetchData();
   }, []);
 
+  const fetchDataJson = async () => {
+    let mainData = [];
+    const mainBgId = selectedMainBackground.id;
+
+    const desingJson =
+      mainBgId === 130 ? "../../kitchen_l_2.json" : "../../kitchen_l_1.json";
+    try {
+      const response = await fetch(desingJson);
+      const jsonData = await response.json();
+      mainData = jsonData.layerdata;
+    } catch (error) {
+      console.error("Error fetching design data:", error);
+    }
+    if (!mainData?.length) return;
+
+    const organized = organizeLayerData(mainData, mainBgId);
+    setOrganizedLayerData(organized);
+
+    const initialLayers = {};
+
+    // Process categories
+    Object.entries(organized).forEach(([categoryName, categoryData]) => {
+      const selectedItem = Array.isArray(categoryData)
+        ? categoryData.find((item) => item.selected === 1)
+        : null;
+
+      if (selectedItem) {
+        initialLayers[categoryName] = {
+          id: selectedItem.id,
+          png_layer_url: selectedItem.png_layer_url,
+          name: selectedItem.texture_name || selectedItem.png_layer_name,
+          texture_url: selectedItem.texture_url || selectedItem.png_layer_url,
+          cabinet_type_name:
+            selectedItem.cabinet_type_name || selectedItem.cabinet_type_name,
+        };
+      }
+    });
+    setAppliedLayers(initialLayers);
+  };
+
   // Organize data and set initial layers when appData or selectedMainBackground changes
   useEffect(() => {
-    if (appData && selectedMainBackground) {
-      const mainBgId = selectedMainBackground.id;
-      const organized = organizeLayerData(
-        appData.layerdata,
-        appData.modlingData,
-        mainBgId
-      );
-      setOrganizedLayerData(organized);
-
-      const initialLayers = {};
-
-      // Process regular categories (not Door Style)
-      Object.entries(organized).forEach(([categoryName, categoryData]) => {
-        if (categoryName !== "Door Style") {
-          const selectedItem = Array.isArray(categoryData)
-            ? categoryData.find(item => item.selected === 1)
-            : null;
-
-          if (selectedItem) {
-            initialLayers[categoryName] = {
-              id: selectedItem.id,
-              png_layer_url: selectedItem.png_layer_url,
-              name: selectedItem.texture_name || selectedItem.png_layer_name,
-              texture_url: selectedItem.texture_url || selectedItem.png_layer_url,
-              cabinet_type_name: selectedItem.cabinet_type_name || selectedItem.cabinet_type_name,
-            };
-          }
-        }
-      });
-
-      // Process Door Style category
-      if (organized["Door Style"]) {
-        // Find selected base cabinet
-        const selectedBaseCabinet = organized["Door Style"]["Base Cabinets"]?.find(
-          item => item.selected === 1
-        );
-
-        // Find selected wall cabinet
-        const selectedWallCabinet = organized["Door Style"]["Wall Cabinets"]?.find(
-          item => item.selected === 1
-        );
-
-        if (selectedBaseCabinet) {
-          initialLayers["Base Cabinets"] = {
-            id: selectedBaseCabinet.id,
-            png_layer_url: selectedBaseCabinet.png_layer_url,
-            name: selectedBaseCabinet.texture_name,
-            texture_url: selectedBaseCabinet.texture_url,
-          };
-        }
-
-        if (selectedWallCabinet) {
-          initialLayers["Wall Cabinets"] = {
-            id: selectedWallCabinet.id,
-            png_layer_url: selectedWallCabinet.png_layer_url,
-            name: selectedWallCabinet.texture_name,
-            texture_url: selectedWallCabinet.texture_url,
-          };
-        }
-
-        // If we have both base and wall cabinets with the same texture name, we can set Door Style
-        if (selectedBaseCabinet && selectedWallCabinet &&
-          selectedBaseCabinet.texture_name === selectedWallCabinet.texture_name) {
-          initialLayers["Door Style"] = {
-            id: selectedBaseCabinet.id, // or some combined ID
-            name: selectedBaseCabinet.texture_name,
-            texture_url: selectedBaseCabinet.texture_url,
-          };
-        }
-      }
-
-      setAppliedLayers(initialLayers);
+    if (selectedMainBackground?.id) {
+      fetchDataJson();
     }
-  }, [appData, selectedMainBackground,screen]);
+  }, [selectedMainBackground]);
 
-  const spaces = appData
-    ? appData.types.map((type) => ({
-      name: type.name,
-      image: type.thumbnail,
-      id: type.id,
-    }))
-    : [];
-  const kitchenShapes = appData
-    ? appData.shapes
-      .filter((shape) => shape.type_category_name === "Kitchen")
-      .map((shape) => ({
-        name: shape.shapes_name,
-        id: shape.id,
-        thumbnail: shape.thumbnail,
-        image:
-          shape.shapes_name === "L-Shape"
-            ? l_shape
-            : shape.shapes_name === "U-Shape"
-              ? u_shape
-              : i_shape,
+  const spaces = typesConfiguration
+    ? typesConfiguration.types.map((type) => ({
+        name: type.name,
+        image: type.thumbnail,
+        id: type.id,
       }))
     : [];
-  const availableItemsData = appData
-    ? appData.mainbackground.filter(
-      (item) => item.shape_category_name === "L-Shape"
-    )
+
+  const kitchenShapes = typesConfiguration
+    ? typesConfiguration.types
+        ?.filter((shape) => shape?.id === 58)?.[0]
+        ?.subitems?.map((shape) => ({
+          ...shape,
+          image:
+            shape.shapes_name === "L-Shape"
+              ? l_shape
+              : shape.shapes_name === "U-Shape"
+                ? u_shape
+                : i_shape,
+        }))
+    : [];
+  const availableItemsData = kitchenShapes?.length
+    ? kitchenShapes?.filter((item) => item.id === 30)?.[0]?.subitems
     : [];
 
   const handleNextSpace = () =>
@@ -227,14 +191,14 @@ export const VisualizerProvider = ({ children }) => {
   };
 
   const showFullCategory = (category) => {
-    setShowCategoryPopup(true)
+    setShowCategoryPopup(true);
     setActiveCategory(category);
   };
 
   const closePopups = (source) => {
-    if (source === 'category') {
+    if (source === "category") {
       setShowCategoryPopup(false);
-    } else if (source === 'selectedItem') {
+    } else if (source === "selectedItem") {
       setShowSelectedItemPopup(false);
       setActiveCategory(null);
       setPopupTriggerSource(null);
@@ -248,17 +212,20 @@ export const VisualizerProvider = ({ children }) => {
   };
 
   const handleSelectItem = (categoryName, item) => {
-    if (categoryName === 'Wall Cabinets') {
-      const crownMolding = organizedLayerData?.['Crown Moldings']?.filter((it) => it?.id === item?.id)?.[0]
+    if (categoryName === "Wall Cabinets") {
+      const crownMolding = organizedLayerData?.["Crown Moldings"]?.filter(
+        (it) => it?.id === item?.id
+      )?.[0];
       setAppliedLayers((prev) => ({
         ...prev,
-        ['Crown Moldings']: {
+        ["Crown Moldings"]: {
           id: crownMolding?.id,
           png_layer_url: crownMolding?.png_layer_url,
           name: crownMolding?.texture_name || crownMolding?.png_layer_name,
           texture_url: crownMolding?.texture_url || crownMolding?.png_layer_url,
-          cabinet_type_name: crownMolding?.cabinet_type_name || crownMolding?.cabinet_type_name,
-        }
+          cabinet_type_name:
+            crownMolding?.cabinet_type_name || crownMolding?.cabinet_type_name,
+        },
       }));
     }
     setAppliedLayers((prev) => ({
@@ -347,6 +314,7 @@ export const VisualizerProvider = ({ children }) => {
   }, [handleMouseMove, handleMouseUp, handleMouseLeave]);
 
   const contextValue = {
+    typesConfiguration,
     screen,
     setScreen,
     currentSpaceIndex,
@@ -362,7 +330,6 @@ export const VisualizerProvider = ({ children }) => {
     popupTriggerSource,
     activeCategory,
     organizedLayerData,
-    appData,
     appliedLayers,
     scale,
     panOffset,

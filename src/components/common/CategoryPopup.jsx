@@ -22,8 +22,7 @@ const CategoryPopup = () => {
     handleSelectItem,
   } = useContext(VisualizerContext);
 
-  const selectedItemForCategoryList =
-    appliedLayers[activeCategory] || appliedLayers["Door Style"];
+  const selectedItemForCategoryList = appliedLayers[activeCategory]
 
   const renderItemGrid = (items) => (
     <Grid
@@ -59,8 +58,7 @@ const CategoryPopup = () => {
                   "rgba(0, 0, 0, 0.2) 0px 1px 5px 0px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px",
                 "&:hover": {
                   boxShadow: "1px 1px 5px 1px #66bb6a",
-                  filter:
-                    "drop-shadow(rgba(35, 255, 90, 1) 0px 0px 3px)",
+                  filter: "drop-shadow(rgba(35, 255, 90, 1) 0px 0px 3px)",
                 },
               }}
             >
@@ -100,7 +98,10 @@ const CategoryPopup = () => {
   let framedItems = [];
   let framelessItems = [];
 
-  if (activeCategory === "Wall Cabinets" || activeCategory === "Base Cabinets") {
+  if (
+    activeCategory === "Wall Cabinets" ||
+    activeCategory === "Base Cabinets"
+  ) {
     framedItems = items.filter(
       (item) =>
         item.png_layer_url?.includes("framed") ||
@@ -143,25 +144,44 @@ const CategoryPopup = () => {
         </IconButton>
       </Box>
 
-      <Box sx={{ height: "100%", maxHeight: "72vh", overflowY: "scroll", px: 4, pt: 4 }}>
-        {activeCategory === "Wall Cabinets" || activeCategory === "Base Cabinets" ? (
+      <Box
+        sx={{
+          height: "100%",
+          maxHeight: "72vh",
+          overflowY: "scroll",
+          px: 4,
+          pt: 4,
+        }}
+      >
+        {activeCategory === "Wall Cabinets" ||
+        activeCategory === "Base Cabinets" ? (
           <>
             <Accordion sx={{ backgroundColor: "transparent" }}>
-              <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}>
-                <Typography sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+              >
+                <Typography
+                  sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}
+                >
                   Framed
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>{renderItemGrid(framedItems)}</AccordionDetails>
             </Accordion>
 
-            <Accordion  sx={{ backgroundColor: "transparent", mt: 2 }}>
-              <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}>
-                <Typography sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}>
+            <Accordion sx={{ backgroundColor: "transparent", mt: 2 }}>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+              >
+                <Typography
+                  sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}
+                >
                   Frameless
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>{renderItemGrid(framelessItems)}</AccordionDetails>
+              <AccordionDetails>
+                {renderItemGrid(framelessItems)}
+              </AccordionDetails>
             </Accordion>
           </>
         ) : (

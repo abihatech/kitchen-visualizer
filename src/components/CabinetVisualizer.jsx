@@ -24,9 +24,10 @@ const CabinetVisualizer = () => {
     handleNextKitchenShape,
     handlePrevKitchenShape,
     availableItemIndex,
+    typesConfiguration
   } = useContext(VisualizerContext);
 
-  if (!appData) {
+  if (!typesConfiguration) {
     return (
       <div className="flex items-center justify-center w-full h-screen bg-gray-900 text-white">
         Loading application data...
@@ -63,17 +64,17 @@ const CabinetVisualizer = () => {
 
       case "kitchenShape":
         let displayedKitchenShapes = [];
-        if (kitchenShapes.length > 0) {
+        if (kitchenShapes?.length > 0) {
           let endIndex = currentKitchenShapeIndex + 3;
-          if (endIndex <= kitchenShapes.length) {
-            displayedKitchenShapes = kitchenShapes.slice(
+          if (endIndex <= kitchenShapes?.length) {
+            displayedKitchenShapes = kitchenShapes?.slice(
               currentKitchenShapeIndex,
               endIndex
             );
           } else {
             displayedKitchenShapes = kitchenShapes
-              .slice(currentKitchenShapeIndex)
-              .concat(kitchenShapes.slice(0, endIndex - kitchenShapes.length));
+              ?.slice(currentKitchenShapeIndex)
+              ?.concat(kitchenShapes?.slice(0, endIndex - kitchenShapes?.length));
           }
         }
         return (
@@ -88,20 +89,20 @@ const CabinetVisualizer = () => {
 
       case "availableItems":
         let availableItems = [];
-        if (availableItemsData.length > 0) {
+        if (availableItemsData?.length > 0) {
           let endIndex = availableItemIndex + 3;
-          if (endIndex <= availableItemsData.length) {
-            availableItems = availableItemsData.slice(
+          if (endIndex <= availableItemsData?.length) {
+            availableItems = availableItemsData?.slice(
               availableItemIndex,
               endIndex
             );
           } else {
             availableItems = availableItemsData
-              .slice(availableItemIndex)
-              .concat(
-                availableItemsData.slice(
+              ?.slice(availableItemIndex)
+              ?.concat(
+                availableItemsData?.slice(
                   0,
-                  endIndex - availableItemsData.length
+                  endIndex - availableItemsData?.length
                 )
               );
           }
