@@ -22,7 +22,7 @@ const CategoryPopup = () => {
     handleSelectItem,
   } = useContext(VisualizerContext);
 
-  const selectedItemForCategoryList = appliedLayers[activeCategory]
+  const selectedItemForCategoryList = appliedLayers[activeCategory];
 
   const renderItemGrid = (items) => (
     <Grid
@@ -100,7 +100,8 @@ const CategoryPopup = () => {
 
   if (
     activeCategory === "Wall Cabinets" ||
-    activeCategory === "Base Cabinets"
+    activeCategory === "Base Cabinets" ||
+    activeCategory === "Island Cabinets"
   ) {
     framedItems = items.filter(
       (item) =>
@@ -154,7 +155,8 @@ const CategoryPopup = () => {
         }}
       >
         {activeCategory === "Wall Cabinets" ||
-        activeCategory === "Base Cabinets" ? (
+        activeCategory === "Base Cabinets" ||
+        activeCategory === "Island Cabinets" ? (
           <>
             <Accordion sx={{ backgroundColor: "transparent" }}>
               <AccordionSummary
