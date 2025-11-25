@@ -15,7 +15,7 @@ const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitc
                     <h2 className="text-2xl md:text-3xl font-light mb-12">SELECT PREFERRED KITCHEN DESIGN?</h2>
 
                     <div className="relative">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8 px-12 ">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-8 px-32 ">
                             {availableItems.map((item, index) => (
                                 <div
                                     key={index}

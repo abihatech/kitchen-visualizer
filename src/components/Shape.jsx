@@ -25,6 +25,7 @@ const Shape = ({
                 <div
                   key={index}
                   onClick={() => {
+                    if(!shape?.subitems?.length)return;
                     setSelectedKitchenShapeId(shape.id);
                     setScreen("availableItems");
                   }}
