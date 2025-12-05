@@ -2887,6 +2887,19 @@
       "main_background_id": 130
     },
     {
+      "id": 2957,
+      "transitions": "[]",
+      "selected": 0,
+      "texture_name": "White Tile",
+      "cabinet_type_name": "Floor",
+      "parent_category_id": -1,
+      "png_layer_url": "NA",
+      "png_layer_name": "white_tile_floor.png",
+      "texture_url": "/assets/popup_imgs/floor/white_tile_floor.jpg",
+      "sort_order": 107,
+      "main_background_id": 130
+    },
+    {
       "id": 3065,
       "transitions": "[]",
       "selected": 0,
@@ -3086,7 +3099,7 @@
       "transitions": "[]",
       "selected": 0,
       "texture_name": "Kb Shaker White",
-      "cabinet_type_name": "Wall Cabinets",
+      "cabinet_type_name": "Crown Moldings",
       "parent_category_id": -1,
       "png_layer_url": "/assets/space/kitchen/l_shape/l_2/crown_molding/kb_shaker_white_framed_main.png",
       "png_layer_name": "kb_shaker_white_framed",

@@ -69,7 +69,7 @@ const ImageSetter = () => {
                   width: "100%",
                   height: "100%",
                   objectFit: "inherit",
-                  zIndex: ["Wall Cabinets", "Crown Moldings"]?.includes(
+                  zIndex: ["Wall Cabinets", "Crown Moldings",selectedMainBackground?.id === 130 && "Backsplash"]?.includes(
                     layer.cabinet_type_name
                   )
                     ? 1
