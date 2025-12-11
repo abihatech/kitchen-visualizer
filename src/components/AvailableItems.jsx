@@ -3,6 +3,7 @@ import { VisualizerContext } from "../context/VisualizerContext";
 import { useContext } from "react";
 
 const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitchenShape, setScreen }) => {
+    console.log('availableItems: ', availableItems);
     const { setSelectedMainBackground,selectedMainBackground } = useContext(VisualizerContext);
     
     return (
@@ -72,7 +73,7 @@ const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitc
                         </button>
                     </div>
                     <div className="flex justify-center mt-8">
-                        <button className="p-1 md:p-2 rounded-full border-2  transition-colors duration-200" onClick={() => setScreen('spaceType')}>
+                        <button className="p-1 md:p-2 rounded-full border-2  transition-colors duration-200" onClick={() => setScreen('kitchenShape')}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6 md:h-8 md:w-8 text-white"
