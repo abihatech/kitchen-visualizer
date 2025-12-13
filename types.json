@@ -9,7 +9,6 @@
           "id": 30,
           "shapes_name": "L-Shape",
           "type_category_name": "Kitchen",
-          "type_category_id": 58,
           "thumbnail": "/assets/space/kitchen/l_shape/l_shape.png",
           "subitems": [
             {
@@ -18,7 +17,6 @@
               "thumbnail": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island.webp",
               "thumbnailsm": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island.png",
               "shape_category_name": "L-Shape",
-              "shape_category_id": 30,
               "hotpots": [
                 { "top": "40%", "left": "20%", "category": "Wall Cabinets" },
                 { "top": "70%", "left": "38%", "category": "Base Cabinets" },
@@ -35,7 +33,6 @@
               "thumbnail": "/assets/space/kitchen/l_shape/l_2/kitchen_lshape_island.webp",
               "thumbnailsm": "/assets/space/kitchen/l_shape/l_2/kitchen_lshape_island.png",
               "shape_category_name": "L-Shape",
-              "shape_category_id": 30,
               "hotpots": [
                 { "top": "30%", "left": "20%", "category": "Wall Cabinets" },
                 { "top": "68%", "left": "68%", "category": "Base Cabinets" },
@@ -53,7 +50,6 @@
           "id": 31,
           "shapes_name": "U-Shape",
           "type_category_name": "Kitchen",
-          "type_category_id": 58,
           "thumbnail": "/assets/space/kitchen/u_shape/u_shape.png",
           "subitems": [
             {
@@ -62,7 +58,6 @@
               "thumbnail": "/assets/space/kitchen/u_shape/island/kitchen_ushape_island.webp",
               "thumbnailsm": "/assets/space/kitchen/u_shape/island/kitchen_ushape_island.png",
               "shape_category_name": "U-Shape",
-              "shape_category_id": 30,
               "hotpots": [
                 { "top": "40%", "left": "72%", "category": "Wall Cabinets" },
                 { "top": "66%", "left": "75%", "category": "Base Cabinets" },
@@ -80,7 +75,6 @@
               "thumbnail": "/assets/space/kitchen/u_shape/no_island/kitchen_ushape_no_island.webp",
               "thumbnailsm": "/assets/space/kitchen/u_shape/no_island/kitchen_ushape_no_island.png",
               "shape_category_name": "U-Shape",
-              "shape_category_id": 30,
               "hotpots": [
                 { "top": "19%", "left": "20%", "category": "Wall Cabinets" },
                 { "top": "72%", "left": "36%", "category": "Base Cabinets" },
@@ -97,7 +91,6 @@
           "id": 32,
           "shapes_name": "I-Shape",
           "type_category_name": "Kitchen",
-          "type_category_id": 58,
           "thumbnail": "/assets/space/kitchen/i_shape/i_shape.png"
         }
       ]
@@ -105,38 +98,32 @@
     {
       "id": 63,
       "name": "Bathroom",
-      "thumbnail": "/assets/img/bathroom.png",
-      "catalog_name": "paramount"
+      "thumbnail": "/assets/img/bathroom.png"
     },
     {
       "id": 62,
       "name": "Bar Room",
-      "thumbnail": "/assets/img/barroom.png",
-      "catalog_name": "paramount"
+      "thumbnail": "/assets/img/barroom.png"
     },
     {
       "id": 64,
       "name": "Laundry",
-      "thumbnail": "/assets/img/laundry_room.png",
-      "catalog_name": "paramount"
+      "thumbnail": "/assets/img/laundry_room.png"
     },
     {
       "id": 65,
       "name": "Office",
-      "thumbnail": "/assets/img/office_room.png",
-      "catalog_name": "paramount"
+      "thumbnail": "/assets/img/office_room.png"
     },
     {
       "id": 66,
       "name": "Media Room",
-      "thumbnail": "/assets/img/media_room.png",
-      "catalog_name": "paramount"
+      "thumbnail": "/assets/img/media_room.png"
     },
     {
       "id": 67,
       "name": "Mud Room",
-      "thumbnail": "/assets/img/mud_room.png",
-      "catalog_name": "paramount"
+      "thumbnail": "/assets/img/mud_room.png"
     }
   ],
 
