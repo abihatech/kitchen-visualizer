@@ -1,6 +1,6 @@
 import { VisualizerContext } from "../../context/VisualizerContext";
 import { useContext } from "react";
-import { Box, IconButton } from "@mui/material";
+import { Box, IconButton, Tooltip } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
@@ -69,9 +69,11 @@ const ImageSetter = () => {
                   width: "100%",
                   height: "100%",
                   objectFit: "inherit",
-                  zIndex: ["Wall Cabinets", "Crown Moldings",selectedMainBackground?.id === 130 && "Backsplash"]?.includes(
-                    layer.cabinet_type_name
-                  )
+                  zIndex: [
+                    "Wall Cabinets",
+                    "Crown Moldings",
+                    selectedMainBackground?.id === 130 && "Backsplash",
+                  ]?.includes(layer.cabinet_type_name)
                     ? 1
                     : 0,
                 }}
@@ -80,38 +82,65 @@ const ImageSetter = () => {
         )}
         {!isPreviewMode &&
           selectedMainBackground?.hotpots?.map((hotspot, index) => (
-            <IconButton
-              key={index}
-              onClick={() => openPopup(hotspot.category, "hotspot")}
-              sx={{
-                position: "absolute",
-                top: hotspot.top,
-                left: hotspot.left,
-                bgcolor: "rgba(0,0,0,0.6)",
-                border: "1px solid white",
-                color: "white",
-                transform: `scale(${1 / scale})`,
-                transformOrigin: "center center",
-                padding: 1,
-                zIndex: 2,
-                "&:hover": { bgcolor: "rgba(0,0,0,0.8)" },
+            <Tooltip
+              slotProps={{
+                tooltip: {
+                  sx: {
+                    backgroundColor: "rgba(0,0,0,0.8)",
+                    color: "white",
+                    fontWeight: "bold",
+                  },
+                },
+                arrow: {
+                  sx: {
+                    color: "rgba(0,0,0,0.8)",
+                  },
+                },
               }}
+              key={index}
+              title={hotspot.category}
+              placement="top"
+              arrow
             >
-              <div>
-                <Icon
-                  icon="ph:plus-fill"
-                  height={14}
-                  style={{ position: "absolute", top: 2, right: 2,padding:2}}
-                />
-                <Icon
-                  icon={
-                    CATEGORIES[hotspot.category.toUpperCase().replace(" ", "_")]
-                      ?.icon || "ix:tiles-filled"
-                  }
-                  height={18}
-                />
-              </div>
-            </IconButton>
+              <IconButton
+                key={index}
+                onClick={() => openPopup(hotspot.category, "hotspot")}
+                sx={{
+                  position: "absolute",
+                  top: hotspot.top,
+                  left: hotspot.left,
+                  bgcolor: "rgba(0,0,0,0.6)",
+                  border: "1px solid white",
+                  color: "white",
+                  transform: `scale(${1 / scale})`,
+                  transformOrigin: "center center",
+                  padding: 1,
+                  zIndex: 2,
+                  "&:hover": { bgcolor: "rgba(0,0,0,0.8)" },
+                }}
+              >
+                <div>
+                  <Icon
+                    icon="ph:plus-fill"
+                    height={14}
+                    style={{
+                      position: "absolute",
+                      top: 2,
+                      right: 2,
+                      padding: 2,
+                    }}
+                  />
+                  <Icon
+                    icon={
+                      CATEGORIES[
+                        hotspot.category.toUpperCase().replace(" ", "_")
+                      ]?.icon || "ix:tiles-filled"
+                    }
+                    height={18}
+                  />
+                </div>
+              </IconButton>
+            </Tooltip>
           ))}
       </Box>
     </Box>

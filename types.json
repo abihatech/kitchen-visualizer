@@ -91,7 +91,26 @@
           "id": 32,
           "shapes_name": "I-Shape",
           "type_category_name": "Kitchen",
-          "thumbnail": "/assets/space/kitchen/i_shape/i_shape.png"
+          "thumbnail": "/assets/space/kitchen/i_shape/i_shape.png",
+          "subitems": [
+            {
+              "id": 321,
+              "main_background_name": "02 Kitchen I Island",
+              "thumbnail": "/assets/space/kitchen/i_shape/island/kitchen_ishape_island.webp",
+              "thumbnailsm": "/assets/space/kitchen/i_shape/island/I_shape_selection.webp",
+              "shape_category_name": "I-Shape",
+              "hotpots": [
+                { "top": "32%", "left": "72%", "category": "Wall Cabinets" },
+                { "top": "69%", "left": "53%", "category": "Island Cabinets" },
+                { "top": "59%", "left": "33%", "category": "Base Cabinets" },
+                { "top": "62%", "left": "26%", "category": "Countertop" },
+                { "top": "84%", "left": "10%", "category": "Floor" },
+                { "top": "45%", "left": "25%", "category": "Appliances" },
+                { "top": "45%", "left": "52%", "category": "Backsplash" },
+                { "top": "25%", "left": "7%", "category": "Wall Colors" }
+              ]
+            }
+          ]
         }
       ]
     },
