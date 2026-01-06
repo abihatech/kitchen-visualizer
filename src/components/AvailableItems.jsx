@@ -16,7 +16,7 @@ const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitc
                     <h2 className="text-2xl md:text-3xl font-light mb-12">SELECT PREFERRED KITCHEN DESIGN?</h2>
 
                     <div className="relative">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-8 px-32 ">
+                        <div className="flex justify-center gap-8 md:gap-12 px-12 py-4">
                             {availableItems.map((item, index) => (
                                 <div
                                     key={index}
@@ -30,7 +30,7 @@ const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitc
                                         <img
                                             src={item.thumbnailsm}
                                             alt={item.name}
-                                            className="w-full h-32 object-cover"
+                                            className="w-50 h-32 object-cover"
                                         />
                                     </div>
                                     <h3 className="text-white text-lg font-medium group-hover:text-gray-300 transition-colors">

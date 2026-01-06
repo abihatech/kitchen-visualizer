@@ -90,7 +90,7 @@ const CabinetVisualizer = () => {
       case "availableItems":
         let availableItems = [];
         if (availableItemsData?.length > 0) {
-          let endIndex = availableItemIndex + 2;
+          let endIndex = availableItemIndex + availableItemsData?.length;
           if (endIndex <= availableItemsData?.length) {
             availableItems = availableItemsData?.slice(
               availableItemIndex,

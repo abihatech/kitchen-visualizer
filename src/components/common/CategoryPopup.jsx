@@ -63,10 +63,8 @@ const CategoryPopup = () => {
               }}
             >
               <Box
-                // width={85}
                 height={150}
                 maxWidth={80}
-                // minwidth={90}
                 component="img"
                 src={img}
                 alt={img}
@@ -123,6 +121,7 @@ const CategoryPopup = () => {
         maxWidth: 900,
         height: "80vh",
         backdropFilter: "blur(5px)",
+        // transform: "translate(55%,1%)",
       }}
     >
       <Box

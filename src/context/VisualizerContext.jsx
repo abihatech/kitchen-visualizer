@@ -131,6 +131,9 @@ export const VisualizerProvider = ({ children }) => {
       case 312:
         desingJson = "../../kitchen_u_no_island.json";
         break;
+      case 321:
+        desingJson = "../../kitchen_i_island.json";
+        break;
       default:
         desingJson = "../../kitchen_l_1.json";
         break;
