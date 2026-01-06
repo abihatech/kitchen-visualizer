@@ -33,7 +33,7 @@ const Shape = ({
                 >
                   <div className="bg-white p-2 mb-3 hover:shadow-lg transition-shadow">
                     <img
-                      src={shape.image}
+                      src={shape.thumbnail}
                       alt={shape.name}
                       className="w-full h-32 object-cover"
                     />

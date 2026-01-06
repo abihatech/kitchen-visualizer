@@ -25,7 +25,7 @@ const Space = ({
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-8 px-8">
               {spaces.map((space, index) => {
-                const img = space.image
+                const img = space.thumbnail
                 return (<div
                   key={index}
                   onClick={() => {

@@ -92,23 +92,23 @@ const ImageSetter = () => {
                 color: "white",
                 transform: `scale(${1 / scale})`,
                 transformOrigin: "center center",
-                padding: 1.3,
+                padding: 1,
                 zIndex: 2,
                 "&:hover": { bgcolor: "rgba(0,0,0,0.8)" },
               }}
             >
               <div>
                 <Icon
-                  icon="gridicons:add"
-                  height={12}
-                  style={{ position: "absolute", top: 5, right: 6,padding:0.5 }}
+                  icon="ph:plus-fill"
+                  height={14}
+                  style={{ position: "absolute", top: 2, right: 2,padding:2}}
                 />
                 <Icon
                   icon={
                     CATEGORIES[hotspot.category.toUpperCase().replace(" ", "_")]
                       ?.icon || "ix:tiles-filled"
                   }
-                  height={16}
+                  height={18}
                 />
               </div>
             </IconButton>
