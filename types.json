@@ -1,0 +1,153 @@
+{
+  "types": [
+    {
+      "id": 58,
+      "name": "Kitchen",
+      "thumbnail": "/assets/img/kitchen.png",
+      "guid": "202304062038",
+      "sort_order": 8,
+      "isdirect": 0,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025",
+      "subitems": [
+        {
+          "id": 30,
+          "shapes_name": "L-Shape",
+          "type_category_name": "Kitchen",
+          "type_category_id": 58,
+          "thumbnail": "/assets/img/l_shape.png",
+          "guid": "202304061608",
+          "sort_order": 1,
+          "subitems": [
+            {
+              "id": 123,
+              "main_background_name": "02 Kitchen L No Island",
+              "thumbnail": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island.webp",
+              "thumbnailsm": "/assets/img/kitchen.png",
+              "guid": "202304195901",
+              "sort_order": 0,
+              "shape_category_name": "L-Shape",
+              "shape_category_id": 30,
+              "hotpots": [
+                { "top": "40%", "left": "20%", "category": "Wall Cabinets" },
+                { "top": "70%", "left": "38%", "category": "Base Cabinets" },
+                { "top": "60%", "left": "70%", "category": "Countertop" },
+                { "top": "90%", "left": "60%", "category": "Floor" },
+                { "top": "45%", "left": "87%", "category": "Appliances" },
+                { "top": "50%", "left": "63%", "category": "Backsplash" },
+                { "top": "23%", "left": "45%", "category": "Wall Colors" }
+              ]
+            },
+            {
+              "id": 130,
+              "main_background_name": "03 Kitchen L Island",
+              "thumbnail": "/assets/space/kitchen/l_shape/l_2/image.webp",
+              "thumbnailsm": "/assets/img/kitchen_island.png",
+              "guid": "202304261543",
+              "sort_order": 0,
+              "shape_category_name": "L-Shape",
+              "shape_category_id": 30,
+              "hotpots": [
+                { "top": "30%", "left": "20%", "category": "Wall Cabinets" },
+                { "top": "68%", "left": "68%", "category": "Base Cabinets" },
+                { "top": "73%", "left": "57%", "category": "Island Cabinets" },
+                { "top": "61%", "left": "30%", "category": "Countertop" },
+                { "top": "90%", "left": "66%", "category": "Floor" },
+                { "top": "50%", "left": "20%", "category": "Appliances" },
+                { "top": "50%", "left": "63%", "category": "Backsplash" },
+                { "top": "15%", "left": "30%", "category": "Wall Colors" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "shapes_name": "U-Shape",
+          "type_category_name": "Kitchen",
+          "type_category_id": 58,
+          "thumbnail": "/assets/img/u_shape.png",
+          "guid": "202304061630",
+          "sort_order": 2
+        },
+        {
+          "id": 32,
+          "shapes_name": "I-Shape",
+          "type_category_name": "Kitchen",
+          "type_category_id": 58,
+          "thumbnail": "/assets/img/l_shape.png",
+          "guid": "202304061653",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Bathroom",
+      "thumbnail": "/assets/img/bathroom.png",
+      "guid": "202304260110",
+      "sort_order": 8,
+      "isdirect": 126,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025"
+    },
+    {
+      "id": 62,
+      "name": "Bar Room",
+      "thumbnail": "/assets/img/barroom.png",
+      "guid": "202304261302",
+      "sort_order": 9,
+      "isdirect": 125,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025"
+    },
+    {
+      "id": 64,
+      "name": "Laundry",
+      "thumbnail": "/assets/img/laundry_room.png",
+      "guid": "202304261034",
+      "sort_order": 15,
+      "isdirect": 127,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025"
+    },
+    {
+      "id": 65,
+      "name": "Office",
+      "thumbnail": "/assets/img/office_room.png",
+      "guid": "202304261051",
+      "sort_order": 16,
+      "isdirect": 128,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025"
+    },
+    {
+      "id": 66,
+      "name": "Media Room",
+      "thumbnail": "/assets/img/media_room.png",
+      "guid": "202304261111",
+      "sort_order": 17,
+      "isdirect": 129,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025"
+    },
+    {
+      "id": 67,
+      "name": "Mud Room",
+      "thumbnail": "/assets/img/mud_room.png",
+      "guid": "202304261111",
+      "sort_order": 17,
+      "isdirect": 129,
+      "is360": 0,
+      "catalog_id": 2,
+      "catalog_name": "TheRTAStore2025"
+    }
+  ],
+
+  "total": 7
+}

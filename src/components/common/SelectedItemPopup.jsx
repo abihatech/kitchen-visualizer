@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 
-const SelectedItemPopup = ({ category, item, onSelectStyle, isWallCabinet }) => {
+const SelectedItemPopup = ({ category, item, onSelectStyle }) => {
     if (!item) return null;
     return (
         <Box sx={{
@@ -15,7 +15,7 @@ const SelectedItemPopup = ({ category, item, onSelectStyle, isWallCabinet }) => 
             padding: "10px 20px"
         }}>
             <Typography variant="body2" component="h4" sx={{ textTransform: 'uppercase', fontWeight: 'semibold', mb: 1, alignSelf: 'center', fontSize: "14px" }}>
-                {isWallCabinet ? 'Wall Cabinets' : category}
+                {category}
             </Typography>
             <Button
                 fullWidth

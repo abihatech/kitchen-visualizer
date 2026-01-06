@@ -3,7 +3,8 @@ import { VisualizerContext } from "../context/VisualizerContext";
 import { useContext } from "react";
 
 const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitchenShape, setScreen }) => {
-    const { appData, setSelectedMainBackground } = useContext(VisualizerContext);
+    const { setSelectedMainBackground,selectedMainBackground } = useContext(VisualizerContext);
+    
     return (
         <div className="min-h-screen bg-cover bg-center bg-no-repeat relative"
             style={{ backgroundImage: `url(${bgImg})` }}>
@@ -14,14 +15,12 @@ const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitc
                     <h2 className="text-2xl md:text-3xl font-light mb-12">SELECT PREFERRED KITCHEN DESIGN?</h2>
 
                     <div className="relative">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8 px-12 ">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-8 px-32 ">
                             {availableItems.map((item, index) => (
                                 <div
                                     key={index}
                                     onClick={() => {
-                                        // const mainBg = appData.mainbackground.find(bg => bg.id === item.id);
-                                        // setSelectedMainBackground(mainBg || appData.mainbackground[0]); // Fallback if no specific background
-                                        setSelectedMainBackground(appData.mainbackground[0]); // For now only first data we have
+                                        setSelectedMainBackground(item); // For now only first data we have
                                         setScreen('visualizer');
                                     }}
                                     className="cursor-pointer group hover:scale-125 transition-transform duration-300"
