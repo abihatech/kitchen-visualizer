@@ -1061,16 +1061,6 @@
       "main_background_id": 311
     },
     {
-      "id": 6023,
-      "selected": 0,
-      "texture_name": "Pc Atlas Blanco",
-      "cabinet_type_name": "Base Cabinets",
-      "png_layer_url": "NA",
-      "png_layer_name": "pc_atlas_blanco_framed",
-      "texture_url": "/assets/popup_imgs/door/framed/pc_atlas_blanco_framed.jpg",
-      "main_background_id": 311
-    },
-    {
       "id": 6025,
       "selected": 0,
       "texture_name": "Pc Avalon Ashen",
@@ -1695,7 +1685,7 @@
     "selected": 0,
     "texture_name": "Pc Carbon Frozen Wood Textured",
     "cabinet_type_name": "Base Cabinets",
-    "png_layer_url": "/assets/space/kitchen/u_shape/l_2/cabinet/base/frameless/pc_carbon_frozen_wood_textured_frameless_main.png",
+    "png_layer_url": "NA",
     "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
     "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
     "main_background_id": 311
