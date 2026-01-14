@@ -1085,7 +1085,7 @@
       "selected": 0,
       "texture_name": "Pc Charleston Driftwood",
       "cabinet_type_name": "Base Cabinets",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_charleston_driftwood_framed_main.png",
       "png_layer_name": "pc_charleston_driftwood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_charleston_driftwood_framed.jpg",
       "main_background_id": 311
@@ -3355,7 +3355,7 @@
       "selected": 0,
       "texture_name": "Tile - Classic Blue",
       "cabinet_type_name": "Backsplash",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_blue_main.webp",
       "png_layer_name": "tile_classic_blue_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_blue.jpg",
       "main_background_id": 311
@@ -3365,7 +3365,7 @@
       "selected": 0,
       "texture_name": "Tile - Classic Herringbone",
       "cabinet_type_name": "Backsplash",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_herringbone_main.webp",
       "png_layer_name": "tile_classic_herringbone_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_herringbone.jpg",
       "main_background_id": 311
@@ -3375,7 +3375,7 @@
       "selected": 0,
       "texture_name": "Tile - Classic White",
       "cabinet_type_name": "Backsplash",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_white_main.webp",
       "png_layer_name": "tile_classic_white_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_white.jpg",
       "main_background_id": 311
@@ -3530,6 +3530,16 @@
       "texture_url": "/assets/popup_imgs/floor/warm_chestnut_floor.jpg",
       "main_background_id": 311
     },
+     {
+      "id": 2956,
+      "selected": 0,
+      "texture_name": "White Tile",
+      "cabinet_type_name": "Floor",
+      "png_layer_url": "NA",
+       "png_layer_name": "white_tile_floor.png",
+      "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
+      "main_background_id": 311
+    },    
     {
       "id": 2916,
       "selected": 1,
