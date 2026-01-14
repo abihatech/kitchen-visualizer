@@ -2525,7 +2525,7 @@
       "selected": 0,
       "texture_name": "Tile - Classic Blue",
       "cabinet_type_name": "Backsplash",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/no_island/backsplash/tile_classic_blue_main.webp",
       "png_layer_name": "tile_classic_blue_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_blue.jpg",
       "main_background_id": 312
@@ -2535,7 +2535,7 @@
       "selected": 0,
       "texture_name": "Tile - Classic Herringbone",
       "cabinet_type_name": "Backsplash",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/no_island/backsplash/tile_classic_herringbone_main.webp",
       "png_layer_name": "tile_classic_herringbone_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_herringbone.jpg",
       "main_background_id": 312
@@ -2545,7 +2545,7 @@
       "selected": 0,
       "texture_name": "Tile - Classic White",
       "cabinet_type_name": "Backsplash",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/no_island/backsplash/tile_classic_white_main.webp",
       "png_layer_name": "tile_classic_white_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_white.jpg",
       "main_background_id": 312
@@ -2698,6 +2698,16 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/no_island/floor/warm_chestnut_floor_main.jpg",
       "png_layer_name": "warm_chestnut_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/warm_chestnut_floor.jpg",
+      "main_background_id": 312
+    },
+     {
+      "id": 2956,
+      "selected": 0,
+      "texture_name": "White Tile",
+      "cabinet_type_name": "Floor",
+      "png_layer_url": "/assets/space/kitchen/u_shape/no_island/floor/white_tile_floor_main.jpg",
+       "png_layer_name": "white_tile_floor.png",
+      "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
       "main_background_id": 312
     },
     {
