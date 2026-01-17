@@ -3535,7 +3535,7 @@
       "selected": 0,
       "texture_name": "White Tile",
       "cabinet_type_name": "Floor",
-      "png_layer_url": "NA",
+      "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/white_tile_floor_main.png",
        "png_layer_name": "white_tile_floor.png",
       "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
       "main_background_id": 311
