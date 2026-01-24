@@ -17,7 +17,9 @@ const organizeLayerData = (layerData, mainBackgroundId) => {
 
   // Organize regular layer data
   layerData.forEach((item) => {
-    const isAvilable =  item.main_background_id === mainBackgroundId && item?.png_layer_url !== "NA"
+    const isAvilable =
+      item.main_background_id === mainBackgroundId &&
+      item?.png_layer_url !== "NA";
     if (isAvilable) {
       if (!organized[item.cabinet_type_name]) {
         organized[item.cabinet_type_name] = [];
@@ -46,25 +48,6 @@ const organizeLayerData = (layerData, mainBackgroundId) => {
   return orderedResult;
 };
 
-
-// function sortByCabinetTypeOrder(data, orderList) {
-//   const orderMap = new Map(orderList.map((name, index) => [name, index]));
-
-//   const sortedData = data.sort((a, b) => {
-//     const aIndex = orderMap.get(a.cabinet_type_name) ?? Number.MAX_SAFE_INTEGER;
-//     const bIndex = orderMap.get(b.cabinet_type_name) ?? Number.MAX_SAFE_INTEGER;
-//     return aIndex - bIndex;
-//   });
-
-//   const newData =  sortedData?.filter((item) => item?.cabinet_type_name === "Base Cabinets")?.map((item) => {
-//     return {
-//       ...item,
-//       png_layer_url:item?.png_layer_url?.replace("/assets/space/kitchen/l_shape/l_2/", "/assets/space/kitchen/u_shape/island/")    }
-//   });
-//   return newData
-//   return sortedData;
-// }
-
 export const VisualizerContext = createContext();
 
 export const VisualizerProvider = ({ children }) => {
@@ -80,8 +63,6 @@ export const VisualizerProvider = ({ children }) => {
 
   const [activeCategory, setActiveCategory] = useState(null);
   const [organizedLayerData, setOrganizedLayerData] = useState({});
-  // ["Kb Shaker Gray","Kb Westhighland White","Kb Shaker White","Pc Arlington Oatmeal","Rc Classic Chocolate","Rc Shaker Origami White","Rc Shaker Pebble Grey","Sl Ashton Green","Sl Slim Dove White","Sl Smokey Ash","Sw In The Navy"]
-  // console.log('organizedLayerData: ', organizedLayerData,JSON.stringify(organizedLayerData));
   const [typesConfiguration, setTypeConfiguration] = useState(null);
   const [appliedLayers, setAppliedLayers] = useState({});
 
@@ -117,7 +98,7 @@ export const VisualizerProvider = ({ children }) => {
     let mainData = [];
     const mainBgId = selectedMainBackground.id;
 
-    let desingJson 
+    let desingJson;
     switch (mainBgId) {
       case 123:
         desingJson = "../../kitchen_l_1.json";
@@ -142,20 +123,6 @@ export const VisualizerProvider = ({ children }) => {
       const response = await fetch(desingJson);
       const jsonData = await response.json();
       mainData = jsonData.layerdata;
-      const cabinet_type_name_order = [
-  "Wall Cabinets",
-  "Base Cabinets",
-  "Island Cabinets",
-  "Crown Moldings",
-  "Countertop",
-  "Backsplash",
-  "Floor",
-  "Appliances",
-  "Wall Colors",
-];
-
-// const sortedData = sortByCabinetTypeOrder(jsonData.layerdata, cabinet_type_name_order);
-// console.log(JSON.stringify(sortedData));
     } catch (error) {
       console.error("Error fetching design data:", error);
     }
@@ -193,17 +160,15 @@ export const VisualizerProvider = ({ children }) => {
     }
   }, [selectedMainBackground]);
 
-  const spaces = typesConfiguration
-    ? typesConfiguration.types
-    : [];
+  const spaces = typesConfiguration ? typesConfiguration.types : [];
 
   const kitchenShapes = typesConfiguration
-    ? typesConfiguration.types
-        ?.filter((shape) => shape?.id === 58)?.[0]
+    ? typesConfiguration.types?.filter((shape) => shape?.id === 58)?.[0]
         ?.subitems
     : [];
   const availableItemsData = kitchenShapes?.length
-    ? kitchenShapes?.filter((item) => item.id === selectedKitchenShapeId)?.[0]?.subitems
+    ? kitchenShapes?.filter((item) => item.id === selectedKitchenShapeId)?.[0]
+        ?.subitems
     : [];
 
   const handleNextSpace = () =>
@@ -214,7 +179,7 @@ export const VisualizerProvider = ({ children }) => {
     setCurrentKitchenShapeIndex((prev) => (prev + 1) % kitchenShapes.length);
   const handlePrevKitchenShape = () =>
     setCurrentKitchenShapeIndex(
-      (prev) => (prev - 1 + kitchenShapes.length) % kitchenShapes.length
+      (prev) => (prev - 1 + kitchenShapes.length) % kitchenShapes.length,
     );
 
   const openPopup = (categoryName, source) => {
@@ -251,7 +216,7 @@ export const VisualizerProvider = ({ children }) => {
   const handleSelectItem = (categoryName, item) => {
     if (categoryName === "Wall Cabinets") {
       const crownMolding = organizedLayerData?.["Crown Moldings"]?.filter(
-        (it) => it?.id === item?.id
+        (it) => it?.id === item?.id,
       )?.[0];
       setAppliedLayers((prev) => ({
         ...prev,
@@ -318,7 +283,7 @@ export const VisualizerProvider = ({ children }) => {
         setStartPanMousePosition({ x: e.clientX, y: e.clientY });
       }
     },
-    [activeTool, isPreviewMode]
+    [activeTool, isPreviewMode],
   );
 
   const handleMouseMove = useCallback(
@@ -330,7 +295,7 @@ export const VisualizerProvider = ({ children }) => {
         setStartPanMousePosition({ x: e.clientX, y: e.clientY });
       }
     },
-    [isPanning, startPanMousePosition, isPreviewMode]
+    [isPanning, startPanMousePosition, isPreviewMode],
   );
 
   const handleMouseUp = useCallback(() => setIsPanning(false), []);

@@ -3,8 +3,7 @@ import { VisualizerContext } from "../context/VisualizerContext";
 import { useContext } from "react";
 
 const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitchenShape, setScreen }) => {
-    console.log('availableItems: ', availableItems);
-    const { setSelectedMainBackground,selectedMainBackground } = useContext(VisualizerContext);
+    const { setSelectedMainBackground } = useContext(VisualizerContext);
     
     return (
         <div className="min-h-screen bg-cover bg-center bg-no-repeat relative"

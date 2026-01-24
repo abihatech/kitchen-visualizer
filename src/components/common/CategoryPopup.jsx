@@ -104,14 +104,42 @@ const CategoryPopup = () => {
     framedItems = items.filter(
       (item) =>
         item.png_layer_url?.includes("framed") ||
-        item.texture_url?.includes("framed")
+        item.texture_url?.includes("framed"),
     );
     framelessItems = items.filter(
       (item) =>
         item.png_layer_url?.includes("frameless") ||
-        item.texture_url?.includes("frameless")
+        item.texture_url?.includes("frameless"),
     );
   }
+
+  // Helper: group items by series
+  const groupBySeries = (items) => {
+    return items.reduce((acc, item) => {
+      const seriesName = item.series || "Others";
+      if (!acc[seriesName]) acc[seriesName] = [];
+      acc[seriesName].push(item);
+      return acc;
+    }, {});
+  };
+
+  const renderSeriesAccordions = (items) => {
+    const grouped = groupBySeries(items);
+    return Object.keys(grouped)?.map((series) => (
+      <Accordion key={series} sx={{ backgroundColor: "transparent", ml: 2 }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+        >
+          <Typography
+            sx={{ color: "white", fontSize: "16px", fontWeight: 500 }}
+          >
+            {series?.charAt(0).toUpperCase() + series?.slice(1) + " Series"} 
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>{renderItemGrid(grouped[series])}</AccordionDetails>
+      </Accordion>
+    ));
+  };
 
   return (
     <Card
@@ -121,7 +149,6 @@ const CategoryPopup = () => {
         maxWidth: 900,
         height: "80vh",
         backdropFilter: "blur(5px)",
-        // transform: "translate(55%,1%)",
       }}
     >
       <Box
@@ -164,10 +191,12 @@ const CategoryPopup = () => {
                 <Typography
                   sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}
                 >
-                  Framed
+                  Framed Cabinets 
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>{renderItemGrid(framedItems)}</AccordionDetails>
+              <AccordionDetails sx={{ display:'flex', flexDirection:'column', gap:2 }}>
+                {renderSeriesAccordions(framedItems)}
+              </AccordionDetails>
             </Accordion>
 
             <Accordion sx={{ backgroundColor: "transparent", mt: 2 }}>
@@ -177,11 +206,11 @@ const CategoryPopup = () => {
                 <Typography
                   sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}
                 >
-                  Frameless
+                  Frameless Cabinets
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
-                {renderItemGrid(framelessItems)}
+              <AccordionDetails sx={{ display:'flex', flexDirection:'column', gap:2 }}>
+                {renderSeriesAccordions(framelessItems)}
               </AccordionDetails>
             </Accordion>
           </>
