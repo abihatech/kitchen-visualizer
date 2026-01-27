@@ -8,7 +8,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_shaker_gray_framed_main.webp",
       "png_layer_name": "kb_shaker_gray_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_gray_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heartland"
     },
     {
       "id": 4,
@@ -18,7 +19,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_shaker_white_framed_main.webp",
       "png_layer_name": "kb_shaker_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heartland"
     },
     {
       "id": 6,
@@ -28,7 +30,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 8,
@@ -38,7 +41,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_arlington_oatmeal_framed_main.webp",
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 10,
@@ -48,7 +52,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_classic_chocolate_framed_main.webp",
       "png_layer_name": "rc_classic_chocolate_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_chocolate_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 12,
@@ -58,7 +63,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_shaker_origami_white_framed_main.webp",
       "png_layer_name": "rc_shaker_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 14,
@@ -68,7 +74,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_shaker_pebble_grey_framed_main.webp",
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 16,
@@ -78,7 +85,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sl_ashton_green_framed_main.webp",
       "png_layer_name": "sl_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_ashton_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 18,
@@ -88,7 +96,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sl_slim_dove_white_framed_main.webp",
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 20,
@@ -98,7 +107,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sl_smokey_ash_framed_main.webp",
       "png_layer_name": "sl_smokey_ash_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 22,
@@ -108,7 +118,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sw_in_the_navy_framed_main.webp",
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6000,
@@ -118,7 +129,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_clary_sage_framed_main.png",
       "png_layer_name": "kb_clary_sage_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_clary_sage_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6002,
@@ -128,7 +140,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_evergreen_fog_framed_main.png",
       "png_layer_name": "kb_evergreen_fog_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_evergreen_fog_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6004,
@@ -138,7 +151,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_heron_plume_framed_main.png",
       "png_layer_name": "kb_heron_plume_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_heron_plume_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6008,
@@ -148,7 +162,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_oceanside_blue_framed_main.png",
       "png_layer_name": "kb_oceanside_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_oceanside_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6010,
@@ -158,7 +173,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_realist_beige_framed_main.png",
       "png_layer_name": "kb_realist_beige_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_realist_beige_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6012,
@@ -168,7 +184,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_roycroft_pewter_framed_main.png",
       "png_layer_name": "kb_roycroft_pewter_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_roycroft_pewter_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6022,
@@ -178,7 +195,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_atlas_blanco_framed_main.png",
       "png_layer_name": "pc_atlas_blanco_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_atlas_blanco_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6024,
@@ -188,7 +206,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_avalon_ashen_framed_main.png",
       "png_layer_name": "pc_avalon_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_avalon_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6026,
@@ -198,7 +217,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_belmont_grey_framed_main.png",
       "png_layer_name": "pc_belmont_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_belmont_grey_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6028,
@@ -208,7 +228,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_charleston_driftwood_framed_main.png",
       "png_layer_name": "pc_charleston_driftwood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_charleston_driftwood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6030,
@@ -218,7 +239,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_essence_cemento_framed_main.png",
       "png_layer_name": "pc_essence_cemento_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_essence_cemento_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6032,
@@ -228,7 +250,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_portland_chestnut_framed_main.png",
       "png_layer_name": "pc_portland_chestnut_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_portland_chestnut_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6034,
@@ -238,7 +261,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_ashen_framed_main.png",
       "png_layer_name": "pc_shaker_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6036,
@@ -248,7 +272,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_blue_framed_main.png",
       "png_layer_name": "pc_shaker_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6038,
@@ -258,7 +283,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_expresso_framed_main.png",
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6040,
@@ -268,7 +294,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_karamel_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6042,
@@ -278,7 +305,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6042,
@@ -288,7 +316,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_slim_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6044,
@@ -298,7 +327,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_pine_framed_main.png",
       "png_layer_name": "pc_shaker_pine_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_pine_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6046,
@@ -308,7 +338,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_rift_framed_main.png",
       "png_layer_name": "pc_shaker_rift_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_rift_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6048,
@@ -318,7 +349,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_slim_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_slim_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_karamel_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6052,
@@ -328,7 +360,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_windsor_ashen_framed_main.png",
       "png_layer_name": "pc_windsor_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_windsor_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6054,
@@ -338,7 +371,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_charcoal_black_framed_main.png",
       "png_layer_name": "rc_charcoal_black_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_charcoal_black_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6058,
@@ -348,7 +382,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_classic_white_framed_main.png",
       "png_layer_name": "rc_classic_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6060,
@@ -358,7 +393,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_escada_dove_framed_main.png",
       "png_layer_name": "rc_escada_dove_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_dove_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6062,
@@ -368,7 +404,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_escada_midnight_blue_framed_main.png",
       "png_layer_name": "rc_escada_midnight_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_midnight_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6064,
@@ -378,7 +415,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_escada_vintage_wood_framed_main.png",
       "png_layer_name": "rc_escada_vintage_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_vintage_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6066,
@@ -388,7 +426,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_escada_white_framed_main.png",
       "png_layer_name": "rc_escada_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6068,
@@ -398,7 +437,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_jade_green_framed_main.png",
       "png_layer_name": "rc_jade_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_jade_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6070,
@@ -408,7 +448,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_origami_white_framed_main.png",
       "png_layer_name": "rc_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6074,
@@ -418,7 +459,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_shaker_natural_wood_framed_main.png",
       "png_layer_name": "rc_shaker_natural_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_natural_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6080,
@@ -428,7 +470,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/rc_truffle_brown_framed_main.png",
       "png_layer_name": "rc_truffle_brown_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_truffle_brown_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heritage"
     },
     {
       "id": 6084,
@@ -438,7 +481,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sl_slim_ashton_green_framed_main.png",
       "png_layer_name": "sl_slim_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_ashton_green_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6088,
@@ -448,7 +492,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sl_slim_white_oak_framed_main.png",
       "png_layer_name": "sl_slim_white_oak_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_white_oak_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6092,
@@ -458,7 +503,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/sl_treasure_chest_framed_main.png",
       "png_layer_name": "sl_treasure_chest_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_treasure_chest_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6094,
@@ -468,7 +514,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_black_wood_frameless_main.png",
       "png_layer_name": "kb_black_wood_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_black_wood_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6096,
@@ -478,7 +525,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_high_gloss_antique_white_frameless_main.png",
       "png_layer_name": "kb_high_gloss_antique_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_antique_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6098,
@@ -488,7 +536,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_high_gloss_arctic_gray_frameless_main.png",
       "png_layer_name": "kb_high_gloss_arctic_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_arctic_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6100,
@@ -498,7 +547,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_high_gloss_black_frameless_main.png",
       "png_layer_name": "kb_high_gloss_black_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_black_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6102,
@@ -508,7 +558,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_high_gloss_slate_gray_frameless_main.png",
       "png_layer_name": "kb_high_gloss_slate_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_slate_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6104,
@@ -518,7 +569,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_high_gloss_white_frameless_main.png",
       "png_layer_name": "kb_high_gloss_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6106,
@@ -528,7 +580,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_crisp_gray_frameless_main.png",
       "png_layer_name": "kb_matte_crisp_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_crisp_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6108,
@@ -538,7 +591,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_high_seas_frameless_main.png",
       "png_layer_name": "kb_matte_high_seas_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_high_seas_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6110,
@@ -548,7 +602,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_java_brown_frameless_main.png",
       "png_layer_name": "kb_matte_java_brown_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_java_brown_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6112,
@@ -558,7 +613,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_mineral_gray_frameless_main.png",
       "png_layer_name": "kb_matte_mineral_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_mineral_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6114,
@@ -568,7 +624,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_mint_green_frameless_main.png",
       "png_layer_name": "kb_matte_mint_green_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_mint_green_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6116,
@@ -578,7 +635,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_seal_gray_frameless_main.png",
       "png_layer_name": "kb_matte_seal_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_seal_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6118,
@@ -588,7 +646,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_matte_silver_gray_frameless_main.png",
       "png_layer_name": "kb_matte_silver_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_silver_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6120,
@@ -598,7 +657,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_nobal_slow_frameless_main.png",
       "png_layer_name": "kb_nobal_slow_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_nobal_slow_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6122,
@@ -608,7 +668,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_oak_frameless_main.png",
       "png_layer_name": "kb_oak_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_oak_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6124,
@@ -618,7 +679,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_roble_eternity_frameless_main.png",
       "png_layer_name": "kb_roble_eternity_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_roble_eternity_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6126,
@@ -628,7 +690,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_soft_touch_antique_white_frameless_main.png",
       "png_layer_name": "kb_soft_touch_antique_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_antique_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6128,
@@ -638,7 +701,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_soft_touch_arctic_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_arctic_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6130,
@@ -648,7 +712,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_soft_touch_black_frameless_main.png",
       "png_layer_name": "kb_soft_touch_black_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_black_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6132,
@@ -658,7 +723,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_soft_touch_navy_blue_frameless_main.png",
       "png_layer_name": "kb_soft_touch_navy_blue_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_navy_blue_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6134,
@@ -668,7 +734,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_soft_touch_slate_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_slate_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6136,
@@ -678,7 +745,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_soft_touch_white_frameless_main.png",
       "png_layer_name": "kb_soft_touch_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_white_frameless.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6138,
@@ -688,7 +756,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_sunday_brunch_frameless_main.png",
       "png_layer_name": "kb_sunday_brunch_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_sunday_brunch_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6140,
@@ -698,7 +767,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/kb_walnut_frameless_main.png",
       "png_layer_name": "kb_walnut_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_walnut_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6142,
@@ -708,7 +778,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_anniversary_oak_frameless_main.png",
       "png_layer_name": "pc_anniversary_oak_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_anniversary_oak_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6144,
@@ -718,7 +789,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_blanco_gloss_frameless_main.png",
       "png_layer_name": "pc_blanco_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_blanco_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6146,
@@ -728,7 +800,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "pc_blanco_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_blanco_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6148,
@@ -738,7 +811,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_carbon_frozen_wood_textured_frameless_main.png",
       "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6150,
@@ -748,7 +822,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_cashmere_gloss_frameless_main.png",
       "png_layer_name": "pc_cashmere_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_cashmere_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6152,
@@ -758,7 +833,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_cashmere_matte_frameless_main.png",
       "png_layer_name": "pc_cashmere_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_cashmere_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6154,
@@ -768,7 +844,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_girs_plomo_gloss_frameless_main.png",
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6156,
@@ -778,7 +855,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_gris_nube_matte_frameless_main.png",
       "png_layer_name": "pc_gris_nube_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_gris_nube_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6158,
@@ -788,7 +866,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_gris_plomo_matte_frameless_main.png",
       "png_layer_name": "pc_gris_plomo_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_gris_plomo_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6160,
@@ -798,7 +877,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_indigo_blue_gloss_frameless_main.png",
       "png_layer_name": "pc_indigo_blue_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_indigo_blue_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6162,
@@ -808,7 +888,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_indigo_blue_matte_frameless_main.png",
       "png_layer_name": "pc_indigo_blue_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_indigo_blue_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6164,
@@ -818,7 +899,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_lakeland_oak_02_frameless_main.png",
       "png_layer_name": "pc_lakeland_oak_02_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_02_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6166,
@@ -828,7 +910,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_lakeland_oak_03_textured_frameless_main.png",
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6168,
@@ -838,7 +921,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_muratti_textured_frameless_main.png",
       "png_layer_name": "pc_muratti_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_muratti_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6170,
@@ -848,7 +932,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_negro_gloss_frameless_main.png",
       "png_layer_name": "pc_negro_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_negro_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6172,
@@ -858,7 +943,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_negro_matte_frameless_main.png",
       "png_layer_name": "pc_negro_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_negro_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6174,
@@ -868,7 +954,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_olmo_gloss_frameless_main.png",
       "png_layer_name": "pc_olmo_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_olmo_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6176,
@@ -878,7 +965,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_olmo_textured_frameless_main.png",
       "png_layer_name": "pc_olmo_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_olmo_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6178,
@@ -888,7 +976,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/frameless/pc_white_frozen_wood_textured_frameless_main.png",
       "png_layer_name": "pc_white_frozen_wood_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_white_frozen_wood_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 1,
@@ -898,7 +987,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_shaker_gray_framed_main.webp",
       "png_layer_name": "kb_shaker_gray_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_gray_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heartland"
     },
     {
       "id": 3,
@@ -908,7 +998,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_shaker_white_framed_main.webp",
       "png_layer_name": "kb_shaker_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heartland"
     },
     {
       "id": 5,
@@ -918,7 +1009,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 7,
@@ -928,7 +1020,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_arlington_oatmeal_framed_main.webp",
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 9,
@@ -938,7 +1031,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_classic_chocolate_framed_main.webp",
       "png_layer_name": "rc_classic_chocolate_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_chocolate_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 11,
@@ -948,7 +1042,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_shaker_origami_white_framed_main.webp",
       "png_layer_name": "rc_shaker_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 13,
@@ -958,7 +1053,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_shaker_pebble_grey_framed_main.webp",
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 15,
@@ -968,7 +1064,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sl_ashton_green_framed_main.webp",
       "png_layer_name": "sl_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_ashton_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 17,
@@ -978,7 +1075,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sl_slim_dove_white_framed_main.webp",
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 19,
@@ -988,7 +1086,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sl_smokey_ash_framed_main.webp",
       "png_layer_name": "sl_smokey_ash_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 21,
@@ -998,7 +1097,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sw_in_the_navy_framed_main.webp",
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6001,
@@ -1008,7 +1108,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_clary_sage_framed_main.png",
       "png_layer_name": "kb_clary_sage_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_clary_sage_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6003,
@@ -1018,7 +1119,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_evergreen_fog_framed_main.png",
       "png_layer_name": "kb_evergreen_fog_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_evergreen_fog_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6005,
@@ -1028,7 +1130,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_heron_plume_framed_main.png",
       "png_layer_name": "kb_heron_plume_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_heron_plume_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6009,
@@ -1038,7 +1141,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_oceanside_blue_framed_main.png",
       "png_layer_name": "kb_oceanside_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_oceanside_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6011,
@@ -1048,7 +1152,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_realist_beige_framed_main.png",
       "png_layer_name": "kb_realist_beige_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_realist_beige_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6013,
@@ -1058,7 +1163,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_roycroft_pewter_framed_main.png",
       "png_layer_name": "kb_roycroft_pewter_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_roycroft_pewter_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6025,
@@ -1068,7 +1174,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "pc_avalon_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_avalon_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6027,
@@ -1078,7 +1185,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "pc_belmont_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_belmont_grey_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6029,
@@ -1088,7 +1196,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_charleston_driftwood_framed_main.png",
       "png_layer_name": "pc_charleston_driftwood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_charleston_driftwood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6031,
@@ -1098,7 +1207,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_essence_cemento_framed_main.png",
       "png_layer_name": "pc_essence_cemento_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_essence_cemento_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6033,
@@ -1108,7 +1218,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_portland_chestnut_framed_main.png",
       "png_layer_name": "pc_portland_chestnut_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_portland_chestnut_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6035,
@@ -1118,7 +1229,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_ashen_framed_main.png",
       "png_layer_name": "pc_shaker_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6037,
@@ -1128,7 +1240,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_blue_framed_main.png",
       "png_layer_name": "pc_shaker_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6039,
@@ -1138,7 +1251,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_expresso_framed_main.png",
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6041,
@@ -1148,7 +1262,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_karamel_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6043,
@@ -1158,7 +1273,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6045,
@@ -1168,7 +1284,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_pine_framed_main.png",
       "png_layer_name": "pc_shaker_pine_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_pine_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6047,
@@ -1178,7 +1295,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_rift_framed_main.png",
       "png_layer_name": "pc_shaker_rift_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_rift_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6049,
@@ -1188,7 +1306,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_slim_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_slim_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_karamel_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6051,
@@ -1198,7 +1317,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_slim_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_slim_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6053,
@@ -1208,7 +1328,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "pc_windsor_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_windsor_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6055,
@@ -1218,7 +1339,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_charcoal_black_framed_main.png",
       "png_layer_name": "rc_charcoal_black_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_charcoal_black_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6059,
@@ -1228,7 +1350,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "rc_classic_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6061,
@@ -1238,7 +1361,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_escada_dove_framed_main.png",
       "png_layer_name": "rc_escada_dove_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_dove_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6063,
@@ -1248,7 +1372,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_escada_midnight_blue_framed_main.png",
       "png_layer_name": "rc_escada_midnight_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_midnight_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6065,
@@ -1258,7 +1383,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_escada_vintage_wood_framed_main.png",
       "png_layer_name": "rc_escada_vintage_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_vintage_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6067,
@@ -1268,7 +1394,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_escada_white_framed_main.png",
       "png_layer_name": "rc_escada_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6069,
@@ -1278,7 +1405,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_jade_green_framed_main.png",
       "png_layer_name": "rc_jade_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_jade_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6071,
@@ -1288,7 +1416,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_origami_white_framed_main.png",
       "png_layer_name": "rc_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6075,
@@ -1298,7 +1427,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_shaker_natural_wood_framed_main.png",
       "png_layer_name": "rc_shaker_natural_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_natural_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6081,
@@ -1308,7 +1438,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_truffle_brown_framed_main.png",
       "png_layer_name": "rc_truffle_brown_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_truffle_brown_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heritage"
     },
     {
       "id": 6085,
@@ -1318,7 +1449,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sl_slim_ashton_green_framed_main.png",
       "png_layer_name": "sl_slim_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_ashton_green_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6088,
@@ -1328,7 +1460,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sl_slim_white_oak_framed_main.png",
       "png_layer_name": "sl_slim_white_oak_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_white_oak_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6093,
@@ -1338,7 +1471,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/sl_treasure_chest_framed_main.png",
       "png_layer_name": "sl_treasure_chest_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_treasure_chest_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 5,
@@ -1348,7 +1482,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6023,
@@ -1358,7 +1493,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_atlas_blanco_framed_main.png",
       "png_layer_name": "pc_atlas_blanco_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_atlas_blanco_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6025,
@@ -1368,7 +1504,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_avalon_ashen_framed_main.png",
       "png_layer_name": "pc_avalon_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_avalon_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6027,
@@ -1378,7 +1515,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_belmont_grey_framed_main.png",
       "png_layer_name": "pc_belmont_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_belmont_grey_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6029,
@@ -1388,7 +1526,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_charleston_driftwood_framed_main.png",
       "png_layer_name": "pc_charleston_driftwood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_charleston_driftwood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6053,
@@ -1398,7 +1537,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_windsor_ashen_framed_main.png",
       "png_layer_name": "pc_windsor_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_windsor_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6059,
@@ -1408,7 +1548,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/rc_classic_white_framed_main.png",
       "png_layer_name": "rc_classic_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6095,
@@ -1418,7 +1559,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_black_wood_frameless_main.png",
       "png_layer_name": "kb_black_wood_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_black_wood_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6097,
@@ -1428,7 +1570,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_high_gloss_antique_white_frameless_main.png",
       "png_layer_name": "kb_high_gloss_antique_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_antique_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6099,
@@ -1438,7 +1581,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_high_gloss_arctic_gray_frameless_main.png",
       "png_layer_name": "kb_high_gloss_arctic_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_arctic_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6101,
@@ -1448,7 +1592,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_high_gloss_black_frameless_main.png",
       "png_layer_name": "kb_high_gloss_black_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_black_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6103,
@@ -1458,7 +1603,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_high_gloss_slate_gray_frameless_main.png",
       "png_layer_name": "kb_high_gloss_slate_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_slate_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6105,
@@ -1468,7 +1614,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_high_gloss_white_frameless_main.png",
       "png_layer_name": "kb_high_gloss_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6107,
@@ -1478,7 +1625,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_crisp_gray_frameless_main.png",
       "png_layer_name": "kb_matte_crisp_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_crisp_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6109,
@@ -1488,7 +1636,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_high_seas_frameless_main.png",
       "png_layer_name": "kb_matte_high_seas_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_high_seas_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6111,
@@ -1498,7 +1647,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_java_brown_frameless_main.png",
       "png_layer_name": "kb_matte_java_brown_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_java_brown_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6113,
@@ -1508,7 +1658,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_mineral_gray_frameless_main.png",
       "png_layer_name": "kb_matte_mineral_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_mineral_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6115,
@@ -1518,7 +1669,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_mint_green_frameless_main.png",
       "png_layer_name": "kb_matte_mint_green_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_mint_green_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6117,
@@ -1528,7 +1680,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_seal_gray_frameless_main.png",
       "png_layer_name": "kb_matte_seal_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_seal_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6119,
@@ -1538,7 +1691,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_matte_silver_gray_frameless_main.png",
       "png_layer_name": "kb_matte_silver_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_silver_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6121,
@@ -1548,7 +1702,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_nobal_slow_frameless_main.png",
       "png_layer_name": "kb_nobal_slow_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_nobal_slow_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6123,
@@ -1558,7 +1713,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_oak_frameless_main.png",
       "png_layer_name": "kb_oak_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_oak_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6125,
@@ -1568,7 +1724,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_roble_eternity_frameless_main.png",
       "png_layer_name": "kb_roble_eternity_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_roble_eternity_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6127,
@@ -1578,7 +1735,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_soft_touch_antique_white_frameless_main.png",
       "png_layer_name": "kb_soft_touch_antique_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_antique_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6129,
@@ -1588,7 +1746,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_soft_touch_arctic_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_arctic_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6131,
@@ -1598,7 +1757,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_soft_touch_black_frameless_main.png",
       "png_layer_name": "kb_soft_touch_black_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_black_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6133,
@@ -1608,7 +1768,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_soft_touch_navy_blue_frameless_main.png",
       "png_layer_name": "kb_soft_touch_navy_blue_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_navy_blue_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6135,
@@ -1618,7 +1779,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_soft_touch_slate_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_slate_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6137,
@@ -1628,7 +1790,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_soft_touch_white_frameless_main.png",
       "png_layer_name": "kb_soft_touch_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_white_frameless.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6139,
@@ -1638,7 +1801,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_sunday_brunch_frameless_main.png",
       "png_layer_name": "kb_sunday_brunch_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_sunday_brunch_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6141,
@@ -1648,7 +1812,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/kb_walnut_frameless_main.png",
       "png_layer_name": "kb_walnut_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_walnut_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6143,
@@ -1658,7 +1823,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_anniversary_oak_frameless_main.png",
       "png_layer_name": "pc_anniversary_oak_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_anniversary_oak_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6145,
@@ -1668,7 +1834,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_blanco_gloss_frameless_main.png",
       "png_layer_name": "pc_blanco_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_blanco_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6147,
@@ -1678,18 +1845,20 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_blanco_matte_frameless_main.png",
       "png_layer_name": "pc_blanco_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_blanco_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
-     {
-    "id": 6149,
-    "selected": 0,
-    "texture_name": "Pc Carbon Frozen Wood Textured",
-    "cabinet_type_name": "Base Cabinets",
-    "png_layer_url": "NA",
-    "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
-    "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
-    "main_background_id": 311
-  },
+    {
+      "id": 6149,
+      "selected": 0,
+      "texture_name": "Pc Carbon Frozen Wood Textured",
+      "cabinet_type_name": "Base Cabinets",
+      "png_layer_url": "NA",
+      "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
+      "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
+      "main_background_id": 311,
+      "series": null
+    },
     {
       "id": 6151,
       "selected": 0,
@@ -1698,7 +1867,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_cashmere_gloss_frameless_main.png",
       "png_layer_name": "pc_cashmere_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_cashmere_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6153,
@@ -1708,7 +1878,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_cashmere_matte_frameless_main.png",
       "png_layer_name": "pc_cashmere_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_cashmere_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6155,
@@ -1718,7 +1889,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_girs_plomo_gloss_frameless_main.png",
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6157,
@@ -1728,7 +1900,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_gris_nube_matte_frameless_main.png",
       "png_layer_name": "pc_gris_nube_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_gris_nube_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6159,
@@ -1738,7 +1911,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_gris_plomo_matte_frameless_main.png",
       "png_layer_name": "pc_gris_plomo_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_gris_plomo_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6161,
@@ -1748,7 +1922,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_indigo_blue_gloss_frameless_main.png",
       "png_layer_name": "pc_indigo_blue_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_indigo_blue_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6163,
@@ -1758,7 +1933,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_indigo_blue_matte_frameless_main.png",
       "png_layer_name": "pc_indigo_blue_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_indigo_blue_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6165,
@@ -1768,7 +1944,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_lakeland_oak_02_frameless_main.png",
       "png_layer_name": "pc_lakeland_oak_02_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_02_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6167,
@@ -1778,7 +1955,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_lakeland_oak_03_textured_frameless_main.png",
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6169,
@@ -1788,7 +1966,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_muratti_textured_frameless_main.png",
       "png_layer_name": "pc_muratti_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_muratti_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6171,
@@ -1798,7 +1977,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_negro_gloss_frameless_main.png",
       "png_layer_name": "pc_negro_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_negro_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6173,
@@ -1808,7 +1988,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_negro_matte_frameless_main.png",
       "png_layer_name": "pc_negro_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_negro_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6175,
@@ -1818,7 +1999,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_olmo_gloss_frameless_main.png",
       "png_layer_name": "pc_olmo_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_olmo_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6177,
@@ -1828,7 +2010,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_olmo_textured_frameless_main.png",
       "png_layer_name": "pc_olmo_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_olmo_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6179,
@@ -1838,7 +2021,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/frameless/pc_white_frozen_wood_textured_frameless_main.png",
       "png_layer_name": "pc_white_frozen_wood_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_white_frozen_wood_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 2,
@@ -1848,7 +2032,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_shaker_gray_framed_main.webp",
       "png_layer_name": "kb_shaker_gray_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_gray_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heartland"
     },
     {
       "id": 4,
@@ -1858,7 +2043,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_shaker_white_framed_main.webp",
       "png_layer_name": "kb_shaker_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heartland"
     },
     {
       "id": 6,
@@ -1868,7 +2054,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 8,
@@ -1878,7 +2065,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_arlington_oatmeal_framed_mainl.webp",
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 10,
@@ -1888,7 +2076,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_classic_chocolate_framed_main.webp",
       "png_layer_name": "rc_classic_chocolate_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_chocolate_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 12,
@@ -1898,7 +2087,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_shaker_origami_white_framed_main.webp",
       "png_layer_name": "rc_shaker_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 14,
@@ -1908,7 +2098,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_shaker_pebble_grey_framed_main.webp",
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 16,
@@ -1918,7 +2109,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sl_ashton_green_framed_main.webp",
       "png_layer_name": "sl_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_ashton_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 18,
@@ -1928,7 +2120,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sl_slim_dove_white_framed_main.webp",
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 20,
@@ -1938,7 +2131,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sl_smokey_ash_framed_main.webp",
       "png_layer_name": "sl_smokey_ash_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 22,
@@ -1948,7 +2142,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sw_in_the_navy_framed_main.webp",
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6000,
@@ -1958,7 +2153,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_clary_sage_framed_main.png",
       "png_layer_name": "kb_clary_sage_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_clary_sage_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6002,
@@ -1968,7 +2164,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_evergreen_fog_framed_main.png",
       "png_layer_name": "kb_evergreen_fog_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_evergreen_fog_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6004,
@@ -1978,7 +2175,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_heron_plume_framed_main.png",
       "png_layer_name": "kb_heron_plume_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_heron_plume_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6008,
@@ -1988,7 +2186,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_oceanside_blue_framed_main.png",
       "png_layer_name": "kb_oceanside_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_oceanside_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6010,
@@ -1998,7 +2197,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_realist_beige_framed_main.png",
       "png_layer_name": "kb_realist_beige_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_realist_beige_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6012,
@@ -2008,7 +2208,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_roycroft_pewter_framed_main.png",
       "png_layer_name": "kb_roycroft_pewter_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_roycroft_pewter_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6022,
@@ -2018,7 +2219,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_atlas_blanco_framed_main.png",
       "png_layer_name": "pc_atlas_blanco_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_atlas_blanco_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6024,
@@ -2028,7 +2230,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_avalon_ashen_framed_main.png",
       "png_layer_name": "pc_avalon_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_avalon_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6026,
@@ -2038,7 +2241,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_belmont_grey_framed_main.png",
       "png_layer_name": "pc_belmont_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_belmont_grey_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6028,
@@ -2048,7 +2252,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_charleston_driftwood_framed_main.png",
       "png_layer_name": "pc_charleston_driftwood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_charleston_driftwood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6030,
@@ -2058,7 +2263,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_essence_cemento_framed_main.png",
       "png_layer_name": "pc_essence_cemento_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_essence_cemento_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6032,
@@ -2068,7 +2274,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_portland_chestnut_framed_main.png",
       "png_layer_name": "pc_portland_chestnut_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_portland_chestnut_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6034,
@@ -2078,7 +2285,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_ashen_framed_main.png",
       "png_layer_name": "pc_shaker_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6036,
@@ -2088,7 +2296,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_blue_framed_main.png",
       "png_layer_name": "pc_shaker_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6038,
@@ -2098,7 +2307,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_expresso_framed_main.png",
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6040,
@@ -2108,7 +2318,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_karamel_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6042,
@@ -2118,7 +2329,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6044,
@@ -2128,7 +2340,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_pine_framed_main.png",
       "png_layer_name": "pc_shaker_pine_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_pine_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6046,
@@ -2138,7 +2351,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_rift_framed_main.png",
       "png_layer_name": "pc_shaker_rift_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_rift_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6048,
@@ -2148,7 +2362,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_slim_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_slim_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_karamel_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6050,
@@ -2158,7 +2373,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_slim_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_slim_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6052,
@@ -2168,7 +2384,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_windsor_ashen_framed_main.png",
       "png_layer_name": "pc_windsor_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_windsor_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6054,
@@ -2178,7 +2395,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_charcoal_black_framed_main.png",
       "png_layer_name": "rc_charcoal_black_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_charcoal_black_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6058,
@@ -2188,7 +2406,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_classic_white_framed_main.png",
       "png_layer_name": "rc_classic_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6060,
@@ -2198,7 +2417,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_escada_dove_framed_main.png",
       "png_layer_name": "rc_escada_dove_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_dove_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6062,
@@ -2208,7 +2428,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_escada_midnight_blue_framed_main.png",
       "png_layer_name": "rc_escada_midnight_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_midnight_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6064,
@@ -2218,7 +2439,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_escada_vintage_wood_framed_main.png",
       "png_layer_name": "rc_escada_vintage_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_vintage_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6066,
@@ -2228,7 +2450,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_escada_white_framed_main.png",
       "png_layer_name": "rc_escada_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "pioneer"
     },
     {
       "id": 6068,
@@ -2238,7 +2461,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_jade_green_framed_main.png",
       "png_layer_name": "rc_jade_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_jade_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6070,
@@ -2248,7 +2472,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_origami_white_framed_main.png",
       "png_layer_name": "rc_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6074,
@@ -2258,7 +2483,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_shaker_natural_wood_framed_main.png",
       "png_layer_name": "rc_shaker_natural_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_natural_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6080,
@@ -2268,7 +2494,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/rc_truffle_brown_framed_main.png",
       "png_layer_name": "rc_truffle_brown_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_truffle_brown_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "heritage"
     },
     {
       "id": 6084,
@@ -2278,7 +2505,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sl_slim_ashton_green_framed_main.png",
       "png_layer_name": "sl_slim_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_ashton_green_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6088,
@@ -2288,7 +2516,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sl_slim_white_oak_framed_main.png",
       "png_layer_name": "sl_slim_white_oak_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_white_oak_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "americana"
     },
     {
       "id": 6092,
@@ -2298,7 +2527,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/sl_treasure_chest_framed_main.png",
       "png_layer_name": "sl_treasure_chest_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_treasure_chest_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "liberty"
     },
     {
       "id": 6095,
@@ -2308,7 +2538,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_black_wood_frameless_main.png",
       "png_layer_name": "kb_black_wood_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_black_wood_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6097,
@@ -2318,7 +2549,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_high_gloss_antique_white_frameless_main.png",
       "png_layer_name": "kb_high_gloss_antique_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_antique_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6099,
@@ -2328,7 +2560,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_high_gloss_arctic_gray_frameless_main.png",
       "png_layer_name": "kb_high_gloss_arctic_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_arctic_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6101,
@@ -2338,7 +2571,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_high_gloss_black_frameless_main.png",
       "png_layer_name": "kb_high_gloss_black_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_black_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6103,
@@ -2348,7 +2582,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_high_gloss_slate_gray_frameless_main.png",
       "png_layer_name": "kb_high_gloss_slate_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_slate_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6105,
@@ -2358,7 +2593,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_high_gloss_white_frameless_main.png",
       "png_layer_name": "kb_high_gloss_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_high_gloss_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6107,
@@ -2368,7 +2604,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_crisp_gray_frameless_main.png",
       "png_layer_name": "kb_matte_crisp_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_crisp_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6109,
@@ -2378,7 +2615,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_high_seas_frameless_main.png",
       "png_layer_name": "kb_matte_high_seas_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_high_seas_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6111,
@@ -2388,7 +2626,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_java_brown_frameless_main.png",
       "png_layer_name": "kb_matte_java_brown_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_java_brown_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6113,
@@ -2398,7 +2637,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_mineral_gray_frameless_main.png",
       "png_layer_name": "kb_matte_mineral_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_mineral_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6115,
@@ -2408,7 +2648,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_mint_green_frameless_main.png",
       "png_layer_name": "kb_matte_mint_green_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_mint_green_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6117,
@@ -2418,7 +2659,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_seal_gray_frameless_main.png",
       "png_layer_name": "kb_matte_seal_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_seal_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6119,
@@ -2428,7 +2670,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_matte_silver_gray_frameless_main.png",
       "png_layer_name": "kb_matte_silver_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_matte_silver_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6121,
@@ -2438,7 +2681,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_nobal_slow_frameless_main.png",
       "png_layer_name": "kb_nobal_slow_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_nobal_slow_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6123,
@@ -2448,7 +2692,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_oak_frameless_main.png",
       "png_layer_name": "kb_oak_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_oak_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6125,
@@ -2458,7 +2703,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_roble_eternity_frameless_main.png",
       "png_layer_name": "kb_roble_eternity_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_roble_eternity_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6127,
@@ -2468,7 +2714,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_soft_touch_antique_white_frameless_main.png",
       "png_layer_name": "kb_soft_touch_antique_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_antique_white_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6129,
@@ -2478,7 +2725,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_soft_touch_arctic_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_arctic_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6131,
@@ -2488,7 +2736,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_soft_touch_black_frameless_main.png",
       "png_layer_name": "kb_soft_touch_black_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_black_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6133,
@@ -2498,7 +2747,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_soft_touch_navy_blue_frameless_main.png",
       "png_layer_name": "kb_soft_touch_navy_blue_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_navy_blue_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6135,
@@ -2508,7 +2758,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_soft_touch_slate_gray_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_slate_gray_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6137,
@@ -2518,7 +2769,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_soft_touch_white_frameless_main.png",
       "png_layer_name": "kb_soft_touch_white_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_soft_touch_white_frameless.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "softtouch"
     },
     {
       "id": 6139,
@@ -2528,7 +2780,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_sunday_brunch_frameless_main.png",
       "png_layer_name": "kb_sunday_brunch_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_sunday_brunch_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6141,
@@ -2538,7 +2791,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/kb_walnut_frameless_main.png",
       "png_layer_name": "kb_walnut_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_walnut_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6143,
@@ -2548,7 +2802,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_anniversary_oak_frameless_main.png",
       "png_layer_name": "pc_anniversary_oak_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_anniversary_oak_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6145,
@@ -2558,7 +2813,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_blanco_gloss_frameless_main.png",
       "png_layer_name": "pc_blanco_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_blanco_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6147,
@@ -2568,7 +2824,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_blanco_matte_frameless_main.png",
       "png_layer_name": "pc_blanco_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_blanco_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6149,
@@ -2578,7 +2835,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_carbon_frozen_wood_textured_frameless_main.png",
       "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6151,
@@ -2588,7 +2846,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_cashmere_gloss_frameless_main.png",
       "png_layer_name": "pc_cashmere_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_cashmere_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6153,
@@ -2598,7 +2857,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_cashmere_matte_frameless_main.png",
       "png_layer_name": "pc_cashmere_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_cashmere_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6155,
@@ -2608,7 +2868,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_girs_plomo_gloss_frameless_main.png",
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6157,
@@ -2618,7 +2879,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_gris_nube_matte_frameless_main.png",
       "png_layer_name": "pc_gris_nube_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_gris_nube_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6159,
@@ -2628,7 +2890,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_gris_plomo_matte_frameless_main.png",
       "png_layer_name": "pc_gris_plomo_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_gris_plomo_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6161,
@@ -2638,7 +2901,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_indigo_blue_gloss_frameless_main.png",
       "png_layer_name": "pc_indigo_blue_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_indigo_blue_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6163,
@@ -2648,7 +2912,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_indigo_blue_matte_frameless_main.png",
       "png_layer_name": "pc_indigo_blue_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_indigo_blue_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6165,
@@ -2658,7 +2923,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_lakeland_oak_02_frameless_main.png",
       "png_layer_name": "pc_lakeland_oak_02_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_02_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6167,
@@ -2668,7 +2934,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_lakeland_oak_03_textured_frameless_main.png",
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "cabinet"
     },
     {
       "id": 6169,
@@ -2678,7 +2945,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_muratti_textured_frameless_main.png",
       "png_layer_name": "pc_muratti_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_muratti_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6171,
@@ -2688,7 +2956,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_negro_gloss_frameless_main.png",
       "png_layer_name": "pc_negro_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_negro_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "gloss"
     },
     {
       "id": 6173,
@@ -2698,7 +2967,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_negro_matte_frameless_main.png",
       "png_layer_name": "pc_negro_matte_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_negro_matte_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "matte"
     },
     {
       "id": 6175,
@@ -2708,7 +2978,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_olmo_gloss_frameless_main.png",
       "png_layer_name": "pc_olmo_gloss_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_olmo_gloss_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6177,
@@ -2718,7 +2989,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_olmo_textured_frameless_main.png",
       "png_layer_name": "pc_olmo_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_olmo_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 6179,
@@ -2728,7 +3000,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/frameless/pc_white_frozen_wood_textured_frameless_main.png",
       "png_layer_name": "pc_white_frozen_wood_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_white_frozen_wood_textured_frameless.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": "woodgrain"
     },
     {
       "id": 2,
@@ -2738,7 +3011,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_shaker_gray_framed_main.png",
       "png_layer_name": "kb_shaker_gray_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_gray_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 4,
@@ -2748,7 +3022,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_shaker_white_framed_main.png",
       "png_layer_name": "kb_shaker_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6,
@@ -2758,7 +3033,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 8,
@@ -2768,7 +3044,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_arlington_oatmeal_framed_main.png",
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 10,
@@ -2778,7 +3055,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_classic_chocolate_framed_main.png",
       "png_layer_name": "rc_classic_chocolate_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_chocolate_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 12,
@@ -2788,7 +3066,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_shaker_origami_white_framed_main.png",
       "png_layer_name": "rc_shaker_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 14,
@@ -2798,7 +3077,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_shaker_pebble_grey_framed_main.png",
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 16,
@@ -2808,7 +3088,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sl_ashton_green_framed_main.png",
       "png_layer_name": "sl_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_ashton_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 18,
@@ -2818,7 +3099,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sl_slim_dove_white_framed_main.png",
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 20,
@@ -2828,7 +3110,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sl_smokey_ash_framed_main.png",
       "png_layer_name": "sl_smokey_ash_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 22,
@@ -2838,7 +3121,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sw_in_the_navy_framed_main.png",
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6000,
@@ -2848,7 +3132,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_clary_sage_framed_main.png",
       "png_layer_name": "kb_clary_sage_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_clary_sage_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6002,
@@ -2858,7 +3143,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_evergreen_fog_framed_main.png",
       "png_layer_name": "kb_evergreen_fog_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_evergreen_fog_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6004,
@@ -2868,7 +3154,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_heron_plume_framed_main.png",
       "png_layer_name": "kb_heron_plume_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_heron_plume_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6008,
@@ -2878,7 +3165,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_oceanside_blue_framed_main.png",
       "png_layer_name": "kb_oceanside_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_oceanside_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6010,
@@ -2888,7 +3176,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_realist_beige_framed_main.png",
       "png_layer_name": "kb_realist_beige_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_realist_beige_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6012,
@@ -2898,7 +3187,8 @@
       "png_layer_url": "NA",
       "png_layer_name": "kb_roycroft_pewter_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_roycroft_pewter_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6022,
@@ -2908,7 +3198,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_atlas_blanco_framed_main.png",
       "png_layer_name": "pc_atlas_blanco_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_atlas_blanco_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6024,
@@ -2918,7 +3209,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_avalon_ashen_framed_main.png",
       "png_layer_name": "pc_avalon_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_avalon_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6026,
@@ -2928,7 +3220,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_belmont_grey_framed_main.png",
       "png_layer_name": "pc_belmont_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_belmont_grey_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6028,
@@ -2938,7 +3231,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_charleston_driftwood_framed_main.png",
       "png_layer_name": "pc_charleston_driftwood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_charleston_driftwood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6030,
@@ -2948,7 +3242,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_essence_cemento_framed_main.png",
       "png_layer_name": "pc_essence_cemento_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_essence_cemento_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6032,
@@ -2958,7 +3253,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_portland_chestnut_framed_main.png",
       "png_layer_name": "pc_portland_chestnut_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_portland_chestnut_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6034,
@@ -2968,7 +3264,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_ashen_framed_main.png",
       "png_layer_name": "pc_shaker_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6036,
@@ -2978,7 +3275,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_blue_framed_main.png",
       "png_layer_name": "pc_shaker_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6038,
@@ -2988,7 +3286,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_expresso_framed_main.png",
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6040,
@@ -2998,7 +3297,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_karamel_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6042,
@@ -3008,7 +3308,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6044,
@@ -3018,7 +3319,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_pine_framed_main.png",
       "png_layer_name": "pc_shaker_pine_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_pine_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6046,
@@ -3028,7 +3330,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_rift_framed_main.png",
       "png_layer_name": "pc_shaker_rift_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_rift_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6048,
@@ -3038,7 +3341,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_slim_shaker_karamel_framed_main.png",
       "png_layer_name": "pc_slim_shaker_karamel_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_karamel_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6050,
@@ -3048,7 +3352,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_slim_shaker_oatmeal_framed_main.png",
       "png_layer_name": "pc_slim_shaker_oatmeal_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_slim_shaker_oatmeal_framed.webp",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6052,
@@ -3058,7 +3363,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_windsor_ashen_framed_main.png",
       "png_layer_name": "pc_windsor_ashen_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_windsor_ashen_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6054,
@@ -3068,7 +3374,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_charcoal_black_framed_main.png",
       "png_layer_name": "rc_charcoal_black_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_charcoal_black_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6058,
@@ -3078,7 +3385,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_classic_white_framed_main.png",
       "png_layer_name": "rc_classic_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_classic_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6060,
@@ -3088,7 +3396,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_escada_dove_framed_main.png",
       "png_layer_name": "rc_escada_dove_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_dove_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6062,
@@ -3098,7 +3407,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_escada_midnight_blue_framed_main.png",
       "png_layer_name": "rc_escada_midnight_blue_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_midnight_blue_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6064,
@@ -3108,7 +3418,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_escada_vintage_wood_framed_main.png",
       "png_layer_name": "rc_escada_vintage_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_vintage_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6066,
@@ -3118,7 +3429,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_escada_white_framed_main.png",
       "png_layer_name": "rc_escada_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_escada_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6068,
@@ -3128,7 +3440,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_jade_green_framed_main.png",
       "png_layer_name": "rc_jade_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_jade_green_framed.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6070,
@@ -3138,7 +3451,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_origami_white_framed_main.png",
       "png_layer_name": "rc_origami_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_origami_white_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6074,
@@ -3148,7 +3462,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_shaker_natural_wood_framed_main.png",
       "png_layer_name": "rc_shaker_natural_wood_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_natural_wood_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6080,
@@ -3158,7 +3473,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/rc_truffle_brown_framed_main.png",
       "png_layer_name": "rc_truffle_brown_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_truffle_brown_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6084,
@@ -3168,7 +3484,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sl_slim_ashton_green_framed_main.png",
       "png_layer_name": "sl_slim_ashton_green_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_ashton_green_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6088,
@@ -3178,7 +3495,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sl_slim_white_oak_framed_main.png",
       "png_layer_name": "sl_slim_white_oak_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_white_oak_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 6092,
@@ -3188,7 +3506,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/sl_treasure_chest_framed_main.png",
       "png_layer_name": "sl_treasure_chest_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_treasure_chest_framed.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2930,
@@ -3198,7 +3517,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/alpine_white_quartz_main.png",
       "png_layer_name": "alpine_white_quartz",
       "texture_url": "/assets/popup_imgs/countertop/alpine_white_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2931,
@@ -3208,7 +3528,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/beige_butterfly_granite_main.png",
       "png_layer_name": "beige_butterfly_granite",
       "texture_url": "/assets/popup_imgs/countertop/beige_butterfly_granite.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2932,
@@ -3218,7 +3539,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/bianco_ventino_quartz_main.png",
       "png_layer_name": "bianco_ventino_quartz",
       "texture_url": "/assets/popup_imgs/countertop/bianco_ventino_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2933,
@@ -3228,7 +3550,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/black_mist_honed_granite_main.png",
       "png_layer_name": "black_mist_honed_granite",
       "texture_url": "/assets/popup_imgs/countertop/black_mist_honed_granite.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2934,
@@ -3238,7 +3561,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/black_taurus_granite_main.png",
       "png_layer_name": "black_taurus_granite",
       "texture_url": "/assets/popup_imgs/countertop/black_taurus_granite.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2935,
@@ -3248,7 +3572,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/calacatta_gold_quartz_main.png",
       "png_layer_name": "calacatta_gold_quartz",
       "texture_url": "/assets/popup_imgs/countertop/calacatta_gold_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2936,
@@ -3258,7 +3583,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/colonial_white_granite_main.png",
       "png_layer_name": "colonial_white_granite",
       "texture_url": "/assets/popup_imgs/countertop/colonial_white_granite.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2937,
@@ -3268,7 +3594,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/concrete_honed_quartz_main.png",
       "png_layer_name": "concrete_honed_quartz",
       "texture_url": "/assets/popup_imgs/countertop/concrete_honed_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2938,
@@ -3278,7 +3605,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/crema_marfil_quartz_main.png",
       "png_layer_name": "crema_marfil_quartz",
       "texture_url": "/assets/popup_imgs/countertop/crema_marfil_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2939,
@@ -3288,7 +3616,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/le_taj_quartz_main.png",
       "png_layer_name": "le_taj_quartz",
       "texture_url": "/assets/popup_imgs/countertop/le_taj_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2940,
@@ -3298,7 +3627,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/ornamental_white_granite_main.png",
       "png_layer_name": "ornamental_white_granite",
       "texture_url": "/assets/popup_imgs/countertop/ornamental_white_granite.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2941,
@@ -3308,7 +3638,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/urban_forest_quartz_main.png",
       "png_layer_name": "urban_forest_quartz",
       "texture_url": "/assets/popup_imgs/countertop/urban_forest_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2942,
@@ -3318,7 +3649,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/vestige_gray_quartz_main.png",
       "png_layer_name": "vestige_gray_quartz",
       "texture_url": "/assets/popup_imgs/countertop/vestige_gray_quartz.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2943,
@@ -3328,7 +3660,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/countertop/viscount_white_granite_main.png",
       "png_layer_name": "viscount_white_granite",
       "texture_url": "/assets/popup_imgs/countertop/viscount_white_granite.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3065,
@@ -3338,7 +3671,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_green_backsplash_main.png",
       "png_layer_name": "Lshape1_backsSplash_Tile_Classic_Green.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_green.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3066,
@@ -3348,7 +3682,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_ash_&_ice_backsplash_main.png",
       "png_layer_name": "tile_ash_&_ice_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_ash_&_ice.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3067,
@@ -3358,7 +3693,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_blue_main.webp",
       "png_layer_name": "tile_classic_blue_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_blue.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3068,
@@ -3368,7 +3704,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_herringbone_main.webp",
       "png_layer_name": "tile_classic_herringbone_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_herringbone.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3069,
@@ -3378,7 +3715,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_white_main.webp",
       "png_layer_name": "tile_classic_white_backsplash_main.webp",
       "texture_url": "/assets/popup_imgs/backsplash/tile_classic_white.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3070,
@@ -3388,7 +3726,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_granite_wave_backsplash_main.png",
       "png_layer_name": "tile_granite_wave_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_granite_wave.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3071,
@@ -3398,7 +3737,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_graphite_flow_backsplash_main.png",
       "png_layer_name": "tile_graphite_flow_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_graphite_flow.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3072,
@@ -3408,7 +3748,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_ivory_weave_backsplash_main.png",
       "png_layer_name": "tile_ivory_weave_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_ivory_weave.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3073,
@@ -3418,7 +3759,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_shadow_chevron_backsplash_main.png",
       "png_layer_name": "tile_shadow_chevron_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_shadow_chevron.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3074,
@@ -3428,7 +3770,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_silver_edge_backsplash_main.png",
       "png_layer_name": "tile_silver_edge_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_silver_edge.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3075,
@@ -3438,7 +3781,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_slate_gray_backsplash_main.png",
       "png_layer_name": "tile_slate_gray_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_slate_gray.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 3076,
@@ -3448,7 +3792,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_slate_luxe_backsplash_main.png",
       "png_layer_name": "tile_slate_luxe_backsplash_main.png",
       "texture_url": "/assets/popup_imgs/backsplash/tile_slate_luxe.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2949,
@@ -3458,7 +3803,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/beige_tile_floor_main.png",
       "png_layer_name": "beige_tile_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/beige_tile_floor.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2950,
@@ -3468,7 +3814,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/dark_walnut_floor_main.jpg",
       "png_layer_name": "dark_walnut_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/dark_walnut_floor.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2951,
@@ -3478,7 +3825,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/espresso_floor_main.jpg",
       "png_layer_name": "espresso_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/espresso_floor.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2952,
@@ -3488,7 +3836,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/gray_tile_floor_main.png",
       "png_layer_name": "gray_tile_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/gray_tile_floor.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2953,
@@ -3498,7 +3847,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/honey_pine_floor_main.jpg",
       "png_layer_name": "honey_pine_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/honey_pine_floor.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2954,
@@ -3508,7 +3858,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/mocha_floor_main.jpg",
       "png_layer_name": "mocha_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/mocha_floor.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2955,
@@ -3518,7 +3869,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/natural_light_oak_floor_main.jpg",
       "png_layer_name": "natural_light_oak_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/natural_light_oak_floor.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2956,
@@ -3528,18 +3880,20 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/warm_chestnut_floor_main.jpg",
       "png_layer_name": "warm_chestnut_floor_main.png",
       "texture_url": "/assets/popup_imgs/floor/warm_chestnut_floor.jpg",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
-     {
+    {
       "id": 2956,
       "selected": 0,
       "texture_name": "White Tile",
       "cabinet_type_name": "Floor",
-      "png_layer_url": "NA",
-       "png_layer_name": "white_tile_floor.png",
+      "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/white_tile_floor_main.png",
+      "png_layer_name": "white_tile_floor.png",
       "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
-      "main_background_id": 311
-    },    
+      "main_background_id": 311,
+      "series": null
+    },
     {
       "id": 2916,
       "selected": 1,
@@ -3548,7 +3902,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/appliances/black_stainless_steel_main.webp",
       "png_layer_name": "K02 Appliances Black Stainless Steel",
       "texture_url": "/assets/popup_imgs/appliances/black_stainless_steel.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2917,
@@ -3558,7 +3913,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/appliances/stainless_steel_main.webp",
       "png_layer_name": "K02 Appliances Stainless Steel",
       "texture_url": "/assets/popup_imgs/appliances/stainless_steel.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2918,
@@ -3568,7 +3924,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/appliances/white_stainless_steel_main.webp",
       "png_layer_name": "K02 Appliances White Stainless Steel",
       "texture_url": "/assets/popup_imgs/appliances/white_stainless_steel.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2086,
@@ -3578,7 +3935,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6028_cultured_pearl.png",
       "png_layer_name": "sw_6028_cultured_pearl",
       "texture_url": "/assets/popup_imgs/wall/sw_6028_cultured_pearl.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2087,
@@ -3588,7 +3946,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6204_sea_salt.png",
       "png_layer_name": "sw_6204_sea_salt",
       "texture_url": "/assets/popup_imgs/wall/sw_6204_sea_salt.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2088,
@@ -3598,7 +3957,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6239_upward.png",
       "png_layer_name": "sw_6239_upward",
       "texture_url": "/assets/popup_imgs/wall/sw_6239_upward.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2089,
@@ -3608,7 +3968,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6344_peach_fuzz.png",
       "png_layer_name": "sw_6344_peach_fuzz",
       "texture_url": "/assets/popup_imgs/wall/sw_6344_peach_fuzz.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2090,
@@ -3618,7 +3979,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6379_jersey_cream.png",
       "png_layer_name": "sw_6379_jersey_cream",
       "texture_url": "/assets/popup_imgs/wall/sw_6379_jersey_cream.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2091,
@@ -3628,7 +3990,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6512_balmy.png",
       "png_layer_name": "sw_6512_balmy",
       "texture_url": "/assets/popup_imgs/wall/sw_6512_balmy.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2092,
@@ -3638,7 +4001,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6708_springtime.png",
       "png_layer_name": "sw_6708_springtime",
       "texture_url": "/assets/popup_imgs/wall/sw_6708_springtime.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2093,
@@ -3648,7 +4012,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6736_jocular_green.png",
       "png_layer_name": "sw_6736_jocular_green",
       "texture_url": "/assets/popup_imgs/wall/sw_6736_jocular_green.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2094,
@@ -3658,7 +4023,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6737_kiwi.png",
       "png_layer_name": "sw_6737_kiwi",
       "texture_url": "/assets/popup_imgs/wall/sw_6737_kiwi.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2095,
@@ -3668,7 +4034,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6771_bathe_blue.png",
       "png_layer_name": "sw_6771_bathe_blue",
       "texture_url": "/assets/popup_imgs/wall/sw_6771_bathe_blue.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2096,
@@ -3678,7 +4045,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_7008_alabaster.png",
       "png_layer_name": "sw_7008_alabaster",
       "texture_url": "/assets/popup_imgs/wall/sw_7008_alabaster.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2097,
@@ -3688,7 +4056,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_7015_repose_gray.png",
       "png_layer_name": "sw_7015_repose_gray",
       "texture_url": "/assets/popup_imgs/wall/sw_7015_repose_gray.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2098,
@@ -3698,7 +4067,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_7564_polar_bear.png",
       "png_layer_name": "sw_7564_polar_bear",
       "texture_url": "/assets/popup_imgs/wall/sw_7564_polar_bear.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2099,
@@ -3708,7 +4078,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_7659_gris.png",
       "png_layer_name": "sw_7659_gris",
       "texture_url": "/assets/popup_imgs/wall/sw_7659_gris.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2100,
@@ -3718,7 +4089,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_9110_malabar.png",
       "png_layer_name": "sw_9110_malabar",
       "texture_url": "/assets/popup_imgs/wall/sw_9110_malabar.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2101,
@@ -3728,7 +4100,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_9130_evergreen_fog.png",
       "png_layer_name": "sw_9130_evergreen_fog",
       "texture_url": "/assets/popup_imgs/wall/sw_9130_evergreen_fog.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2102,
@@ -3738,7 +4111,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_9541_white_snow.png",
       "png_layer_name": "sw_9541_white_snow",
       "texture_url": "/assets/popup_imgs/wall/sw_9541_white_snow.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2103,
@@ -3748,7 +4122,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_9585_sunbleached.png",
       "png_layer_name": "sw_9585_sunbleached",
       "texture_url": "/assets/popup_imgs/wall/sw_9585_sunbleached.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     },
     {
       "id": 2104,
@@ -3758,7 +4133,8 @@
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_7029_adorable_gray.png",
       "png_layer_name": "sw_7029_adorable_gray",
       "texture_url": "/assets/popup_imgs/wall/sw_7029_adorable_gray.png",
-      "main_background_id": 311
+      "main_background_id": 311,
+      "series": null
     }
   ]
 }
