@@ -31,7 +31,7 @@
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 8,
@@ -42,7 +42,7 @@
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "pioneer"
     },
     {
       "id": 10,
@@ -75,7 +75,7 @@
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 16,
@@ -97,7 +97,7 @@
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "americana"
     },
     {
       "id": 20,
@@ -119,7 +119,7 @@
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6000,
@@ -295,7 +295,7 @@
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6040,
@@ -850,13 +850,13 @@
     {
       "id": 6154,
       "selected": 0,
-      "texture_name": "Pc Girs Plomo Gloss ",
+      "texture_name": "Pc Girs Plomo Gloss",
       "cabinet_type_name": "Wall Cabinets",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/cabinet/wall/frameless/pc_girs_plomo_gloss_frameless_main.png",
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "matte"
     },
     {
       "id": 6156,
@@ -922,7 +922,7 @@
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "woodgrain"
     },
     {
       "id": 6168,
@@ -1021,7 +1021,7 @@
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 7,
@@ -1032,7 +1032,7 @@
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "pioneer"
     },
     {
       "id": 9,
@@ -1065,7 +1065,7 @@
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 15,
@@ -1087,7 +1087,7 @@
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "americana"
     },
     {
       "id": 19,
@@ -1109,7 +1109,7 @@
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6001,
@@ -1274,7 +1274,7 @@
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6041,
@@ -1835,7 +1835,7 @@
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "matte"
     },
     {
       "id": 6157,
@@ -1901,7 +1901,7 @@
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
       "main_background_id": 123,
-      "series": "cabinet"
+      "series": "woodgrain"
     },
     {
       "id": 6169,
@@ -2066,7 +2066,7 @@
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
       "main_background_id": 123,
-      "series": null
+      "series": "americana"
     },
     {
       "id": 20,
@@ -2555,6 +2555,17 @@
       "series": null
     },
     {
+      "id": 6038,
+      "selected": 0,
+      "texture_name": "Pc Shaker Expresso",
+      "cabinet_type_name": "Crown Moldings",
+      "png_layer_url": "NA",
+      "png_layer_name": "pc_shaker_expresso_framed",
+      "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
+      "main_background_id": 123,
+      "series": "liberty"
+    },     
+    {
       "id": 2930,
       "selected": 1,
       "texture_name": "Alpine White Quartz",
@@ -2732,7 +2743,7 @@
     },
     {
       "id": 3067,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Tile - Classic Blue",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/backsplash/tile_classic_blue_backsplash_main.webp",
@@ -2831,7 +2842,7 @@
     },
     {
       "id": 3076,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Tile - Slate Luxe",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/backsplash/tile_slate_luxe_backsplash_main.png",
@@ -2842,7 +2853,7 @@
     },
     {
       "id": 2949,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Beige Tile",
       "cabinet_type_name": "Floor",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/floor/beige_tile_floor_main.png",
@@ -2886,7 +2897,7 @@
     },
     {
       "id": 2953,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Honey Pine",
       "cabinet_type_name": "Floor",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/floor/honey_pine_floor_main.png",
@@ -2927,6 +2938,16 @@
       "texture_url": "/assets/popup_imgs/floor/warm_chestnut_floor.jpg",
       "main_background_id": 123,
       "series": null
+    },
+    {
+      "id": 2957,
+      "selected": 0,
+      "texture_name": "White Tile",
+      "cabinet_type_name": "Floor",
+      "png_layer_url": "/assets/space/kitchen/l_shape/l_1/floor/White_Tile.png",
+      "png_layer_name": "White_Tile.png",
+      "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
+      "main_background_id": 123
     },
     {
       "id": 2916,

@@ -133,7 +133,7 @@ const CategoryPopup = () => {
           <Typography
             sx={{ color: "white", fontSize: "16px", fontWeight: 500 }}
           >
-            {series?.charAt(0).toUpperCase() + series?.slice(1) + " Series"} 
+            {series?.charAt(0).toUpperCase() + series?.slice(1) + " Series"} ({grouped[series].length})
           </Typography>
         </AccordionSummary>
         <AccordionDetails>{renderItemGrid(grouped[series])}</AccordionDetails>
@@ -191,7 +191,7 @@ const CategoryPopup = () => {
                 <Typography
                   sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}
                 >
-                  Framed Cabinets 
+                  Framed Cabinets ({framedItems.length})
                 </Typography>
               </AccordionSummary>
               <AccordionDetails sx={{ display:'flex', flexDirection:'column', gap:2 }}>
@@ -206,7 +206,7 @@ const CategoryPopup = () => {
                 <Typography
                   sx={{ color: "white", fontSize: "18px", fontWeight: 600 }}
                 >
-                  Frameless Cabinets
+                  Frameless Cabinets ({framelessItems.length})
                 </Typography>
               </AccordionSummary>
               <AccordionDetails sx={{ display:'flex', flexDirection:'column', gap:2 }}>

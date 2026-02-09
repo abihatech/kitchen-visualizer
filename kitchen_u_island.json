@@ -31,7 +31,7 @@
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
       "main_background_id": 311,
-      "series": null
+      "series": "liberty"
     },
     {
       "id": 8,
@@ -42,7 +42,7 @@
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "pioneer"
     },
     {
       "id": 10,
@@ -75,7 +75,7 @@
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 16,
@@ -97,7 +97,7 @@
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "americana"
     },
     {
       "id": 20,
@@ -119,7 +119,7 @@
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6000,
@@ -284,7 +284,7 @@
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6040,
@@ -845,7 +845,7 @@
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "matte"
     },
     {
       "id": 6156,
@@ -911,7 +911,7 @@
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "woodgrain"
     },
     {
       "id": 6168,
@@ -1010,7 +1010,7 @@
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
       "main_background_id": 311,
-      "series": null
+      "series": "liberty"
     },
     {
       "id": 7,
@@ -1021,7 +1021,7 @@
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "pioneer"
     },
     {
       "id": 9,
@@ -1054,7 +1054,7 @@
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 15,
@@ -1076,7 +1076,7 @@
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "americana"
     },
     {
       "id": 19,
@@ -1098,7 +1098,7 @@
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6001,
@@ -1252,7 +1252,7 @@
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6041,
@@ -1483,7 +1483,7 @@
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
       "main_background_id": 311,
-      "series": null
+      "series": "liberty"
     },
     {
       "id": 6023,
@@ -1890,7 +1890,7 @@
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "matte"
     },
     {
       "id": 6157,
@@ -1956,7 +1956,7 @@
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "woodgrain"
     },
     {
       "id": 6169,
@@ -2055,7 +2055,7 @@
       "png_layer_name": "kb_westhighland_white_framed",
       "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
       "main_background_id": 311,
-      "series": null
+      "series": "liberty"
     },
     {
       "id": 8,
@@ -2066,7 +2066,7 @@
       "png_layer_name": "pc_arlington_pathmed_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "pioneer"
     },
     {
       "id": 10,
@@ -2099,7 +2099,7 @@
       "png_layer_name": "rc_shaker_pebble_grey_framed",
       "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 16,
@@ -2121,7 +2121,7 @@
       "png_layer_name": "sl_slim_dove_white_cabinet_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "americana"
     },
     {
       "id": 20,
@@ -2143,7 +2143,7 @@
       "png_layer_name": "sw_in_the_navy_framed",
       "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6000,
@@ -2308,7 +2308,7 @@
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "liberty"
     },
     {
       "id": 6040,
@@ -2869,7 +2869,7 @@
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_girs_plomo_gloss__frameless.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "matte"
     },
     {
       "id": 6157,
@@ -2935,7 +2935,7 @@
       "png_layer_name": "pc_lakeland_oak_03_textured_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/pc_lakeland_oak_03_textured_frameless.jpg",
       "main_background_id": 311,
-      "series": "cabinet"
+      "series": "woodgrain"
     },
     {
       "id": 6169,

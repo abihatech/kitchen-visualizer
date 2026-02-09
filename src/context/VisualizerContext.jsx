@@ -18,8 +18,7 @@ const organizeLayerData = (layerData, mainBackgroundId) => {
   // Organize regular layer data
   layerData.forEach((item) => {
     const isAvilable =
-      item.main_background_id === mainBackgroundId &&
-      item?.png_layer_url !== "NA";
+      item.main_background_id === mainBackgroundId
     if (isAvilable) {
       if (!organized[item.cabinet_type_name]) {
         organized[item.cabinet_type_name] = [];
