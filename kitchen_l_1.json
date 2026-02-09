@@ -850,7 +850,7 @@
     {
       "id": 6154,
       "selected": 0,
-      "texture_name": "Pc Girs Plomo Gloss",
+      "texture_name": "Pc Girs Plomo Gloss ",
       "cabinet_type_name": "Wall Cabinets",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/cabinet/wall/frameless/pc_girs_plomo_gloss_frameless_main.png",
       "png_layer_name": "pc_girs_plomo_gloss__frameless",
@@ -1274,7 +1274,7 @@
       "png_layer_name": "pc_shaker_expresso_framed",
       "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
       "main_background_id": 123,
-      "series": "liberty"
+      "series": "cabinet"
     },
     {
       "id": 6041,
@@ -2554,17 +2554,6 @@
       "main_background_name": "02 Kitchen L No Island",
       "series": null
     },
-    {
-      "id": 6038,
-      "selected": 0,
-      "texture_name": "Pc Shaker Expresso",
-      "cabinet_type_name": "Crown Moldings",
-      "png_layer_url": "NA",
-      "png_layer_name": "pc_shaker_expresso_framed",
-      "texture_url": "/assets/popup_imgs/door/framed/pc_shaker_expresso_framed.jpg",
-      "main_background_id": 123,
-      "series": "liberty"
-    },     
     {
       "id": 2930,
       "selected": 1,

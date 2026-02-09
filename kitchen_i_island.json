@@ -540,6 +540,17 @@
       "series": "heartland"
     },
     {
+      "id": 6,
+      "selected": 0,
+      "texture_name": "Kb Westhighland White",
+      "cabinet_type_name": "Wall Cabinets",
+      "png_layer_url": "NA",
+      "png_layer_name": "kb_westhighland_white_framed",
+      "texture_url": "/assets/popup_imgs/door/framed/kb_westhighland_white_framed.jpg",
+      "main_background_id": 321,
+      "series": "liberty"
+    },
+    {
       "id": 8,
       "selected": 0,
       "texture_name": "Pc Arlington Oatmeal",
@@ -617,6 +628,17 @@
       "series": "liberty"
     },
     {
+      "id": 22,
+      "selected": 0,
+      "texture_name": "Sw In The Navy",
+      "cabinet_type_name": "Wall Cabinets",
+      "png_layer_url": "NA",
+      "png_layer_name": "sw_in_the_navy_framed",
+      "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
+      "main_background_id": 321,
+      "series": null
+    },
+    {
       "id": 6000,
       "selected": 0,
       "texture_name": "Kb Clary Sage",
@@ -626,6 +648,28 @@
       "texture_url": "/assets/popup_imgs/door/framed/kb_clary_sage_framed.jpg",
       "main_background_id": 321,
       "series": "liberty"
+    },
+    {
+      "id": 6000,
+      "selected": 0,
+      "texture_name": "KB Westhighland White",
+      "cabinet_type_name": "Wall Cabinets",
+      "png_layer_url": "NA",
+      "png_layer_name": "kb_clary_sage_framed",
+      "texture_url": "/assets/popup_imgs/door/framed/kb_clary_sage_framed.jpg",
+      "main_background_id": 321,
+      "series":"liberty"
+    },
+    {
+      "id": 6002,
+      "selected": 0,
+      "texture_name": "Kb Evergreen Fog",
+      "cabinet_type_name": "Wall Cabinets",
+      "png_layer_url": "/assets/space/kitchen/i_shape/island/cabinet/wall/framed/kb_evergreen_fog_framed_main.png",
+      "png_layer_name": "kb_evergreen_fog_framed",
+      "texture_url": "/assets/popup_imgs/door/framed/kb_evergreen_fog_framed.jpg",
+      "main_background_id": 321,
+      "series": null
     },
     {
       "id": 6004,
@@ -1241,7 +1285,18 @@
       "png_layer_name": "kb_sunday_brunch_frameless",
       "texture_url": "/assets/popup_imgs/door/frameless/kb_sunday_brunch_frameless.jpg",
       "main_background_id": 321,
-      "series": null
+      "series": "woodgrain"
+    },
+    {
+      "id": 6140,
+      "selected": 0,
+      "texture_name": "Kb Walnut",
+      "cabinet_type_name": "Wall Cabinets",
+      "png_layer_url": "/assets/space/kitchen/i_shape/island/cabinet/wall/frameless/kb_walnut_frameless_main.png",
+      "png_layer_name": "kb_walnut_frameless",
+      "texture_url": "/assets/popup_imgs/door/frameless/kb_walnut_frameless.jpg",
+      "main_background_id": 321,
+      "series": "woodgrain"
     },
     {
       "id": 6142,
@@ -1452,17 +1507,6 @@
       "main_background_id": 321,
       "series": "woodgrain"
     },
-     {
-      "id": 21,
-      "selected": 0,
-      "texture_name": "Sw In The Navy",
-      "cabinet_type_name": "Wall Cabinets",
-      "png_layer_url": "NA",
-      "png_layer_name": "sw_in_the_navy_framed",
-      "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
-      "main_background_id": 321,
-      "series": "liberty"
-    },
     {
       "id": 2,
       "selected": 0,
@@ -1572,6 +1616,17 @@
       "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.jpg",
       "main_background_id": 321,
       "series": "liberty"
+    },
+    {
+      "id": 22,
+      "selected": 0,
+      "texture_name": "Sw In The Navy",
+      "cabinet_type_name": "Island Cabinets",
+      "png_layer_url": "NA",
+      "png_layer_name": "sw_in_the_navy_framed",
+      "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
+      "main_background_id": 321,
+      "series": null
     },
     {
       "id": 6000,
@@ -2430,17 +2485,6 @@
       "texture_url": "/assets/popup_imgs/door/frameless/pc_white_frozen_wood_textured_frameless.jpg",
       "main_background_id": 321,
       "series": "woodgrain"
-    },
-    {
-      "id": 21,
-      "selected": 0,
-      "texture_name": "Sw In The Navy",
-      "cabinet_type_name": "Island Cabinets",
-      "png_layer_url": "NA",
-      "png_layer_name": "sw_in_the_navy_framed",
-      "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
-      "main_background_id": 321,
-      "series": "liberty"
     },
     {
       "id": 1,

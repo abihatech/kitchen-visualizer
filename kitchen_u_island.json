@@ -2,7 +2,7 @@
   "layerdata": [
     {
       "id": 2,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Kb Shaker Gray",
       "cabinet_type_name": "Wall Cabinets",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/kb_shaker_gray_framed_main.webp",
@@ -321,7 +321,7 @@
     },
     {
       "id": 6044,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Pc Shaker Pine",
       "cabinet_type_name": "Wall Cabinets",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/wall/framed/pc_shaker_pine_framed_main.png",
@@ -981,7 +981,7 @@
     },
     {
       "id": 1,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Kb Shaker Gray",
       "cabinet_type_name": "Base Cabinets",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/kb_shaker_gray_framed_main.webp",
@@ -1278,7 +1278,7 @@
     },
     {
       "id": 6045,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Pc Shaker Pine",
       "cabinet_type_name": "Base Cabinets",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/base/framed/pc_shaker_pine_framed_main.png",
@@ -1848,17 +1848,17 @@
       "main_background_id": 311,
       "series": "matte"
     },
-    {
-      "id": 6149,
-      "selected": 0,
-      "texture_name": "Pc Carbon Frozen Wood Textured",
-      "cabinet_type_name": "Base Cabinets",
-      "png_layer_url": "NA",
-      "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
-      "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
+     {
+    "id": 6149,
+    "selected": 0,
+    "texture_name": "Pc Carbon Frozen Wood Textured",
+    "cabinet_type_name": "Base Cabinets",
+    "png_layer_url": "NA",
+    "png_layer_name": "pc_carbon_frozen_wood_textured_frameless",
+    "texture_url": "/assets/popup_imgs/door/frameless/pc_carbon_frozen_wood_textured_frameless.jpg",
       "main_background_id": 311,
       "series": null
-    },
+  },
     {
       "id": 6151,
       "selected": 0,
@@ -2026,7 +2026,7 @@
     },
     {
       "id": 2,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Kb Shaker Gray",
       "cabinet_type_name": "Island Cabinets",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/kb_shaker_gray_framed_main.webp",
@@ -2334,7 +2334,7 @@
     },
     {
       "id": 6044,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Pc Shaker Pine",
       "cabinet_type_name": "Island Cabinets",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/cabinet/island/framed/pc_shaker_pine_framed_main.png",
@@ -3005,7 +3005,7 @@
     },
     {
       "id": 2,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Kb Shaker Gray",
       "cabinet_type_name": "Crown Moldings",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/kb_shaker_gray_framed_main.png",
@@ -3313,7 +3313,7 @@
     },
     {
       "id": 6044,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Pc Shaker Pine",
       "cabinet_type_name": "Crown Moldings",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/crown_molding/pc_shaker_pine_framed_main.png",
@@ -3665,7 +3665,7 @@
     },
     {
       "id": 3065,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "Tile - Classic Green",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_green_backsplash_main.png",
@@ -3698,7 +3698,7 @@
     },
     {
       "id": 3068,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "Tile - Classic Herringbone",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/backsplash/tile_classic_herringbone_main.webp",
@@ -3884,17 +3884,6 @@
       "series": null
     },
     {
-      "id": 2956,
-      "selected": 0,
-      "texture_name": "White Tile",
-      "cabinet_type_name": "Floor",
-      "png_layer_url": "/assets/space/kitchen/u_shape/island/floor/white_tile_floor_main.png",
-      "png_layer_name": "white_tile_floor.png",
-      "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
-      "main_background_id": 311,
-      "series": null
-    },
-    {
       "id": 2916,
       "selected": 1,
       "texture_name": "Black Stainless Steel",
@@ -3951,7 +3940,7 @@
     },
     {
       "id": 2088,
-      "selected": 0,
+      "selected": 1,
       "texture_name": "SW 6239 - Upward",
       "cabinet_type_name": "Wall Colors",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6239_upward.png",
@@ -4017,7 +4006,7 @@
     },
     {
       "id": 2094,
-      "selected": 1,
+      "selected": 0,
       "texture_name": "SW 6737 - Kiwi",
       "cabinet_type_name": "Wall Colors",
       "png_layer_url": "/assets/space/kitchen/u_shape/island/wall/sw_6737_kiwi.png",
