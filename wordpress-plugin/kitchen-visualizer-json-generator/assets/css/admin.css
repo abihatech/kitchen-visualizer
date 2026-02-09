@@ -1,0 +1,128 @@
+/* Kitchen Visualizer Admin Styles */
+
+.kv-form .required {
+    color: #dc3232;
+}
+
+.kv-filters {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.kv-filters select {
+    margin-right: 10px;
+}
+
+.kv-export-item {
+    transition: box-shadow 0.2s ease;
+}
+
+.kv-export-item:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.kv-import-section,
+.kv-export-section {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#kv-json-preview {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+#kv-json-preview h3 {
+    margin-top: 0;
+}
+
+#kv-json-content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.kv-media-upload {
+    margin-left: 10px;
+}
+
+.wp-list-table td {
+    vertical-align: middle;
+}
+
+.notice.inline {
+    margin: 20px 0;
+    padding: 12px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .kv-filters select {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .kv-export-item {
+        margin-bottom: 15px;
+    }
+}
+
+/* Loading spinner */
+.kv-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0,0,0,.1);
+    border-radius: 50%;
+    border-top-color: #0073aa;
+    animation: kv-spin 1s ease-in-out infinite;
+}
+
+@keyframes kv-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Success message */
+.kv-success {
+    color: #46b450;
+    font-weight: 600;
+}
+
+/* Error message */
+.kv-error {
+    color: #dc3232;
+    font-weight: 600;
+}
+
+/* Table improvements */
+.wp-list-table th {
+    font-weight: 600;
+}
+
+.wp-list-table .button-small {
+    margin-right: 5px;
+}
+
+/* Form table improvements */
+.form-table th {
+    width: 220px;
+}
+
+.form-table .large-text {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Code blocks */
+pre code {
+    display: block;
+    white-space: pre;
+}

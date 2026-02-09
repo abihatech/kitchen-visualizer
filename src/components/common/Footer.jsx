@@ -65,7 +65,7 @@ const Footer = () => {
           <FullscreenIcon />
         </IconButton>
       </Box>
-      <Typography variant="body2">Powered by Paramount</Typography>
+      <Typography variant="body2">Powered by Peak Design Studio</Typography>
     </Box>
   );
 };

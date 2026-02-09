@@ -1,0 +1,72 @@
+{
+    "paramount": [
+        {
+            "types-of-space": [
+                {
+                    "id": "1",
+                    "name": "kitchen",
+                    "display_name": "Kitchen",
+                    "shapes": [
+                        {
+                            "shape": "L",
+                            "preferred_shape": [
+                                "L",
+                                "U",
+                                "Straight"
+                            ]
+
+                        },
+                        {
+                            "shape": "U",
+                            "preferred_shape": [
+                                "U",
+                                "L",
+                                "Straight"
+                            ]
+
+                        },
+                        {
+                            "shape": "I",
+                            "preferred_shape": [
+                                "Straight",
+                                "L",
+                                "U"
+                            ]
+
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "name": "bathroom",
+                    "display_name": "Bathroom"
+                },
+                {
+                    "id": "3",
+                    "name": "bar-room",
+                    "display_name": "Bar Room"
+                },
+                {
+                    "id": "4",
+                    "name": "Laundary",
+                    "display_name": "Laundary"
+                },
+                {
+                    "id": "5",
+                    "name": "office",
+                    "display_name": "Office"
+                },
+                {
+                    "id": "6",
+                    "name": "media-room",
+                    "display_name": "Media Room"
+                },
+                {
+                    "id": "7",
+                    "name": "mud-room",
+                    "display_name": "Mud Room"
+                }
+            ]
+        }
+    ]
+}

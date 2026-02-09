@@ -1,0 +1,47 @@
+{
+    "types-of-space": [
+        {
+            "kitchen": {
+                "L" : [
+                    {
+                        "Door-style": [
+                            {
+                                "name": "Wall Cabinets",
+                                "slug": "wall-cabinets",
+                                "type": [
+                                    {
+                                        "framed": [
+                                            {
+                                                "name": "Kb Shaker Gray",
+                                                "slug": "kb-shaker-gray",
+                                                "image": "kb-shaker-gray.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "frameless": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "bathroom": "bathroom"
+        },
+        {
+            "bar-room": "bar-room"
+        },
+        {
+            "laundary": "Laundary"
+        },
+        {
+            "office": "office"
+        },
+        {
+            "mud-room": "mud-room"
+        }
+    ]
+}
