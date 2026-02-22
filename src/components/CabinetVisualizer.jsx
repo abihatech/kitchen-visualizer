@@ -5,6 +5,7 @@ import Space from "./Space";
 import Shape from "./Shape";
 import Visualizer from "./Visualizer";
 import AvailableItems from "./AvailableItems";
+import { Box, CircularProgress, Typography } from "@mui/material";
 
 const CabinetVisualizer = () => {
   const {
@@ -24,14 +25,27 @@ const CabinetVisualizer = () => {
     handleNextKitchenShape,
     handlePrevKitchenShape,
     availableItemIndex,
-    typesConfiguration
+    typesConfiguration,
   } = useContext(VisualizerContext);
 
   if (!typesConfiguration) {
     return (
-      <div className="flex items-center justify-center w-full h-screen bg-gray-900 text-white">
-        Loading application data...
-      </div>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          width: "100%",
+          height: "100vh",
+          bgcolor: "#1a1a2e",
+          color: "white",
+          gap: 2,
+        }}
+      >
+        <CircularProgress color="inherit" />
+        <Typography variant="body1">Loading application data...</Typography>
+      </Box>
     );
   }
 
@@ -69,12 +83,14 @@ const CabinetVisualizer = () => {
           if (endIndex <= kitchenShapes?.length) {
             displayedKitchenShapes = kitchenShapes?.slice(
               currentKitchenShapeIndex,
-              endIndex
+              endIndex,
             );
           } else {
             displayedKitchenShapes = kitchenShapes
               ?.slice(currentKitchenShapeIndex)
-              ?.concat(kitchenShapes?.slice(0, endIndex - kitchenShapes?.length));
+              ?.concat(
+                kitchenShapes?.slice(0, endIndex - kitchenShapes?.length),
+              );
           }
         }
         return (
@@ -94,7 +110,7 @@ const CabinetVisualizer = () => {
           if (endIndex <= availableItemsData?.length) {
             availableItems = availableItemsData?.slice(
               availableItemIndex,
-              endIndex
+              endIndex,
             );
           } else {
             availableItems = availableItemsData
@@ -102,8 +118,8 @@ const CabinetVisualizer = () => {
               ?.concat(
                 availableItemsData?.slice(
                   0,
-                  endIndex - availableItemsData?.length
-                )
+                  endIndex - availableItemsData?.length,
+                ),
               );
           }
         }
@@ -120,9 +136,22 @@ const CabinetVisualizer = () => {
       case "visualizer":
         if (!selectedMainBackground || !selectedMainBackground.thumbnail) {
           return (
-            <div className="flex items-center justify-center w-full h-screen bg-gray-900 text-white">
-              Loading Visualizer...
-            </div>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "100%",
+                height: "100vh",
+                bgcolor: "#1a1a2e",
+                color: "white",
+                gap: 2,
+              }}
+            >
+              <CircularProgress color="inherit" />
+              <Typography variant="body1">Loading Visualizer...</Typography>
+            </Box>
           );
         }
         return <Visualizer />;
@@ -131,7 +160,19 @@ const CabinetVisualizer = () => {
     }
   };
 
-  return <div className="App">{renderScreen()}</div>;
+  return (
+    <Box
+      sx={{
+        width: "100%",
+        minHeight: "100vh",
+        margin: 0,
+        padding: 0,
+        overflow: "hidden",
+      }}
+    >
+      {renderScreen()}
+    </Box>
+  );
 };
 
 export default CabinetVisualizer;
