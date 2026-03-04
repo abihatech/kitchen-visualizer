@@ -9,10 +9,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  overflow: hidden;  /* prevent body-level scroll */
+  height: 100vh;
 }
 
 #root {
   width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100vh;        /* strict height — no min-height that allows overflow */
+  overflow: hidden;
 }

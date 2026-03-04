@@ -117,32 +117,114 @@
     {
       "id": 63,
       "name": "Bathroom",
-      "thumbnail": "/assets/img/bathroom.png"
+      "thumbnail": "/assets/img/bathroom.png",
+      "subitems": [
+        {
+          "id": 631,
+          "main_background_name": "Bathroom",
+          "thumbnail": "/assets/space/bathroom/bathroom_base_image.webp",
+          "thumbnailsm": "/assets/space/bathroom/bathroom_main_image.webp",
+          "hotpots": [
+            { "top": "39%", "left": "45%", "category": "Wall Cabinets" },
+            { "top": "65%", "left": "40%", "category": "Base Cabinets" },
+            { "top": "57%", "left": "24%", "category": "Countertop" },
+            { "top": "49%", "left": "68%", "category": "Backsplash" },
+            { "top": "92%", "left": "38%", "category": "Floor" },
+            { "top": "35%", "left": "80%", "category": "Wall Colors" }
+          ]
+        }
+      ]
     },
     {
       "id": 62,
       "name": "Bar Room",
-      "thumbnail": "/assets/img/barroom.png"
+      "thumbnail": "/assets/img/barroom.png",
+      "subitems": [
+        {
+          "id": 621,
+          "main_background_name": "Bar Room",
+          "thumbnail": "/assets/space/barroom/barroom_base_image.webp",
+          "thumbnailsm": "/assets/space/barroom/barroom_main_image.webp",
+          "hotpots": [
+            { "top": "39%", "left": "27%", "category": "Wall Cabinets" },
+            { "top": "72%", "left": "68%", "category": "Base Cabinets" },
+            { "top": "61%", "left": "30%", "category": "Countertop" },
+            { "top": "90%", "left": "17%", "category": "Floor" },
+            { "top": "9%", "left": "50%", "category": "Wall Colors" }
+          ]
+        }
+      ]
     },
     {
       "id": 64,
       "name": "Laundry",
-      "thumbnail": "/assets/img/laundry_room.png"
+      "thumbnail": "/assets/img/laundry_room.png",
+      "subitems": [
+        {
+          "id": 641,
+          "main_background_name": "Laundry",
+          "thumbnail": "/assets/space/laundry/laundry_base_image.webp",
+          "thumbnailsm": "/assets/space/laundry/laundry_main_image.webp",
+          "hotpots": [
+            { "top": "24%", "left": "70%", "category": "Wall Cabinets" },
+            { "top": "75%", "left": "85%", "category": "Base Cabinets" },
+            { "top": "57%", "left": "83%", "category": "Countertop" },
+            { "top": "47%", "left": "31%", "category": "Backsplash" },
+            { "top": "90%", "left": "50%", "category": "Floor" },
+            { "top": "76%", "left": "57%", "category": "Appliances" },
+            { "top": "20%", "left": "90%", "category": "Wall Colors" }
+          ]
+        }
+      ]
     },
     {
       "id": 65,
       "name": "Office",
-      "thumbnail": "/assets/img/office_room.png"
+      "thumbnail": "/assets/img/office_room.png",
+      "subitems": [
+        {
+          "id": 651,
+          "main_background_name": "Office",
+          "thumbnail": "/assets/space/office/office_base_image.webp",
+          "thumbnailsm": "/assets/space/office/office_main_image.webp",
+          "hotpots": [
+            { "top": "20%", "left": "38%", "category": "Wall Cabinets" },
+            { "top": "72%", "left": "80%", "category": "Base Cabinets" },
+            { "top": "58%", "left": "71%", "category": "Countertop" },
+            { "top": "92%", "left": "38%", "category": "Floor" }
+          ]
+        }
+      ]
     },
     {
       "id": 66,
       "name": "Media Room",
-      "thumbnail": "/assets/img/media_room.png"
+      "thumbnail": "/assets/img/media_room.png",
+      "subitems": [
+        {
+          "id": 661,
+          "main_background_name": "Media Room",
+          "thumbnail": "/assets/space/mediaroom/media_base_image.webp",
+          "thumbnailsm": "/assets/space/mediaroom/media_main_image.webp",
+          "hotpots": [
+            { "top": "16%", "left": "35%", "category": "Wall Cabinets" },
+            { "top": "55%", "left": "65%", "category": "Base Cabinets" },
+            { "top": "45%", "left": "40%", "category": "Countertop" },
+            { "top": "72%", "left": "35%", "category": "Floor" },
+            { "top": "4%", "left": "66%", "category": "Wall Colors" }
+          ]
+        }
+      ]
     },
     {
       "id": 67,
       "name": "Mud Room",
       "thumbnail": "/assets/img/mud_room.png"
+    },
+     {
+      "id": 68,
+      "name": "Pantry",
+      "thumbnail": "/assets/img/pantry.webp"
     }
   ],
 

@@ -15,7 +15,7 @@ const SelectedItemPopup = ({ category, item, onSelectStyle }) => {
   return (
     <Box
       sx={{
-        width: { xs: 150, sm: 185 },
+        width: { xs: 140, sm: 160 },
         bgcolor: "rgba(40, 40, 40, 0.90)",
         color: "white",
         display: "flex",

@@ -3758,7 +3758,7 @@
       "cabinet_type_name": "Floor",
       "png_layer_url": "/assets/space/kitchen/i_shape/island/floor/white_tile_floor_main.png",
       "png_layer_name": "gray_tile_floor_main.png",
-      "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
+      "texture_url": "/assets/popup_imgs/floor/white_tile_floor.png",
       "main_background_id": 321,
       "series": null
     },

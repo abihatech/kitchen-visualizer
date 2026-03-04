@@ -34,6 +34,7 @@ const AvailableItems = ({
         sx={{
           bgcolor: "rgba(0,0,0,0.70)",
           p: { xs: 2.5, sm: 5, md: 8 },
+          borderRadius: { xs: 3, sm: 6 },
           color: "white",
           textAlign: "center",
           maxWidth: 900,
@@ -96,6 +97,7 @@ const AvailableItems = ({
                     component="img"
                     src={item.thumbnailsm}
                     alt={item.name}
+                    loading="lazy"
                     sx={{
                       width: "100%",
                       height: { xs: 55, sm: 90, md: 128 },

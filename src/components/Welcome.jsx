@@ -22,7 +22,6 @@ const Welcome = ({ setScreen }) => {
       <Box
         sx={{
           backgroundColor: "rgba(200, 210, 225, 0.65)",
-          // backdropFilter: "blur(0px)",
           borderRadius: { xs: 3, sm: 6 },
           px: { xs: 2.5, sm: 5, md: 8 },
           py: { xs: 2, sm: 4, md: 5 },

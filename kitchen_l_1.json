@@ -2946,7 +2946,7 @@
       "cabinet_type_name": "Floor",
       "png_layer_url": "/assets/space/kitchen/l_shape/l_1/floor/White_Tile.png",
       "png_layer_name": "White_Tile.png",
-      "texture_url": "/assets/popup_imgs/floor/white_tile_floor_main.png",
+      "texture_url": "/assets/popup_imgs/floor/white_tile_floor.png",
       "main_background_id": 123
     },
     {
