@@ -30,6 +30,7 @@ const Shape = ({
       <Box
         sx={{
           bgcolor: "rgba(0,0,0,0.70)",
+          borderRadius: { xs: 3, sm: 6 },
           p: { xs: 2.5, sm: 5, md: 8 },
           color: "white",
           textAlign: "center",

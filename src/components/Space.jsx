@@ -13,6 +13,8 @@ const Space = ({
   handlePrevSpace,
   handleNextSpace,
 }) => {
+  const { setSelectedMainBackground } = useContext(VisualizerContext);
+
   return (
     <Box
       sx={{
@@ -32,6 +34,7 @@ const Space = ({
       <Box
         sx={{
           bgcolor: "rgba(0,0,0,0.70)",
+           borderRadius: { xs: 3, sm: 6 },
           p: { xs: 2.5, sm: 5, md: 8 },
           color: "white",
           textAlign: "center",
@@ -79,8 +82,13 @@ const Space = ({
                 key={index}
                 onClick={() => {
                   if (space.name === "Kitchen") {
+                    // Kitchen: go to shape selection flow
                     setScreen("kitchenShape");
                     setCurrentKitchenShapeIndex(0);
+                  } else if (space.subitems?.length) {
+                    // Non-kitchen spaces: go directly to visualizer
+                    setSelectedMainBackground(space.subitems[0]);
+                    setScreen("visualizer");
                   }
                 }}
                 sx={{
@@ -91,6 +99,26 @@ const Space = ({
                   "&:hover": { transform: "scale(1.12)" },
                 }}
               >
+                {!space?.subitems && (
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      // width: { xs: 80, sm: 120, md: 150 },
+                      position: "absolute",
+                      top:"30%",
+                      transform: "translate(10%,0)",
+                      color: "white",
+                      fontSize: { xs: "0.7rem", sm: "0.95rem", md: "1.1rem" },
+                      fontWeight: 300,
+                      fontFamily: "Inter,sans-serif",
+                      backgroundColor: "#000",
+                      px:1,
+                      m:"auto"
+                    }}
+                  >
+                    Coming Soon
+                  </Typography>
+                )}
                 <Paper
                   elevation={3}
                   sx={{
@@ -104,6 +132,7 @@ const Space = ({
                     component="img"
                     src={space.thumbnail}
                     alt={space.name}
+                    loading="lazy"
                     sx={{
                       width: "100%",
                       height: { xs: 55, sm: 90, md: 120 },

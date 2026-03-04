@@ -1,17 +1,9 @@
 import { VisualizerContext } from "../../context/VisualizerContext";
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useEffect } from "react";
 import { Box, IconButton, Tooltip } from "@mui/material";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
-
-// Image prefetch cache to speed up layer rendering
-const imageCache = new Set();
-const preloadImage = (src) => {
-  if (!src || imageCache.has(src)) return;
-  imageCache.add(src);
-  const img = new Image();
-  img.src = src;
-};
+import { preloadImage } from "../../utils/imageUtils";
 
 const ImageSetter = () => {
   const {
@@ -81,7 +73,14 @@ const ImageSetter = () => {
         <img
           src={selectedMainBackground?.thumbnail}
           alt="Room Background"
-          style={{ width: "100%", height: "100%", objectFit: "inherit" }}
+          fetchpriority="high"
+          decoding="async"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "inherit",
+            transition: "opacity 0.3s ease-in-out",
+          }}
           loading="eager"
         />
 
@@ -94,6 +93,7 @@ const ImageSetter = () => {
                 src={layer.png_layer_url}
                 alt=""
                 loading="eager"
+                decoding="async"
                 style={{
                   position: "absolute",
                   top: 0,
@@ -101,10 +101,11 @@ const ImageSetter = () => {
                   width: "100%",
                   height: "100%",
                   objectFit: "inherit",
+                  transition: "opacity 0.25s ease-in-out",
                   zIndex: [
                     "Wall Cabinets",
                     "Crown Moldings",
-                    selectedMainBackground?.id === 130 && "Backsplash",
+                    [130, 631, 641].includes(selectedMainBackground?.id) && "Backsplash",
                   ]?.includes(layer.cabinet_type_name)
                     ? 1
                     : 0,

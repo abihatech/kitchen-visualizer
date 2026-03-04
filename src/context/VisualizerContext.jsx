@@ -1,15 +1,5 @@
 import { createContext, useState, useEffect, useRef, useCallback } from "react";
-
-// Module-level image preload cache (persists across re-renders)
-const _preloaded = new Set();
-const preloadImages = (urls) => {
-  urls.forEach((src) => {
-    if (!src || _preloaded.has(src)) return;
-    _preloaded.add(src);
-    const img = new Image();
-    img.src = src;
-  });
-};
+import { tieredPreload } from "../utils/imageUtils";
 
 // Helper function to group layer data by cabinet_type_name
 const organizeLayerData = (layerData, mainBackgroundId) => {
@@ -124,6 +114,21 @@ export const VisualizerProvider = ({ children }) => {
       case 321:
         desingJson = "../../kitchen_i_island.json";
         break;
+      case 621:
+        desingJson = "../../barroom.json";
+        break;
+      case 631:
+        desingJson = "../../bathroom.json";
+        break;
+      case 641:
+        desingJson = "../../laundry.json";
+        break;
+      case 651:
+        desingJson = "../../office.json";
+        break;
+      case 661:
+        desingJson = "../../mediaroom.json";
+        break;
       default:
         desingJson = "../../kitchen_l_1.json";
         break;
@@ -139,12 +144,6 @@ export const VisualizerProvider = ({ children }) => {
 
     const organized = organizeLayerData(mainData, mainBgId);
     setOrganizedLayerData(organized);
-
-    // Preload ALL layer images in the background immediately after data loads
-    const allLayerUrls = mainData.flatMap((item) =>
-      [item.png_layer_url, item.texture_url].filter(Boolean),
-    );
-    preloadImages(allLayerUrls);
 
     const initialLayers = {};
 
@@ -166,6 +165,9 @@ export const VisualizerProvider = ({ children }) => {
       }
     });
     setAppliedLayers(initialLayers);
+
+    // Tiered preload: critical PNGs first → thumbnails → idle PNG prefetch
+    tieredPreload(mainData, initialLayers);
   };
 
   // Organize data and set initial layers when appData or selectedMainBackground changes
@@ -230,9 +232,9 @@ export const VisualizerProvider = ({ children }) => {
 
   const handleSelectItem = (categoryName, item) => {
     if (categoryName === "Wall Cabinets") {
-      const crownMolding = organizedLayerData?.["Crown Moldings"]?.filter(
-        (it) => it?.id === item?.id,
-      )?.[0];
+      const crownMolding = organizedLayerData?.["Crown Moldings"]?.find(
+        (it) => it?.texture_name === item?.texture_name,
+      );
       setAppliedLayers((prev) => ({
         ...prev,
         ["Crown Moldings"]: {

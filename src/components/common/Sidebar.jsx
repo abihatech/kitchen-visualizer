@@ -79,11 +79,12 @@ const Sidebar = () => {
       <>
         {/* Floating toggle button on mobile */}
         <IconButton
-          onClick={() => setMobileOpen(true)}
+          onClick={() => setMobileOpen(prev => !prev)}
           sx={{
+            // display: mobileOpen ? "none" : "flex",
             position: "absolute",
-            bottom: 70,
-            left: 8,
+            top: 0,
+            left: mobileOpen ? 80 : 8,
             zIndex: 1300,
             bgcolor: "black",
             color: "white",
@@ -97,16 +98,18 @@ const Sidebar = () => {
         <Drawer
           anchor="left"
           open={mobileOpen}
-          onClose={() => setMobileOpen(false)}
+          // onClose={() => setMobileOpen(false)}
+          hideBackdrop
           PaperProps={{
             sx: {
+              mt:5,
               width: 80,
               bgcolor: "black",
               pt: 1,
             },
           }}
         >
-          <Box sx={{ display: "flex", justifyContent: "flex-end", px: 0.5 }}>
+          {/* <Box sx={{ display: "flex", justifyContent: "flex-end", px: 0.5 }}>
             <IconButton
               size="small"
               onClick={() => setMobileOpen(false)}
@@ -114,7 +117,7 @@ const Sidebar = () => {
             >
               <CloseIcon fontSize="small" />
             </IconButton>
-          </Box>
+          </Box> */}
           <SidebarContent
             organizedLayerData={organizedLayerData}
             openPopup={openPopup}

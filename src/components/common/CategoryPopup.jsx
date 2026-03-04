@@ -1,5 +1,5 @@
 import { VisualizerContext } from "../../context/VisualizerContext";
-import { useContext } from "react";
+import { useContext, useCallback, useMemo } from "react";
 import {
   Box,
   Card,
@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import LazyImg from "./LazyImg";
 
 const CategoryPopup = () => {
   const {
@@ -23,147 +24,144 @@ const CategoryPopup = () => {
 
   const selectedItemForCategoryList = appliedLayers[activeCategory];
 
-  const renderItemGrid = (items) => (
-    <Box
-      sx={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: { xs: 5, sm: 8},
-        justifyContent: "flex-start",
-        p: { xs: 1, sm: 1.5 },
-      }}
-    >
-      {items.map((item) => {
-        const isSelected = selectedItemForCategoryList?.id === item.id;
-        const img =
-          item.texture_url ||
-          item.png_layer_url ||
-          "https://placehold.co/150x150/F5F5F5/000000?text=NA";
+  const renderItemGrid = useCallback(
+    (items) => (
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: { xs: 5, sm: 8 },
+          justifyContent: "flex-start",
+          p: { xs: 1, sm: 1.5 },
+        }}
+      >
+        {items.map((item) => {
+          const isSelected = selectedItemForCategoryList?.id === item.id;
+          const imgSrc =
+            item.texture_url ||
+            "https://placehold.co/150x150/2a2a2a/666666?text=NA";
 
-        return (
-          <Box
-            key={item.id}
-            sx={{ textAlign: "center", width: { xs: 80, sm: 95, md: 110 } }}
-          >
+          return (
             <Box
-              onClick={(e) => {
-                e.stopPropagation();
-                handleSelectItem(activeCategory, item);
-              }}
-              sx={{
-                cursor: "pointer",
-                display: "inline-block",
-                borderRadius: "4px",
-                transition: "all 0.2s ease-in-out",
-                border: "1px solid rgb(255, 255, 255)",
-                filter: isSelected
-                  ? "drop-shadow(rgba(35, 255, 90, 1) 0px 0px 3px)"
-                  : "drop-shadow(rgb(255, 255, 255) 0px 0px 3px)",
-                boxShadow:
-                  "rgba(0, 0, 0, 0.2) 0px 1px 5px 0px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px",
-                "&:hover": {
-                  boxShadow: "1px 1px 5px 1px #66bb6a",
-                  filter: "drop-shadow(rgba(35, 255, 90, 1) 0px 0px 3px)",
-                },
-              }}
+              key={item.id}
+              sx={{ textAlign: "center", width: { xs: 80, sm: 95, md: 110 } }}
             >
               <Box
-                component="img"
-                src={img}
-                alt={item.texture_name || item.png_layer_name}
-                onError={(e) =>
-                  (e.target.src =
-                    "https://placehold.co/150x150/F5F5F5/000000?text=NA")
-                }
-                sx={{
-                  width: { xs: 65, sm: 80, md: 95 },
-                  height: { xs: 85, sm: 110, md: 160 },
-                  objectFit: "unset",
-                  borderRadius: "4px",
-                  backgroundColor: "transparent",
-                  display: "block",
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleSelectItem(activeCategory, item);
                 }}
-              />
+                sx={{
+                  cursor: "pointer",
+                  display: "inline-block",
+                  borderRadius: "4px",
+                  transition: "all 0.2s ease-in-out",
+                  border: "1px solid rgb(255, 255, 255)",
+                  filter: isSelected
+                    ? "drop-shadow(rgba(35, 255, 90, 1) 0px 0px 3px)"
+                    : "drop-shadow(rgb(255, 255, 255) 0px 0px 3px)",
+                  boxShadow:
+                    "rgba(0, 0, 0, 0.2) 0px 1px 5px 0px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px",
+                  "&:hover": {
+                    boxShadow: "1px 1px 5px 1px #66bb6a",
+                    filter: "drop-shadow(rgba(35, 255, 90, 1) 0px 0px 3px)",
+                  },
+                }}
+              >
+                <LazyImg
+                  src={imgSrc}
+                  alt={item.texture_name || item.png_layer_name}
+                  width={{ xs: 65, sm: 80, md: 95 }}
+                  height={{ xs: 85, sm: 110, md: 160 }}
+                  sx={{ objectFit: "unset", backgroundColor: "transparent" }}
+                />
+              </Box>
+              <Typography
+                variant="body2"
+                sx={{
+                  fontWeight: 400,
+                  color: "white",
+                  mt: 0.5,
+                  fontSize: { xs: "0.65rem", sm: "0.75rem" },
+                  lineHeight: 1.2,
+                  wordBreak: "break-word",
+                }}
+              >
+                {item.texture_name || item.png_layer_name}
+              </Typography>
             </Box>
-            <Typography
-              variant="body2"
-              sx={{
-                fontWeight: 400,
-                color: "white",
-                mt: 0.5,
-                fontSize: { xs: "0.65rem", sm: "0.75rem" },
-                lineHeight: 1.2,
-                wordBreak: "break-word",
-              }}
-            >
-              {item.texture_name || item.png_layer_name}
-            </Typography>
-          </Box>
-        );
-      })}
-    </Box>
+          );
+        })}
+      </Box>
+    ),
+    [activeCategory, selectedItemForCategoryList, handleSelectItem]
   );
 
   const items = organizedLayerData[activeCategory] || [];
 
-  let framedItems = [];
-  let framelessItems = [];
+  const { framedItems, framelessItems } = useMemo(() => {
+    if (
+      activeCategory === "Wall Cabinets" ||
+      activeCategory === "Base Cabinets" ||
+      activeCategory === "Island Cabinets"
+    ) {
+      return {
+        framedItems: items.filter(
+          (item) =>
+            item.png_layer_url?.includes("framed") ||
+            item.texture_url?.includes("framed")
+        ),
+        framelessItems: items.filter(
+          (item) =>
+            item.png_layer_url?.includes("frameless") ||
+            item.texture_url?.includes("frameless")
+        ),
+      };
+    }
+    return { framedItems: [], framelessItems: [] };
+  }, [items, activeCategory]);
 
-  if (
-    activeCategory === "Wall Cabinets" ||
-    activeCategory === "Base Cabinets" ||
-    activeCategory === "Island Cabinets"
-  ) {
-    framedItems = items.filter(
-      (item) =>
-        item.png_layer_url?.includes("framed") ||
-        item.texture_url?.includes("framed"),
-    );
-    framelessItems = items.filter(
-      (item) =>
-        item.png_layer_url?.includes("frameless") ||
-        item.texture_url?.includes("frameless"),
-    );
-  }
-
-  const groupBySeries = (items) => {
+  const groupBySeries = useCallback((items) => {
     return items.reduce((acc, item) => {
       const seriesName = item.series || "Others";
       if (!acc[seriesName]) acc[seriesName] = [];
       acc[seriesName].push(item);
       return acc;
     }, {});
-  };
+  }, []);
 
-  const renderSeriesAccordions = (items) => {
-    const grouped = groupBySeries(items);
-    return Object.keys(grouped)?.map((series) => (
-      <Accordion
-        key={series}
-        disableGutters
-        sx={{ backgroundColor: "transparent", ml: { xs: 0, sm: 2 } }}
-        onClick={(e) => e.stopPropagation()}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+  const renderSeriesAccordions = useCallback(
+    (items) => {
+      const grouped = groupBySeries(items);
+      return Object.keys(grouped)?.map((series) => (
+        <Accordion
+          key={series}
+          disableGutters
+          sx={{ backgroundColor: "transparent", ml: { xs: 0, sm: 2 } }}
+          onClick={(e) => e.stopPropagation()}
         >
-          <Typography
-            sx={{
-              color: "white",
-              fontSize: { xs: "12px", sm: "14px" },
-              fontWeight: 500,
-            }}
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
           >
-            {series?.charAt(0).toUpperCase() + series?.slice(1) + " Series"} (
-            {grouped[series].length})
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails sx={{ p: { xs: 0.5, sm: 1 } }}>
-          {renderItemGrid(grouped[series])}
-        </AccordionDetails>
-      </Accordion>
-    ));
-  };
+            <Typography
+              sx={{
+                color: "white",
+                fontSize: { xs: "12px", sm: "14px" },
+                fontWeight: 500,
+              }}
+            >
+              {series?.charAt(0).toUpperCase() + series?.slice(1) + " Series"} (
+              {grouped[series].length})
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ p: { xs: 0.5, sm: 1 } }}>
+            {renderItemGrid(grouped[series])}
+          </AccordionDetails>
+        </Accordion>
+      ));
+    },
+    [groupBySeries, renderItemGrid]
+  );
 
   return (
     <Card
@@ -173,7 +171,7 @@ const CategoryPopup = () => {
         /* Width: responsive but bounded */
         width: { xs: "calc(100vw - 180px)", sm: "65vw", md: "70vw" },
         minWidth: { xs: 220, sm: 380 },
-        maxWidth: { sm: 680, md: 900 },
+        maxWidth: { sm: 500, md: 700 },
         /* Height: use max-height so content determines height, never overflows screen */
         maxHeight: { xs: "calc(100vh - 120px)", sm: "82vh" },
         minHeight: { xs: "calc(100vh - 120px)", sm: "82vh" },
@@ -214,7 +212,8 @@ const CategoryPopup = () => {
           sx={{
             color: "white",
             backgroundColor: "black",
-            borderRadius: "0px",
+
+            borderRadius: "50%",
             height: "26px",
             width: "26px",
             flexShrink: 0,
