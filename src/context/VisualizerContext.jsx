@@ -1,5 +1,16 @@
 import { createContext, useState, useEffect, useRef, useCallback } from "react";
 
+// Module-level image preload cache (persists across re-renders)
+const _preloaded = new Set();
+const preloadImages = (urls) => {
+  urls.forEach((src) => {
+    if (!src || _preloaded.has(src)) return;
+    _preloaded.add(src);
+    const img = new Image();
+    img.src = src;
+  });
+};
+
 // Helper function to group layer data by cabinet_type_name
 const organizeLayerData = (layerData, mainBackgroundId) => {
   const organized = {};
@@ -17,8 +28,7 @@ const organizeLayerData = (layerData, mainBackgroundId) => {
 
   // Organize regular layer data
   layerData.forEach((item) => {
-    const isAvilable =
-      item.main_background_id === mainBackgroundId
+    const isAvilable = item.main_background_id === mainBackgroundId;
     if (isAvilable) {
       if (!organized[item.cabinet_type_name]) {
         organized[item.cabinet_type_name] = [];
@@ -129,6 +139,12 @@ export const VisualizerProvider = ({ children }) => {
 
     const organized = organizeLayerData(mainData, mainBgId);
     setOrganizedLayerData(organized);
+
+    // Preload ALL layer images in the background immediately after data loads
+    const allLayerUrls = mainData.flatMap((item) =>
+      [item.png_layer_url, item.texture_url].filter(Boolean),
+    );
+    preloadImages(allLayerUrls);
 
     const initialLayers = {};
 

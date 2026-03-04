@@ -1,80 +1,209 @@
 import bgImg from "../assets/img/bg_img.jpg";
 import logo from "../assets/img/logo.png";
+import { Box, Typography, List, ListItem, ListItemText } from "@mui/material";
 
 const Welcome = ({ setScreen }) => {
   return (
-    <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat relative "
-      style={{ backgroundImage: `url(${bgImg})` }}
+    <Box
+      sx={{
+        height: "100vh",
+        width: "100vw",
+        backgroundImage: `url(${bgImg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        overflow: "hidden",
+        p: { xs: 1.5, sm: 2 },
+      }}
     >
-      <div className="relative z-10 max-h-screen flex items-center justify-center p-4">
-        <div style={{backgroundColor: "oklch(0.83 0.02 258.28 / 0.60)"}} className=" p-8 md:p-12 text-center max-w-2xl w-full rounded-4xl text-[#111942]">
-          <div>
-            <div className=" inline-block opacity-100 z-50 object-cover">
-              <img src={logo} alt="" width={180} />
-            </div>
-          </div>
+      <Box
+        sx={{
+          backgroundColor: "rgba(200, 210, 225, 0.65)",
+          // backdropFilter: "blur(0px)",
+          borderRadius: { xs: 3, sm: 6 },
+          px: { xs: 2.5, sm: 5, md: 8 },
+          py: { xs: 2, sm: 4, md: 5 },
+          textAlign: "center",
+          maxWidth: 640,
+          width: "100%",
+          color: "#111942",
+          maxHeight: "96vh",
+          overflowY: "auto",
+          "&::-webkit-scrollbar": { display: "none" },
+        }}
+      >
+        {/* Logo */}
+        <Box sx={{ mb: { xs: 0.5, sm: 1.5 } }}>
+          <Box
+            component="img"
+            src={logo}
+            alt="Cabinet Visualizer"
+            sx={{
+              width: { xs: 100, sm: 140, md: 180 },
+              objectFit: "contain",
+            }}
+          />
+        </Box>
 
-          <h2 className="text-3xl md:text-3xl font-bold text-[#111942]">
-            WELCOME TO CABINET VISUALIZER
-          </h2>
+        {/* Title */}
+        <Typography
+          variant="h5"
+          component="h2"
+          sx={{
+            fontWeight: 700,
+            color: "#111942",
+            fontSize: { xs: "1rem", sm: "1.4rem", md: "1.7rem" },
+            mb: { xs: 0.5, sm: 1 },
+            lineHeight: 1.2,
+          }}
+        >
+          WELCOME TO CABINET VISUALIZER
+        </Typography>
 
-          <p className="text-xl my-4 font-bold">Here's what you can do:</p>
+        {/* Subtitle */}
+        <Typography
+          sx={{
+            fontWeight: 700,
+            my: { xs: 0.5, sm: 1 },
+            fontSize: { xs: "0.8rem", sm: "1rem" },
+          }}
+        >
+          Here's what you can do:
+        </Typography>
 
-          <ul className="list-disc list-inside space-y-1 text-start font-semibold w-4/5 m-auto  ">
-            <li className="mb-2">Browse cabinet layouts for different rooms</li>
-            <li className="mb-2">Choose from multiple colors of cabinets, countertops, backsplashes, and more</li>
-            <li className="mb-2">Share this visualizer with a friend or family member to get their input or just show off your creativity</li>
-          </ul>
-
-          <p className="text-2xl font-bold my-3">
-            Explore all the options we offer!
-          </p>
-
-          {/* Fixed Animated Button */}
-          <div className="relative inline-block mt-2">
-            <button
-              onClick={() => setScreen("spaceType")}
-              className="relative overflow-hidden px-14 py-5 text-white group"
-              style={{
-                WebkitBoxReflect:
-                  "below 1px linear-gradient(transparent, transparent, #0004)",
-              }}
+        {/* Feature list */}
+        <List
+          dense
+          // disablePadding
+          sx={{
+            width: { xs: "100%", sm: "90%" },
+            mx: "auto",
+            textAlign: "left",
+            mb: { xs: 0.5, sm: 1.5 },
+          }}
+        >
+          {[
+            "Browse cabinet layouts for different rooms",
+            "Choose from multiple colors of cabinets, countertops, backsplashes, and more",
+            "Share this visualizer with friends to get their input",
+          ].map((text, i) => (
+            <ListItem
+              key={i}
+              disableGutters
+              sx={{ alignItems: "flex-start", py: 0.25 }}
             >
-              {/* Main button background */}
-              <span className="absolute inset-0 bg-black/50 group-hover:bg-[#00ccff] transition-all duration-1000"></span>
-
-              {/* Fixed rotating line animation */}
-              <span
-                className="absolute w-[120%] h-[40px] bg-[#00ccff] transition-all duration-1000 
-                                          left-1/2 top-0 -translate-x-1/2 -translate-y-1/2
-                                          group-hover:h-[150%]"
-                style={{
-                  animation: "rotate 3s linear infinite",
-                  transformOrigin: "center center",
+              <ListItemText
+                primary={`• ${text}`}
+                primaryTypographyProps={{
+                  fontWeight: 600,
+                  fontSize: { xs: "0.72rem", sm: "0.875rem" },
+                  lineHeight: 1.3,
                 }}
-              ></span>
+              />
+            </ListItem>
+          ))}
+        </List>
 
-              {/* Inner background */}
-              <span className="absolute inset-1 bg-[#0e1538] group-hover:bg-[#00ccff] transition-all duration-500"></span>
+        {/* Explore text */}
+        <Typography
+          sx={{
+            fontWeight: 700,
+            my: { xs: 0.5, sm: 1 },
+            fontSize: { xs: "0.85rem", sm: "1.1rem" },
+          }}
+        >
+          Explore all the options we offer!
+        </Typography>
 
-              {/* Button text */}
-              <span className="relative z-10 text-white text-lg uppercase tracking-widest opacity-50 group-hover:opacity-100 transition-opacity duration-300">
-                GET STARTED
-              </span>
-            </button>
-
-            {/* Smooth rotation animation */}
-            <style>{`
-                            @keyframes rotate {
-                                0% { transform: translate(0%, 100%) rotate(0deg); }
-                                100% { transform: translate(0%,100%) rotate(360deg); }
-                            }
-                        `}</style>
-          </div>
-        </div>
-      </div>
-    </div>
+        {/* Animated Get Started button */}
+        <Box
+          sx={{
+            mt: { xs: 1, sm: 2 },
+            position: "relative",
+            display: "inline-block",
+          }}
+        >
+          <button
+            onClick={() => setScreen("spaceType")}
+            style={{
+              position: "relative",
+              overflow: "hidden",
+              padding: "20px 40px",
+              color: "white",
+              background: "transparent",
+              border: "none",
+              cursor: "pointer",
+            }}
+            className="get-started-btn"
+          >
+            <span
+              style={{
+                position: "absolute",
+                inset: 0,
+                backgroundColor: "rgba(0,0,0,0.5)",
+                transition: "background-color 1s",
+                zIndex: 0,
+              }}
+              className="btn-bg"
+            />
+            <span
+              style={{
+                position: "absolute",
+                width: "120%",
+                height: "40px",
+                backgroundColor: "#00ccff",
+                left: "50%",
+                top: 0,
+                transform: "translateX(-50%) translateY(-50%)",
+                animation: "rotate 3s linear infinite",
+                transformOrigin: "center center",
+                transition: "height 1s",
+                zIndex: 1,
+              }}
+            />
+            <span
+              style={{
+                position: "absolute",
+                inset: "4px",
+                backgroundColor: "#0e1538",
+                transition: "background-color 0.5s",
+                zIndex: 2,
+              }}
+              className="btn-inner"
+            />
+            <span
+              style={{
+                position: "relative",
+                zIndex: 10,
+                color: "white",
+                fontSize: "0.95rem",
+                textTransform: "uppercase",
+                letterSpacing: "0.15em",
+                opacity: 0.5,
+                transition: "opacity 0.3s",
+                fontFamily: "Inter, sans-serif",
+                fontWeight: 600,
+              }}
+              className="btn-text"
+            >
+              GET STARTED
+            </span>
+          </button>
+          <style>{`
+            @keyframes rotate {
+              0% { transform: translate(-50%, 100%) rotate(0deg); }
+              100% { transform: translate(-50%, 100%) rotate(360deg); }
+            }
+            .get-started-btn:hover .btn-bg { background-color: #00ccff !important; }
+            .get-started-btn:hover .btn-inner { background-color: #00ccff !important; }
+            .get-started-btn:hover .btn-text { opacity: 1 !important; }
+          `}</style>
+        </Box>
+      </Box>
+    </Box>
   );
 };
 

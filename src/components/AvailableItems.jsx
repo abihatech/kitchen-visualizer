@@ -1,95 +1,178 @@
 import bgImg from "../assets/img/bg_img.jpg";
-import { VisualizerContext } from "../context/VisualizerContext";
 import { useContext } from "react";
+import { VisualizerContext } from "../context/VisualizerContext";
+import { Box, Typography, IconButton, Paper } from "@mui/material";
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
-const AvailableItems = ({ availableItems, handleNextKitchenShape, handlePrevKitchenShape, setScreen }) => {
-    const { setSelectedMainBackground } = useContext(VisualizerContext);
-    
-    return (
-        <div className="min-h-screen bg-cover bg-center bg-no-repeat relative"
-            style={{ backgroundImage: `url(${bgImg})` }}>
-            <div className="absolute inset-0 "></div>
-            <div className="relative z-10 min-h-screen flex items-center justify-center p-4">
-                <div className="bg-[#00000090]  p-8 md:p-12 text-white text-center max-w-4xl w-full">
+const AvailableItems = ({
+  availableItems,
+  handleNextKitchenShape,
+  handlePrevKitchenShape,
+  setScreen,
+}) => {
+  const { setSelectedMainBackground } = useContext(VisualizerContext);
 
-                    <h2 className="text-2xl md:text-3xl font-light mb-12">SELECT PREFERRED KITCHEN DESIGN?</h2>
+  return (
+    <Box
+      sx={{
+        height: "100vh",
+        width: "100vw",
+        backgroundImage: `url(${bgImg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        overflow: "hidden",
+        p: { xs: 1.5, sm: 3, md: 4 },
+      }}
+    >
+      <Box
+        sx={{
+          bgcolor: "rgba(0,0,0,0.70)",
+          p: { xs: 2.5, sm: 5, md: 8 },
+          color: "white",
+          textAlign: "center",
+          maxWidth: 900,
+          width: "100%",
+        }}
+      >
+        <Typography
+          variant="h5"
+          component="h2"
+          sx={{
+            fontWeight: 300,
+            mb: { xs: 3, sm: 5 },
+            fontSize: { xs: "0.9rem", sm: "1.3rem", md: "1.8rem" },
+            letterSpacing: 1,
+          }}
+        >
+          SELECT PREFERRED KITCHEN DESIGN?
+        </Typography>
 
-                    <div className="relative">
-                        <div className="flex justify-center gap-8 md:gap-12 px-12 py-4">
-                            {availableItems.map((item, index) => (
-                                <div
-                                    key={index}
-                                    onClick={() => {
-                                        setSelectedMainBackground(item); // For now only first data we have
-                                        setScreen('visualizer');
-                                    }}
-                                    className="cursor-pointer group hover:scale-125 transition-transform duration-300"
-                                >
-                                    <div className="bg-white p-2 mb-3 hover:shadow-lg transition-shadow">
-                                        <img
-                                            src={item.thumbnailsm}
-                                            alt={item.name}
-                                            className="w-50 h-32 object-cover"
-                                        />
-                                    </div>
-                                    <h3 className="text-white text-lg font-medium group-hover:text-gray-300 transition-colors">
-                                        {item.name}
-                                    </h3>
-                                </div>
-                            ))}
-                        </div>
+        {/* Always single horizontal row */}
+        <Box sx={{ position: "relative", px: { xs: 4, sm: 6 } }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              gap: { xs: 2, sm: 3, md: 5 },
+              mb: 3,
+              py: 2,
+              overflowX: "auto",
+              overflowY: "visible",
+              "&::-webkit-scrollbar": { display: "none" },
+            }}
+          >
+            {availableItems.map((item, index) => (
+              <Box
+                key={index}
+                onClick={() => {
+                  setSelectedMainBackground(item);
+                  setScreen("visualizer");
+                }}
+                sx={{
+                  cursor: "pointer",
+                  transition: "transform 0.3s ease",
+                  flexShrink: 0,
+                  width: { xs: 80, sm: 150, md: 200 },
+                  "&:hover": { transform: "scale(1.12)" },
+                }}
+              >
+                <Paper
+                  elevation={3}
+                  sx={{
+                    p: { xs: 0.5, sm: 1 },
+                    mb: { xs: 0.5, sm: 1 },
+                    bgcolor: "white",
+                    overflow: "hidden",
+                  }}
+                >
+                  <Box
+                    component="img"
+                    src={item.thumbnailsm}
+                    alt={item.name}
+                    sx={{
+                      width: "100%",
+                      height: { xs: 55, sm: 90, md: 128 },
+                      objectFit: "cover",
+                      display: "block",
+                    }}
+                  />
+                </Paper>
+                <Typography
+                  component="h3"
+                  sx={{
+                    color: "white",
+                    fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1.1rem" },
+                    fontWeight: 500,
+                  }}
+                >
+                  {item.name}
+                </Typography>
+              </Box>
+            ))}
+          </Box>
 
-                        <button
-                            onClick={handleNextKitchenShape}
-                            className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 p-4"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-10 w-10 md:h-12 md:w-12 text-white"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                            </svg>
-                        </button>
+          {/* Prev arrow */}
+          <IconButton
+            onClick={handleNextKitchenShape}
+            sx={{
+              position: "absolute",
+              left: { xs: -6, sm: -12 },
+              top: "40%",
+              transform: "translateY(-50%)",
+              color: "white",
+              "&:hover": { bgcolor: "rgba(255,255,255,0.15)" },
+              p: { xs: 0.25, sm: 0.75 },
+            }}
+          >
+            <ArrowBackIosNewIcon
+              sx={{ fontSize: { xs: 18, sm: 28, md: 36 } }}
+            />
+          </IconButton>
 
-                        <button
-                            onClick={handlePrevKitchenShape}
-                            className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 p-4 "
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-10 w-10 md:h-12 md:w-12 text-white"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div className="flex justify-center mt-8">
-                        <button className="p-1 md:p-2 rounded-full border-2  transition-colors duration-200" onClick={() => setScreen('kitchenShape')}>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6 md:h-8 md:w-8 text-white"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                            </svg>
-                        </button>
+          {/* Next arrow */}
+          <IconButton
+            onClick={handlePrevKitchenShape}
+            sx={{
+              position: "absolute",
+              right: { xs: -6, sm: -12 },
+              top: "40%",
+              transform: "translateY(-50%)",
+              color: "white",
+              "&:hover": { bgcolor: "rgba(255,255,255,0.15)" },
+              p: { xs: 0.25, sm: 0.75 },
+            }}
+          >
+            <ArrowForwardIosIcon
+              sx={{ fontSize: { xs: 18, sm: 28, md: 36 } }}
+            />
+          </IconButton>
+        </Box>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
+        {/* Back button */}
+        <Box sx={{ display: "flex", justifyContent: "center", mt: 1 }}>
+          <IconButton
+            onClick={() => setScreen("kitchenShape")}
+            sx={{
+              border: "2px solid white",
+              color: "white",
+              borderRadius: "50%",
+              p: { xs: 0.4, sm: 0.75, md: 1 },
+              "&:hover": { bgcolor: "rgba(255,255,255,0.1)" },
+            }}
+          >
+            <ArrowBackIcon sx={{ fontSize: { xs: 16, sm: 22, md: 28 } }} />
+          </IconButton>
+        </Box>
+      </Box>
+    </Box>
+  );
+};
 
-export default AvailableItems
+export default AvailableItems;
