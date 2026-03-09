@@ -120,7 +120,7 @@ const Footer = () => {
 
       {!isMobile && (
         <Typography variant="body2" sx={{ fontSize: "0.75rem", opacity: 0.8 }}>
-          Powered by Paramount
+          Powered by Peak Design Studio
         </Typography>
       )}
     </Box>
