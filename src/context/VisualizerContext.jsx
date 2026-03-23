@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect, useRef, useCallback } from "react";
-import { tieredPreload } from "../utils/imageUtils";
 
 // Helper function to group layer data by cabinet_type_name
 const organizeLayerData = (layerData, mainBackgroundId) => {
@@ -165,9 +164,6 @@ export const VisualizerProvider = ({ children }) => {
       }
     });
     setAppliedLayers(initialLayers);
-
-    // Tiered preload: critical PNGs first → thumbnails → idle PNG prefetch
-    tieredPreload(mainData, initialLayers);
   };
 
   // Organize data and set initial layers when appData or selectedMainBackground changes

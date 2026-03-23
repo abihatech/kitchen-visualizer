@@ -1,9 +1,8 @@
 import { VisualizerContext } from "../../context/VisualizerContext";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { Box, IconButton, Tooltip } from "@mui/material";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
-import { preloadImage } from "../../utils/imageUtils";
 
 const ImageSetter = () => {
   const {
@@ -18,25 +17,6 @@ const ImageSetter = () => {
     openPopup,
     handleMouseDown,
   } = useContext(VisualizerContext);
-
-  // Preload all hotspot-related images when background changes
-  useEffect(() => {
-    if (!selectedMainBackground) return;
-    // Preload background large image
-    preloadImage(selectedMainBackground.thumbnail);
-    // Preload hotspot category thumbnails from organizedLayerData if available
-    selectedMainBackground?.hotpots?.forEach((hp) => {
-      // just mark the hotspot as known; actual layer URLs will be preloaded on selection
-    });
-  }, [selectedMainBackground?.id]);
-
-  // Preload applied layer images whenever they change
-  useEffect(() => {
-    Object.values(appliedLayers).forEach((layer) => {
-      if (layer?.png_layer_url) preloadImage(layer.png_layer_url);
-      if (layer?.texture_url) preloadImage(layer.texture_url);
-    });
-  }, [appliedLayers]);
 
   return (
     <Box

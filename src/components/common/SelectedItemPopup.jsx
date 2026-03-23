@@ -43,10 +43,7 @@ const SelectedItemPopup = ({ category, item, onSelectStyle }) => {
         fullWidth
         onClick={() => onSelectStyle(category)}
         sx={{
-          backgroundImage: `url(${item.texture_url || item.png_layer_url})`,
           border: "0.2rem dashed #fff",
-          backgroundSize: "cover",
-          objectFit: "contain",
           p: 0,
           display: "flex",
           flexDirection: "column",
@@ -57,29 +54,55 @@ const SelectedItemPopup = ({ category, item, onSelectStyle }) => {
           width: { xs: 80, sm: 100 },
           mb: 1,
           minWidth: 0,
+          position: "relative",
+          overflow: "hidden",
         }}
       >
         <Box
+          component="img"
+          src={item.texture_url || item.png_layer_url}
+          alt={item.name}
+          loading="lazy"
+          decoding="async"
           sx={{
-            width: { xs: 32, sm: 40 },
-            height: { xs: 32, sm: 40 },
-            borderRadius: "50%",
-            border: "0.2rem solid black",
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+        <Box
+          sx={{
+            position: "relative",
+            zIndex: 1,
             display: "flex",
+            flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center",
-            mb: 0.5,
-            backgroundColor: "#fff",
           }}
         >
-          <AddIcon sx={{ fontSize: { xs: 30, sm: 40 }, color: "black" }} />
+          <Box
+            sx={{
+              width: { xs: 32, sm: 40 },
+              height: { xs: 32, sm: 40 },
+              borderRadius: "50%",
+              border: "0.2rem solid black",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              mb: 0.5,
+              backgroundColor: "#fff",
+            }}
+          >
+            <AddIcon sx={{ fontSize: { xs: 30, sm: 40 }, color: "black" }} />
+          </Box>
+          <Typography
+            variant="button"
+            sx={{ fontWeight: "semibold", fontSize: { xs: "9px", sm: "11px" } }}
+          >
+            SELECT STYLE
+          </Typography>
         </Box>
-        <Typography
-          variant="button"
-          sx={{ fontWeight: "semibold", fontSize: { xs: "9px", sm: "11px" } }}
-        >
-          SELECT STYLE
-        </Typography>
       </Button>
       <Typography
         variant="subtitle2"

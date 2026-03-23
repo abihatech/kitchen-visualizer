@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { VisualizerContext } from "../../context/VisualizerContext";
 import { useContext, useCallback, useMemo } from "react";
 import {
@@ -312,4 +313,4 @@ const CategoryPopup = () => {
   );
 };
 
-export default CategoryPopup;
+export default memo(CategoryPopup);
