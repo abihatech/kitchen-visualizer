@@ -183,7 +183,7 @@ const Welcome = ({ setScreen }) => {
                 letterSpacing: "0.15em",
                 opacity: 0.5,
                 transition: "opacity 0.3s",
-                fontFamily: "Inter, sans-serif",
+                fontFamily: "system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif",
                 fontWeight: 600,
               }}
               className="btn-text"

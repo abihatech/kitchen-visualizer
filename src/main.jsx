@@ -15,7 +15,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "Inter, sans-serif",
+    fontFamily: '"system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
   },
 });
 

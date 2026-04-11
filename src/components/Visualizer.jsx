@@ -8,6 +8,9 @@ import Sidebar from "./common/Sidebar";
 import SelectedItemPopup from "./common/SelectedItemPopup";
 import ImageSetter from "./common/ImageSetter";
 import CategoryPopup from "./common/CategoryPopup";
+import SummaryModal from "./common/SummaryModal";
+import ShareModal from "./common/ShareModal";
+import ContactModal from "./common/ContactModal";
 
 const Visualizer = () => {
   const {
@@ -33,7 +36,7 @@ const Visualizer = () => {
         flexDirection: "column",
         height: "100vh",
         width: "100%",
-        fontFamily: "Inter, sans-serif",
+        fontFamily: '"system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
         overflow: "hidden",
       }}
     >
@@ -161,6 +164,10 @@ const Visualizer = () => {
           )}
         </Box>
       </Box>
+
+      <SummaryModal />
+      <ShareModal />
+      <ContactModal />
 
       <Footer />
     </Box>

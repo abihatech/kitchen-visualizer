@@ -219,12 +219,37 @@
     {
       "id": 67,
       "name": "Mud Room",
-      "thumbnail": "/assets/img/mud_room.png"
+      "thumbnail": "/assets/img/mud_room.png",
+      "subitems": [
+        {
+          "id": 671,
+          "main_background_name": "Mud Room",
+          "thumbnail": "/assets/space/mudroom/mudroom_base_image.webp",
+          "thumbnailsm": "/assets/space/mudroom/mudroom_main_image.webp",
+          "hotpots": [
+            { "top": "22%", "left": "66%", "category": "Wall Cabinets" },
+            { "top": "92%", "left": "50%", "category": "Floor" },
+            { "top": "4%", "left": "50%", "category": "Wall Colors" }
+          ]
+        }
+      ]
     },
-     {
+    {
       "id": 68,
       "name": "Pantry",
-      "thumbnail": "/assets/img/pantry.webp"
+      "thumbnail": "/assets/img/pantry.webp",
+      "subitems": [
+        {
+          "id": 681,
+          "main_background_name": "Pantry",
+          "thumbnail": "/assets/space/pantry/pantry_base_image.webp",
+          "thumbnailsm": "/assets/space/pantry/pantry_main_image.webp",
+          "hotpots": [
+            { "top": "50%", "left": "60%", "category": "Wall Cabinets" },
+            { "top": "85%", "left": "50%", "category": "Floor" }
+          ]
+        }
+      ]
     }
   ],
 

@@ -76,6 +76,8 @@ export const VisualizerProvider = ({ children }) => {
   const [activeTool, setActiveTool] = useState("default");
   const [isPreviewMode, setIsPreviewMode] = useState(false);
   const [showSummaryModal, setShowSummaryModal] = useState(false);
+  const [showShareModal, setShowShareModal] = useState(false);
+  const [showContactModal, setShowContactModal] = useState(false);
   const [isSummaryPanelExpanded, setIsSummaryPanelExpanded] = useState(true);
 
   // Fetch initial data
@@ -127,6 +129,12 @@ export const VisualizerProvider = ({ children }) => {
         break;
       case 661:
         desingJson = "../../mediaroom.json";
+        break;
+      case 671:
+        desingJson = "../../mudroom.json";
+        break;
+      case 681:
+        desingJson = "../../pantry.json";
         break;
       default:
         desingJson = "../../kitchen_l_1.json";
@@ -355,6 +363,10 @@ export const VisualizerProvider = ({ children }) => {
     isPreviewMode,
     showSummaryModal,
     setShowSummaryModal,
+    showShareModal,
+    setShowShareModal,
+    showContactModal,
+    setShowContactModal,
     isSummaryPanelExpanded,
     spaces,
     kitchenShapes,

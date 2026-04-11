@@ -101,7 +101,7 @@ const AvailableItems = ({
                     sx={{
                       width: "100%",
                       height: { xs: 55, sm: 90, md: 128 },
-                      objectFit: "cover",
+                      // objectFit: "cover",
                       display: "block",
                     }}
                   />

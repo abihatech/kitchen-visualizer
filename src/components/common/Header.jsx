@@ -15,8 +15,15 @@ import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import { VisualizerContext } from "./../../context/VisualizerContext";
 
 const Header = () => {
-  const { setScreen, isPreviewMode, togglePreviewMode } =
-    useContext(VisualizerContext);
+  const {
+    setScreen,
+    isPreviewMode,
+    togglePreviewMode,
+    setShowSummaryModal,
+    setShowShareModal,
+    setShowContactModal,
+    closePopups,
+  } = useContext(VisualizerContext);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -85,7 +92,10 @@ const Header = () => {
               whiteSpace: "nowrap",
             }}
             color="inherit"
-            onClick={() => {}}
+            onClick={() => {
+              closePopups();
+              setShowSummaryModal(true);
+            }}
           >
             SUMMARY
           </Button>
@@ -118,12 +128,27 @@ const Header = () => {
           {isMobile ? (
             <>
               <Tooltip title="Share">
-                <IconButton size="small" color="primary" variant="contained">
+                <IconButton
+                  size="small"
+                  color="primary"
+                  variant="contained"
+                  onClick={() => {
+                    closePopups();
+                    setShowShareModal(true);
+                  }}
+                >
                   <ShareIcon fontSize="small" />
                 </IconButton>
               </Tooltip>
               <Tooltip title="Contact Us">
-                <IconButton size="small" color="primary">
+                <IconButton
+                  size="small"
+                  color="primary"
+                  onClick={() => {
+                    closePopups();
+                    setShowContactModal(true);
+                  }}
+                >
                   <ContactMailIcon fontSize="small" />
                 </IconButton>
               </Tooltip>
@@ -138,6 +163,10 @@ const Header = () => {
                 }}
                 variant="contained"
                 startIcon={<ShareIcon />}
+                onClick={() => {
+                  closePopups();
+                  setShowShareModal(true);
+                }}
               >
                 SHARE
               </Button>
@@ -148,6 +177,10 @@ const Header = () => {
                   whiteSpace: "nowrap",
                 }}
                 variant="contained"
+                onClick={() => {
+                  closePopups();
+                  setShowContactModal(true);
+                }}
               >
                 CONTACT US
               </Button>
