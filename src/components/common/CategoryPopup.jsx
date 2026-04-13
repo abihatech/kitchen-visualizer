@@ -42,6 +42,8 @@ const CategoryPopup = () => {
             item.texture_url ||
             "https://placehold.co/150x150/2a2a2a/666666?text=NA";
 
+          const isDoors = ["Wall Cabinets", "Base Cabinets", "Island Cabinets"]?.includes(item?.cabinet_type_name)
+
           return (
             <Box
               key={item.id}
@@ -72,8 +74,10 @@ const CategoryPopup = () => {
                 <LazyImg
                   src={imgSrc}
                   alt={item.texture_name || item.png_layer_name}
-                  width={{ xs: 65, sm: 80, md: 95 }}
-                  height={{ xs: 85, sm: 110, md: 160 }}
+                  width={{ xs: 65, sm: 80, md: isDoors ? 95: 110 }}
+                  height={{ xs: 85, sm: 110, md:isDoors ? 160: 150 }}
+                  sx={{objectFit:"cover"}}
+                
                 />
               </Box>
               <Typography
