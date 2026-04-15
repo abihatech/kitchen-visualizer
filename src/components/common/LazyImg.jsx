@@ -94,7 +94,7 @@ const LazyImg = ({
           display: "block",
           width: "100%",
           height: "100%",
-          objectFit: "cover",
+          // objectFit: "cover",
           borderRadius: "4px",
           opacity: loaded ? 1 : 0,
           transition: "opacity 0.25s ease-in-out",

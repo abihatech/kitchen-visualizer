@@ -99,26 +99,6 @@ const Space = ({
                   "&:hover": { transform: "scale(1.12)" },
                 }}
               >
-                {!space?.subitems && (
-                  <Typography
-                    variant="body2"
-                    sx={{
-                      // width: { xs: 80, sm: 120, md: 150 },
-                      position: "absolute",
-                      top:"30%",
-                      transform: "translate(10%,0)",
-                      color: "white",
-                      fontSize: { xs: "0.7rem", sm: "0.95rem", md: "1.1rem" },
-                      fontWeight: 300,
-                      fontFamily: "Inter,sans-serif",
-                      backgroundColor: "#000",
-                      px:1,
-                      m:"auto"
-                    }}
-                  >
-                    Coming Soon
-                  </Typography>
-                )}
                 <Paper
                   elevation={3}
                   sx={{

@@ -2588,7 +2588,7 @@
     {
       "id": 236,
       "selected": 1,
-      "texture_name": "Tile - 1",
+      "texture_name": "Tile - Tumbled Marble",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_1_main.png",
       "png_layer_name": "",
@@ -2599,7 +2599,7 @@
     {
       "id": 237,
       "selected": 0,
-      "texture_name": "Tile - Black Stone Wall Textures",
+      "texture_name": "Tile - Black Stone Mosaic",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_black_stone_tile_wall_textures_main.png",
       "png_layer_name": "tile_black_stone_tile_wall_textures_main.png",
@@ -2643,7 +2643,7 @@
     {
       "id": 241,
       "selected": 0,
-      "texture_name": "Tile - Floor",
+      "texture_name": "Tile - Gray Mist",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_floor_main.png",
       "png_layer_name": "tile_floor_main.png",
@@ -2654,7 +2654,7 @@
     {
       "id": 242,
       "selected": 0,
-      "texture_name": "Tile - Glass",
+      "texture_name": "Tile - White Standard Brick Pattern",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_glass_main.png",
       "png_layer_name": "tile_glass_main.png",
@@ -2665,7 +2665,7 @@
     {
       "id": 243,
       "selected": 0,
-      "texture_name": "Tile - Herringbone Light",
+      "texture_name": "Tile - Beige Herringbone",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_herringbone_light_main.png",
       "png_layer_name": "tile_herringbone_light_main.png",
@@ -2687,7 +2687,7 @@
     {
       "id": 245,
       "selected": 0,
-      "texture_name": "Tile - Herringbone Paquet Black Seamless Tiles",
+      "texture_name": "Tile - Black Herringbone",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_herringbone_paquet_black_seamless_tiles_main.png",
       "png_layer_name": "tile_herringbone_paquet_black_seamless_tiles_main.png",
@@ -2698,7 +2698,7 @@
     {
       "id": 246,
       "selected": 0,
-      "texture_name": "Tile - Herringbone Seamless Dark Green Tiles With Texture",
+      "texture_name": "Tile - Dark Green Herringbone",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_herringbone_seamless_dark_green_tiles_with_texture_main.png",
       "png_layer_name": "tile_herringbone_seamless_dark_green_tiles_with_texture_main.png",
@@ -2709,7 +2709,7 @@
     {
       "id": 247,
       "selected": 0,
-      "texture_name": "Tile - Marble Textured Ground Background",
+      "texture_name": "Tile - Gray Marble Brick Pattern",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_marble_textured_ground_background_main.png",
       "png_layer_name": "tile_marble_textured_ground_background_main.png",
@@ -2720,7 +2720,7 @@
     {
       "id": 248,
       "selected": 0,
-      "texture_name": "Tile - Shiny Blue",
+      "texture_name": "Tile - Ocean Blue Brick Pattern",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_shiny_blue_main.png",
       "png_layer_name": "tile_shiny_blue_main.png",
@@ -2731,7 +2731,7 @@
     {
       "id": 249,
       "selected": 0,
-      "texture_name": "Tile - Subway",
+      "texture_name": "Tile - White Subway Tile Herringbone",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_subway_main.png",
       "png_layer_name": "tile_subway_main.png",
@@ -2742,7 +2742,7 @@
     {
       "id": 250,
       "selected": 0,
-      "texture_name": "Tile - Wall Brick",
+      "texture_name": "Tile Earthtone Brick Pattern",
       "cabinet_type_name": "Backsplash",
       "png_layer_url": "/assets/space/bathroom/backsplash/tile_wall_brick_main.png",
       "png_layer_name": "tile_wall_brick_main.png",
