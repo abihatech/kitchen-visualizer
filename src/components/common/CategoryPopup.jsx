@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { VisualizerContext } from "../../context/VisualizerContext";
 import { useContext, useCallback, useMemo } from "react";
 import {
@@ -73,7 +74,6 @@ const CategoryPopup = () => {
                   alt={item.texture_name || item.png_layer_name}
                   width={{ xs: 65, sm: 80, md: 95 }}
                   height={{ xs: 85, sm: 110, md: 160 }}
-                  sx={{ objectFit: "unset", backgroundColor: "transparent" }}
                 />
               </Box>
               <Typography
@@ -313,4 +313,4 @@ const CategoryPopup = () => {
   );
 };
 
-export default CategoryPopup;
+export default memo(CategoryPopup);
