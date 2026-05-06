@@ -1530,6 +1530,17 @@
       "series": null
     },
     {
+      "id": 9671,
+      "selected": 1,
+      "texture_name": "Mudroom Handle",
+      "cabinet_type_name": "Handle",
+      "png_layer_url": "/assets/space/mudroom/mudroom_handle.webp",
+      "png_layer_name": "mudroom_handle",
+      "texture_url": "/assets/space/mudroom/mudroom_handle.webp",
+      "main_background_id": 671,
+      "series": null
+    },
+    {
       "id": 2949,
       "selected": 0,
       "texture_name": "Beige Tile",

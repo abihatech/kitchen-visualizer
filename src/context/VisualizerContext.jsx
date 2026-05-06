@@ -7,6 +7,7 @@ const organizeLayerData = (layerData, mainBackgroundId) => {
     "Wall Cabinets",
     "Base Cabinets",
     "Island Cabinets",
+    //"Handle",
     // "Crown Moldings",
     "Countertop",
     "Backsplash",

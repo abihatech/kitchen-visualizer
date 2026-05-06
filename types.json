@@ -245,7 +245,7 @@
           "thumbnail": "/assets/space/pantry/pantry_base_image.webp",
           "thumbnailsm": "/assets/space/pantry/pantry_main_image.webp",
           "hotpots": [
-            { "top": "50%", "left": "60%", "category": "Wall Cabinets" },
+            { "top": "40%", "left": "60%", "category": "Wall Cabinets" },
             { "top": "85%", "left": "50%", "category": "Floor" }
           ]
         }

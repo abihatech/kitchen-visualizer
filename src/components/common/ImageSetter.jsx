@@ -4,6 +4,18 @@ import { Box, IconButton, Tooltip } from "@mui/material";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
 
+const getLayerZIndex = (layer, backgroundId) => {
+  if (layer?.cabinet_type_name === "Handle") return 1;
+
+  const topCategories = [
+    "Wall Cabinets",
+    "Crown Moldings",
+    [130, 631, 641].includes(backgroundId) && "Backsplash",
+  ].filter(Boolean);
+
+  return topCategories.includes(layer?.cabinet_type_name) ? 1 : 0;
+};
+
 const ImageSetter = () => {
   const {
     selectedMainBackground,
@@ -82,13 +94,7 @@ const ImageSetter = () => {
                   height: "100%",
                   objectFit: "inherit",
                   transition: "opacity 0.25s ease-in-out",
-                  zIndex: [
-                    "Wall Cabinets",
-                    "Crown Moldings",
-                    [130, 631, 641].includes(selectedMainBackground?.id) && "Backsplash",
-                  ]?.includes(layer.cabinet_type_name)
-                    ? 1
-                    : 0,
+                  zIndex: getLayerZIndex(layer, selectedMainBackground?.id),
                 }}
               />
             ),

@@ -17,7 +17,7 @@ import { CATEGORIES } from "../../utils/constants/constant";
 const SidebarContent = ({ organizedLayerData, openPopup, onClose }) => (
   <>
     {Object.keys(organizedLayerData).map((category) => {
-      if (category === "Crown Moldings") return null;
+      if (category === "Crown Moldings" || category === "Handle") return null;
       return (
         <Button
           key={category}

@@ -959,6 +959,17 @@
       "series": "woodgrain"
     },
     {
+      "id": 9681,
+      "selected": 1,
+      "texture_name": "Pantry Handle",
+      "cabinet_type_name": "Handle",
+      "png_layer_url": "/assets/space/pantry/pantry_handle.webp",
+      "png_layer_name": "pantry_handle",
+      "texture_url": "/assets/space/pantry/pantry_handle.webp",
+      "main_background_id": 681,
+      "series": null
+    },
+    {
       "id": 79,
       "selected": 1,
       "texture_name": "Beige Tile",
