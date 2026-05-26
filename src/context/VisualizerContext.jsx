@@ -137,6 +137,9 @@ export const VisualizerProvider = ({ children }) => {
       case 681:
         desingJson = "../../pantry.json";
         break;
+       case 691:
+        desingJson = "../../outdoor_kitchen.json";
+        break;
       default:
         desingJson = "../../kitchen_l_1.json";
         break;
