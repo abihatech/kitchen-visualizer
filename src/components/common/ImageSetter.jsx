@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { Box, IconButton, Tooltip } from "@mui/material";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
+import BufferedLayer from "./BufferedLayer";
 
 const getLayerZIndex = (layer, backgroundId) => {
   if (layer?.cabinet_type_name === "Handle") return 1;
@@ -62,39 +63,32 @@ const ImageSetter = () => {
         }}
       >
         {/* Background image */}
-        <img
-          src={selectedMainBackground?.thumbnail}
-          alt="Room Background"
-          fetchpriority="high"
-          decoding="async"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "inherit",
-            transition: "opacity 0.3s ease-in-out",
-          }}
-          loading="eager"
-        />
+        {selectedMainBackground?.thumbnail && (
+          <BufferedLayer
+            src={selectedMainBackground.thumbnail}
+            alt="Room Background"
+            zIndex={0}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "inherit",
+            }}
+          />
+        )}
 
         {/* Applied layer images */}
         {Object.values(appliedLayers).map(
           (layer) =>
             layer?.png_layer_url && (
-              <img
+              <BufferedLayer
                 key={layer.png_layer_url}
                 src={layer.png_layer_url}
                 alt=""
-                loading="eager"
-                decoding="async"
+                zIndex={getLayerZIndex(layer, selectedMainBackground?.id)}
                 style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
                   width: "100%",
                   height: "100%",
                   objectFit: "inherit",
-                  transition: "opacity 0.25s ease-in-out",
-                  zIndex: getLayerZIndex(layer, selectedMainBackground?.id),
                 }}
               />
             ),

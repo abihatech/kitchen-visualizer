@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { VisualizerContext } from "../../context/VisualizerContext";
-import { useContext, useCallback, useMemo } from "react";
+import { useContext, useCallback, useMemo, useEffect } from "react";
 import {
   Box,
   Card,
@@ -13,6 +13,7 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LazyImg from "./LazyImg";
+import { preloadImage } from "../../utils/imageUtils";
 
 const CategoryPopup = () => {
   const {
@@ -50,6 +51,11 @@ const CategoryPopup = () => {
               sx={{ textAlign: "center", width: { xs: 80, sm: 95, md: 110 } }}
             >
               <Box
+                onMouseEnter={() => {
+                  if (item.png_layer_url) {
+                    preloadImage(item.png_layer_url);
+                  }
+                }}
                 onClick={(e) => {
                   e.stopPropagation();
                   handleSelectItem(activeCategory, item);
@@ -102,6 +108,20 @@ const CategoryPopup = () => {
   );
 
   const items = organizedLayerData[activeCategory] || [];
+
+  useEffect(() => {
+    if (!activeCategory || !items || items.length === 0) return;
+
+    const timer = setTimeout(() => {
+      items.forEach((item) => {
+        if (item.png_layer_url) {
+          preloadImage(item.png_layer_url);
+        }
+      });
+    }, 150);
+
+    return () => clearTimeout(timer);
+  }, [activeCategory, items]);
 
   const { framedItems, framelessItems } = useMemo(() => {
     if (
