@@ -1,5 +1,5 @@
-import bgImg from "../assets/img/bg_img.jpg";
-import logo from "../assets/img/logo.png";
+import bgImg from "../assets/img/bg_img.webp";
+import logo from "../assets/img/logo.webp";
 import { Box, Typography, List, ListItem, ListItemText } from "@mui/material";
 
 const Welcome = ({ setScreen }) => {

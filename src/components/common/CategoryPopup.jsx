@@ -82,7 +82,6 @@ const CategoryPopup = () => {
                   alt={item.texture_name || item.png_layer_name}
                   width={{ xs: 65, sm: 80, md: isDoors ? 95: 110 }}
                   height={{ xs: 85, sm: 110, md:isDoors ? 160: 150 }}
-                  sx={{objectFit:"cover"}}
                 
                 />
               </Box>
@@ -161,6 +160,7 @@ const CategoryPopup = () => {
         <Accordion
           key={series}
           disableGutters
+          slotProps={{ transition: { unmountOnExit: true } }}
           sx={{ backgroundColor: "transparent", ml: { xs: 0, sm: 2 } }}
           onClick={(e) => e.stopPropagation()}
         >
@@ -271,6 +271,7 @@ const CategoryPopup = () => {
           <>
             <Accordion
               disableGutters
+              slotProps={{ transition: { unmountOnExit: true } }}
               sx={{ backgroundColor: "transparent" }}
               onClick={(e) => e.stopPropagation()}
             >
@@ -301,6 +302,7 @@ const CategoryPopup = () => {
 
             <Accordion
               disableGutters
+              slotProps={{ transition: { unmountOnExit: true } }}
               sx={{ backgroundColor: "transparent", mt: 1 }}
               onClick={(e) => e.stopPropagation()}
             >

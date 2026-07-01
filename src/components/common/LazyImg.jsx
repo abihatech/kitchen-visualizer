@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Box } from "@mui/material";
 
-const PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'/%3E";
 const FALLBACK = "https://placehold.co/150x150/2a2a2a/666666?text=NA";
+
+import { LOADED_IMAGES } from "../../utils/imageUtils";
 
 /**
  * LazyImg
@@ -21,12 +22,28 @@ const LazyImg = ({
   ...rest
 }) => {
   const ref = useRef(null);
-  const [loaded, setLoaded] = useState(false);
-  const [imgSrc, setImgSrc] = useState(PLACEHOLDER);
+  
+  // Use global cache to instantly show already preloaded/loaded images without flickering
+  const isCached = src ? LOADED_IMAGES.has(src) : false;
+  const [inView, setInView] = useState(isCached);
+  const [loaded, setLoaded] = useState(isCached);
   const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     if (!src) return;
+
+    if (LOADED_IMAGES.has(src)) {
+      setInView(true);
+      setLoaded(true);
+      setHasError(false);
+      return;
+    }
+
+    // Reset loading states when src changes to show skeleton again
+    setInView(false);
+    setLoaded(false);
+    setHasError(false);
+
     const el = ref.current;
     if (!el) return;
 
@@ -34,23 +51,27 @@ const LazyImg = ({
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setImgSrc(src);
+            setInView(true);
             observer.unobserve(el);
           }
         });
       },
-      { rootMargin: "150px" } // start loading 150px before it enters view
+      { rootMargin: "200px" } // Start loading 200px before it enters viewport
     );
 
     observer.observe(el);
     return () => observer.disconnect();
   }, [src]);
 
-  const handleLoad = () => setLoaded(true);
+  const handleLoad = () => {
+    setLoaded(true);
+    if (src) {
+      LOADED_IMAGES.add(src);
+    }
+  };
 
   const handleError = (e) => {
     setHasError(true);
-    setImgSrc(FALLBACK);
     if (onError) onError(e);
   };
 
@@ -64,14 +85,14 @@ const LazyImg = ({
         overflow: "hidden",
         borderRadius: "4px",
         // Skeleton shimmer shown until image loads
-        backgroundColor: loaded ? "transparent" : "rgba(80,80,80,0.5)",
+        backgroundColor: loaded ? "transparent" : "rgba(80, 80, 80, 0.3)",
         "&::after": !loaded
           ? {
               content: '""',
               position: "absolute",
               inset: 0,
               background:
-                "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.07) 50%, transparent 100%)",
+                "linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.08) 50%, transparent 100%)",
               animation: "shimmer 1.4s infinite",
             }
           : {},
@@ -81,27 +102,27 @@ const LazyImg = ({
         },
       }}
     >
-      <Box
-        component="img"
-        ref={null}
-        src={imgSrc}
-        alt={alt}
-        loading="lazy"
-        decoding="async"
-        onLoad={handleLoad}
-        onError={handleError}
-        sx={{
-          display: "block",
-          width: "100%",
-          height: "100%",
-          // objectFit: "cover",
-          borderRadius: "4px",
-          opacity: loaded ? 1 : 0,
-          transition: "opacity 0.25s ease-in-out",
-          ...sx,
-        }}
-        {...rest}
-      />
+      {inView && (
+        <Box
+          component="img"
+          src={hasError ? FALLBACK : src}
+          alt={alt}
+          loading="lazy"
+          decoding="async"
+          onLoad={handleLoad}
+          onError={handleError}
+          sx={{
+            display: "block",
+            width: "100%",
+            height: "100%",
+            borderRadius: "4px",
+            opacity: loaded ? 1 : 0,
+            transition: "opacity 0.25s ease-in-out",
+            ...sx,
+          }}
+          {...rest}
+        />
+      )}
     </Box>
   );
 };

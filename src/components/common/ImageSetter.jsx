@@ -4,6 +4,7 @@ import { Box, IconButton, Tooltip } from "@mui/material";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
 import BufferedLayer from "./BufferedLayer";
+import { preloadImage } from "../../utils/imageUtils";
 
 const getLayerZIndex = (layer, backgroundId) => {
   if (layer?.cabinet_type_name === "Handle") return 1;
@@ -29,6 +30,7 @@ const ImageSetter = () => {
     isPreviewMode,
     openPopup,
     handleMouseDown,
+    organizedLayerData,
   } = useContext(VisualizerContext);
 
   return (
@@ -133,6 +135,16 @@ const ImageSetter = () => {
               >
                 <IconButton
                   onClick={() => openPopup(hotspot.category, "hotspot")}
+                  onMouseEnter={() => {
+                    const items = organizedLayerData[hotspot.category] || [];
+                    // Preload first 15 thumbnails so they show up instantly when category is clicked
+                    items.slice(0, 15).forEach((item) => {
+                      const imgSrc = item.texture_url || item.png_layer_url;
+                      if (imgSrc) {
+                        preloadImage(imgSrc);
+                      }
+                    });
+                  }}
                   sx={{
                     bgcolor: "rgba(0,0,0,0.65)",
                     border: "2px solid rgba(255,255,255,0.85)",

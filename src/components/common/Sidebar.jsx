@@ -13,6 +13,7 @@ import { useContext, useState } from "react";
 import { VisualizerContext } from "./../../context/VisualizerContext";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
+import { preloadImage } from "../../utils/imageUtils";
 
 const SidebarContent = ({ organizedLayerData, openPopup, onClose }) => (
   <>
@@ -24,6 +25,16 @@ const SidebarContent = ({ organizedLayerData, openPopup, onClose }) => (
           onClick={(e) => {
             openPopup(category, "sidebar");
             if (onClose) onClose();
+          }}
+          onMouseEnter={() => {
+            const items = organizedLayerData[category] || [];
+            // Preload first 15 thumbnails so they show up instantly when category is clicked
+            items.slice(0, 15).forEach((item) => {
+              const imgSrc = item.texture_url || item.png_layer_url;
+              if (imgSrc) {
+                preloadImage(imgSrc);
+              }
+            });
           }}
           sx={{
             display: "flex",
