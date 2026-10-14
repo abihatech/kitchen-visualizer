@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { VisualizerContext } from "../../context/VisualizerContext";
-import { useContext, useCallback, useMemo } from "react";
+import { useContext, useCallback } from "react";
 import {
   Box,
   Card,
@@ -103,28 +103,6 @@ const CategoryPopup = () => {
 
   const items = organizedLayerData[activeCategory] || [];
 
-  const { framedItems, framelessItems } = useMemo(() => {
-    if (
-      activeCategory === "Wall Cabinets" ||
-      activeCategory === "Base Cabinets" ||
-      activeCategory === "Island Cabinets"
-    ) {
-      return {
-        framedItems: items.filter(
-          (item) =>
-            item.png_layer_url?.includes("framed") ||
-            item.texture_url?.includes("framed")
-        ),
-        framelessItems: items.filter(
-          (item) =>
-            item.png_layer_url?.includes("frameless") ||
-            item.texture_url?.includes("frameless")
-        ),
-      };
-    }
-    return { framedItems: [], framelessItems: [] };
-  }, [items, activeCategory]);
-
   const groupBySeries = useCallback((items) => {
     return items.reduce((acc, item) => {
       const seriesName = item.series || "Others";
@@ -141,7 +119,7 @@ const CategoryPopup = () => {
         <Accordion
           key={series}
           disableGutters
-          sx={{ backgroundColor: "transparent", ml: { xs: 0, sm: 2 } }}
+          sx={{ backgroundColor: "transparent" }}
           onClick={(e) => e.stopPropagation()}
         >
           <AccordionSummary
@@ -248,67 +226,7 @@ const CategoryPopup = () => {
         {activeCategory === "Wall Cabinets" ||
         activeCategory === "Base Cabinets" ||
         activeCategory === "Island Cabinets" ? (
-          <>
-            <Accordion
-              disableGutters
-              sx={{ backgroundColor: "transparent" }}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
-              >
-                <Typography
-                  sx={{
-                    color: "white",
-                    fontSize: { xs: "13px", sm: "16px" },
-                    fontWeight: 600,
-                  }}
-                >
-                  Framed Cabinets ({framedItems.length})
-                </Typography>
-              </AccordionSummary>
-              <AccordionDetails
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: 1,
-                  p: { xs: 0.5, sm: 1 },
-                }}
-              >
-                {renderSeriesAccordions(framedItems)}
-              </AccordionDetails>
-            </Accordion>
-
-            <Accordion
-              disableGutters
-              sx={{ backgroundColor: "transparent", mt: 1 }}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
-              >
-                <Typography
-                  sx={{
-                    color: "white",
-                    fontSize: { xs: "13px", sm: "16px" },
-                    fontWeight: 600,
-                  }}
-                >
-                  Frameless Cabinets ({framelessItems.length})
-                </Typography>
-              </AccordionSummary>
-              <AccordionDetails
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: 1,
-                  p: { xs: 0.5, sm: 1 },
-                }}
-              >
-                {renderSeriesAccordions(framelessItems)}
-              </AccordionDetails>
-            </Accordion>
-          </>
+          renderSeriesAccordions(items)
         ) : (
           renderItemGrid(items)
         )}
