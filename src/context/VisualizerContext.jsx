@@ -149,6 +149,22 @@ export const VisualizerProvider = ({ children }) => {
     }
     if (!mainData?.length) return;
 
+    const isKitchen = [123, 130, 311, 312, 321].includes(mainBgId);
+    if (isKitchen) {
+      const cabinetCategories = [
+        "Wall Cabinets",
+        "Base Cabinets",
+        "Island Cabinets",
+        "Crown Moldings",
+      ];
+      mainData = mainData.filter((item) => {
+        if (cabinetCategories.includes(item.cabinet_type_name)) {
+          return item.series?.toLowerCase() === "americana";
+        }
+        return true;
+      });
+    }
+
     const organized = organizeLayerData(mainData, mainBgId);
     setOrganizedLayerData(organized);
 
@@ -157,7 +173,7 @@ export const VisualizerProvider = ({ children }) => {
     // Process categories
     Object.entries(organized).forEach(([categoryName, categoryData]) => {
       const selectedItem = Array.isArray(categoryData)
-        ? categoryData.find((item) => item.selected === 1)
+        ? categoryData.find((item) => item.selected === 1) || categoryData[0]
         : null;
 
       if (selectedItem) {

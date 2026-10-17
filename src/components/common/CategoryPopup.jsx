@@ -119,6 +119,7 @@ const CategoryPopup = () => {
         <Accordion
           key={series}
           disableGutters
+          defaultExpanded={Object.keys(grouped).length === 1}
           sx={{ backgroundColor: "transparent" }}
           onClick={(e) => e.stopPropagation()}
         >
