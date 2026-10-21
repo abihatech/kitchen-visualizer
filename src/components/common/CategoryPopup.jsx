@@ -13,6 +13,7 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LazyImg from "./LazyImg";
+import { preloadImage } from "../../utils/imageUtils";
 
 const CategoryPopup = () => {
   const {
@@ -50,6 +51,11 @@ const CategoryPopup = () => {
               sx={{ textAlign: "center", width: { xs: 80, sm: 95, md: 110 } }}
             >
               <Box
+                onMouseEnter={() => {
+                  if (item.png_layer_url) {
+                    preloadImage(item.png_layer_url);
+                  }
+                }}
                 onClick={(e) => {
                   e.stopPropagation();
                   handleSelectItem(activeCategory, item);
@@ -76,7 +82,6 @@ const CategoryPopup = () => {
                   alt={item.texture_name || item.png_layer_name}
                   width={{ xs: 65, sm: 80, md: isDoors ? 95: 110 }}
                   height={{ xs: 85, sm: 110, md:isDoors ? 160: 150 }}
-                  sx={{objectFit:"cover"}}
                 
                 />
               </Box>

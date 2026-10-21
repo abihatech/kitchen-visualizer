@@ -7,6 +7,7 @@ const organizeLayerData = (layerData, mainBackgroundId) => {
     "Wall Cabinets",
     "Base Cabinets",
     "Island Cabinets",
+    //"Handle",
     // "Crown Moldings",
     "Countertop",
     "Backsplash",
@@ -135,6 +136,9 @@ export const VisualizerProvider = ({ children }) => {
         break;
       case 681:
         desingJson = "../../pantry.json";
+        break;
+       case 691:
+        desingJson = "../../outdoor_kitchen.json";
         break;
       default:
         desingJson = "../../kitchen_l_1.json";

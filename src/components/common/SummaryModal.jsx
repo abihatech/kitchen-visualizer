@@ -103,7 +103,7 @@ const SummaryModal = () => {
             }}
           >
             {selectedItems.map((item) => {
-              if (item?.category === "Crown Moldings") return;
+              if (item?.category === "Crown Moldings" || item?.category === "Handle") return;
               return (
                 <Box
                   key={item.category}

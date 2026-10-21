@@ -3,19 +3,19 @@
     {
       "id": 58,
       "name": "Kitchen",
-      "thumbnail": "/assets/img/kitchen.png",
+      "thumbnail": "/assets/img/kitchen.webp",
       "subitems": [
         {
           "id": 30,
           "shapes_name": "L-Shape",
           "type_category_name": "Kitchen",
-          "thumbnail": "/assets/space/kitchen/l_shape/l_shape.png",
+          "thumbnail": "/assets/space/kitchen/l_shape/l_shape.webp",
           "subitems": [
             {
               "id": 123,
               "main_background_name": "02 Kitchen L No Island",
-              "thumbnail": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island.webp",
-              "thumbnailsm": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island.png",
+              "thumbnail": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island_main.webp",
+              "thumbnailsm": "/assets/space/kitchen/l_shape/l_1/kitchen_lshape_no_island.webp",
               "shape_category_name": "L-Shape",
               "hotpots": [
                 { "top": "40%", "left": "20%", "category": "Wall Cabinets" },
@@ -30,8 +30,8 @@
             {
               "id": 130,
               "main_background_name": "03 Kitchen L Island",
-              "thumbnail": "/assets/space/kitchen/l_shape/l_2/kitchen_lshape_island.webp",
-              "thumbnailsm": "/assets/space/kitchen/l_shape/l_2/kitchen_lshape_island.png",
+              "thumbnail": "/assets/space/kitchen/l_shape/l_2/kitchen_lshape_island_main.webp",
+              "thumbnailsm": "/assets/space/kitchen/l_shape/l_2/kitchen_lshape_island.webp",
               "shape_category_name": "L-Shape",
               "hotpots": [
                 { "top": "30%", "left": "20%", "category": "Wall Cabinets" },
@@ -50,13 +50,13 @@
           "id": 31,
           "shapes_name": "U-Shape",
           "type_category_name": "Kitchen",
-          "thumbnail": "/assets/space/kitchen/u_shape/u_shape.png",
+          "thumbnail": "/assets/space/kitchen/u_shape/u_shape.webp",
           "subitems": [
             {
               "id": 311,
               "main_background_name": "02 Kitchen U Island",
-              "thumbnail": "/assets/space/kitchen/u_shape/island/kitchen_ushape_island.webp",
-              "thumbnailsm": "/assets/space/kitchen/u_shape/island/kitchen_ushape_island.png",
+              "thumbnail": "/assets/space/kitchen/u_shape/island/kitchen_ushape_island_main.webp",
+              "thumbnailsm": "/assets/space/kitchen/u_shape/island/kitchen_ushape_island.webp",
               "shape_category_name": "U-Shape",
               "hotpots": [
                 { "top": "40%", "left": "72%", "category": "Wall Cabinets" },
@@ -72,8 +72,8 @@
             {
               "id": 312,
               "main_background_name": "03 Kitchen U No Island",
-              "thumbnail": "/assets/space/kitchen/u_shape/no_island/kitchen_ushape_no_island.webp",
-              "thumbnailsm": "/assets/space/kitchen/u_shape/no_island/kitchen_ushape_no_island.png",
+              "thumbnail": "/assets/space/kitchen/u_shape/no_island/kitchen_ushape_no_island_main.webp",
+              "thumbnailsm": "/assets/space/kitchen/u_shape/no_island/kitchen_ushape_no_island.webp",
               "shape_category_name": "U-Shape",
               "hotpots": [
                 { "top": "19%", "left": "20%", "category": "Wall Cabinets" },
@@ -91,7 +91,7 @@
           "id": 32,
           "shapes_name": "I-Shape",
           "type_category_name": "Kitchen",
-          "thumbnail": "/assets/space/kitchen/i_shape/i_shape.png",
+          "thumbnail": "/assets/space/kitchen/i_shape/i_shape.webp",
           "subitems": [
             {
               "id": 321,
@@ -117,7 +117,7 @@
     {
       "id": 63,
       "name": "Bathroom",
-      "thumbnail": "/assets/img/bathroom.png",
+      "thumbnail": "/assets/img/bathroom.webp",
       "subitems": [
         {
           "id": 631,
@@ -138,7 +138,7 @@
     {
       "id": 62,
       "name": "Bar Room",
-      "thumbnail": "/assets/img/barroom.png",
+      "thumbnail": "/assets/img/barroom.webp",
       "subitems": [
         {
           "id": 621,
@@ -158,7 +158,7 @@
     {
       "id": 64,
       "name": "Laundry",
-      "thumbnail": "/assets/img/laundry_room.png",
+      "thumbnail": "/assets/img/laundry_room.webp",
       "subitems": [
         {
           "id": 641,
@@ -180,7 +180,7 @@
     {
       "id": 65,
       "name": "Office",
-      "thumbnail": "/assets/img/office_room.png",
+      "thumbnail": "/assets/img/office_room.webp",
       "subitems": [
         {
           "id": 651,
@@ -199,7 +199,7 @@
     {
       "id": 66,
       "name": "Media Room",
-      "thumbnail": "/assets/img/media_room.png",
+      "thumbnail": "/assets/img/media_room.webp",
       "subitems": [
         {
           "id": 661,
@@ -219,7 +219,7 @@
     {
       "id": 67,
       "name": "Mud Room",
-      "thumbnail": "/assets/img/mud_room.png",
+      "thumbnail": "/assets/img/mud_room.webp",
       "subitems": [
         {
           "id": 671,
@@ -245,8 +245,26 @@
           "thumbnail": "/assets/space/pantry/pantry_base_image.webp",
           "thumbnailsm": "/assets/space/pantry/pantry_main_image.webp",
           "hotpots": [
-            { "top": "50%", "left": "60%", "category": "Wall Cabinets" },
+            { "top": "40%", "left": "60%", "category": "Wall Cabinets" },
             { "top": "85%", "left": "50%", "category": "Floor" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Outdoor Kitchen",
+      "thumbnail": "/assets/img/outdoor_kitchen.webp",
+      "subitems": [
+        {
+          "id": 691,
+          "main_background_name": "Outdoor Kitchen",
+          "thumbnail": "/assets/space/outdoor_kitchen/outdoor_core.webp",
+          "thumbnailsm": "/assets/space/outdoor_kitchen/outdoor_base.webp",
+          "hotpots": [
+            { "top": "64%", "left": "40%", "category": "Base Cabinets" },
+            { "top": "80%", "left": "60%", "category": "Floor" },
+            { "top": "53%", "left": "6%", "category": "Countertop" }
           ]
         }
       ]

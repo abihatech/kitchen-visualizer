@@ -3,6 +3,20 @@ import { useContext } from "react";
 import { Box, IconButton, Tooltip } from "@mui/material";
 import { Icon } from "@iconify/react";
 import { CATEGORIES } from "../../utils/constants/constant";
+import BufferedLayer from "./BufferedLayer";
+import { preloadImage } from "../../utils/imageUtils";
+
+const getLayerZIndex = (layer, backgroundId) => {
+  if (layer?.cabinet_type_name === "Handle") return 1;
+
+  const topCategories = [
+    "Wall Cabinets",
+    "Crown Moldings",
+    [130, 631, 641].includes(backgroundId) && "Backsplash",
+  ].filter(Boolean);
+
+  return topCategories.includes(layer?.cabinet_type_name) ? 1 : 0;
+};
 
 const ImageSetter = () => {
   const {
@@ -16,6 +30,7 @@ const ImageSetter = () => {
     isPreviewMode,
     openPopup,
     handleMouseDown,
+    organizedLayerData,
   } = useContext(VisualizerContext);
 
   return (
@@ -50,45 +65,32 @@ const ImageSetter = () => {
         }}
       >
         {/* Background image */}
-        <img
-          src={selectedMainBackground?.thumbnail}
-          alt="Room Background"
-          fetchpriority="high"
-          decoding="async"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "inherit",
-            transition: "opacity 0.3s ease-in-out",
-          }}
-          loading="eager"
-        />
+        {selectedMainBackground?.thumbnail && (
+          <BufferedLayer
+            src={selectedMainBackground.thumbnail}
+            alt="Room Background"
+            zIndex={0}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "inherit",
+            }}
+          />
+        )}
 
         {/* Applied layer images */}
         {Object.values(appliedLayers).map(
           (layer) =>
             layer?.png_layer_url && (
-              <img
+              <BufferedLayer
                 key={layer.png_layer_url}
                 src={layer.png_layer_url}
                 alt=""
-                loading="eager"
-                decoding="async"
+                zIndex={getLayerZIndex(layer, selectedMainBackground?.id)}
                 style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
                   width: "100%",
                   height: "100%",
                   objectFit: "inherit",
-                  transition: "opacity 0.25s ease-in-out",
-                  zIndex: [
-                    "Wall Cabinets",
-                    "Crown Moldings",
-                    [130, 631, 641].includes(selectedMainBackground?.id) && "Backsplash",
-                  ]?.includes(layer.cabinet_type_name)
-                    ? 1
-                    : 0,
                 }}
               />
             ),
@@ -133,6 +135,16 @@ const ImageSetter = () => {
               >
                 <IconButton
                   onClick={() => openPopup(hotspot.category, "hotspot")}
+                  onMouseEnter={() => {
+                    const items = organizedLayerData[hotspot.category] || [];
+                    // Preload first 15 thumbnails so they show up instantly when category is clicked
+                    items.slice(0, 15).forEach((item) => {
+                      const imgSrc = item.texture_url || item.png_layer_url;
+                      if (imgSrc) {
+                        preloadImage(imgSrc);
+                      }
+                    });
+                  }}
                   sx={{
                     bgcolor: "rgba(0,0,0,0.65)",
                     border: "2px solid rgba(255,255,255,0.85)",

@@ -14,6 +14,8 @@ import DesignPreview from "./DesignPreview";
 import { VisualizerContext } from "../../context/VisualizerContext";
 
 const getLayerZIndex = (layer, backgroundId) => {
+  if (layer?.cabinet_type_name === "Handle") return 1;
+
   const topCategories = [
     "Wall Cabinets",
     "Crown Moldings",
@@ -73,8 +75,7 @@ const generateSummaryText = (selectedMainBackground, selectedItems) => {
   summaryText += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
 
   const validItems = selectedItems.filter(
-    (item) => item?.category !== "Crown Moldings",
-  );
+    (item) => item?.category !== "Crown Moldings" || item?.category !== "Handle");
 
   validItems.forEach((item, index) => {
     summaryText += `${index + 1}. ${item.name}\n`;

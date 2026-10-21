@@ -1,4 +1,4 @@
-import bgImg from "../assets/img/bg_img.jpg";
+import bgImg from "../assets/img/bg_img.webp";
 import { useContext } from "react";
 import { VisualizerContext } from "../context/VisualizerContext";
 import { Box, Typography, IconButton, Paper } from "@mui/material";
