@@ -6,7 +6,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/sw_in_the_navy_framed_main.webp",
     "png_layer_name": "sw_in_the_navy_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/sw_in_the_navy_framed.webp",
     "main_background_id": 312
   },
   {
@@ -16,7 +16,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/kb_shaker_gray_framed_main.webp",
     "png_layer_name": "kb_shaker_gray_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_gray_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_gray_framed.webp",
     "main_background_id": 312
   },
   {
@@ -26,7 +26,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/pc_arlington_oatmeal_framed_main.webp",
     "png_layer_name": "pc_arlington_pathmed_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/pc_arlington_oatmeal_framed.webp",
     "main_background_id": 312
   },
   {
@@ -36,7 +36,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/kb_shaker_white_framed_main.webp",
     "png_layer_name": "kb_shaker_white_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_white_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/kb_shaker_white_framed.webp",
     "main_background_id": 312
   },
   {
@@ -46,7 +46,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/rc_shaker_pebble_grey_framed_main.webp",
     "png_layer_name": "rc_shaker_pebble_grey_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_pebble_grey_framed.webp",
     "main_background_id": 312
   },
   {
@@ -56,7 +56,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/rc_shaker_origami_white_framed_main.webp",
     "png_layer_name": "rc_shaker_origami_white_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_origami_white_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/rc_shaker_origami_white_framed.webp",
     "main_background_id": 312
   },
   {
@@ -66,7 +66,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/sl_smokey_ash_framed_main.webp",
     "png_layer_name": "sl_smokey_ash_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/sl_smokey_ash_framed.webp",
     "main_background_id": 312
   },
   {
@@ -76,7 +76,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/sl_ashton_green_framed_main.webp",
     "png_layer_name": "sl_ashton_green_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/sl_ashton_green_framed.png",
+    "texture_url": "/assets/popup_imgs/door/framed/sl_ashton_green_framed.webp",
     "main_background_id": 312
   },
   {
@@ -86,7 +86,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/rc_classic_chocolate_framed_main.webp",
     "png_layer_name": "rc_classic_chocolate_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/rc_classic_chocolate_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/rc_classic_chocolate_framed.webp",
     "main_background_id": 312
   },
   {
@@ -96,7 +96,7 @@
     "cabinet_type_name": "Base Cabinets",
     "png_layer_url": "/assets/space/kitchen/u_shape/no_island/cabinet/base/framed/sl_slim_dove_white_framed_main.webp",
     "png_layer_name": "sl_slim_dove_white_cabinet_framed",
-    "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.jpg",
+    "texture_url": "/assets/popup_imgs/door/framed/sl_slim_dove_white_framed.webp",
     "main_background_id": 312
   }
 ]

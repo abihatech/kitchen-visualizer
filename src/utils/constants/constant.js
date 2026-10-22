@@ -20,6 +20,13 @@ export const CATEGORIES = {
         description: "Island Cabinets",
         order: 3,
     },
+    HANDLE: {
+        id: "handle",
+        name: "Handle",
+        icon: "lucide:grip",
+        description: "Handle",
+        order: 4,
+    },
     COUNTERTOP: {
         id: "countertop",
         name: "Countertop",

@@ -3,6 +3,8 @@ import { Box } from "@mui/material";
 import { VisualizerContext } from "../../context/VisualizerContext";
 
 const getLayerZIndex = (layer, backgroundId) => {
+  if (layer?.cabinet_type_name === "Handle") return 1;
+
   const topCategories = [
     "Wall Cabinets",
     "Crown Moldings",

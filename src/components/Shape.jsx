@@ -1,4 +1,4 @@
-import bgImg from "../assets/img/bg_img.jpg";
+import bgImg from "../assets/img/bg_img.webp";
 import { Box, Typography, IconButton, Paper } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
